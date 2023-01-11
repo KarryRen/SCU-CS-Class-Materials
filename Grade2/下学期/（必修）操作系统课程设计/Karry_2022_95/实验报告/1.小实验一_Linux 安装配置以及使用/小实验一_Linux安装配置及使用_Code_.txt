@@ -1,0 +1,78 @@
+1. 文件与搜索
+- 
+	> # cd /home
+	> # ll
+		总用量 0
+	> # mkdir /home/renkai
+	> # ll
+		总用量 0
+		drwxr-xr-x. 2 root root 6 3月  30 22:50 renkai
+	> # cd /home/renkai
+	> # touch file
+	> # ll
+		总用量 0
+		-rw-r--r--. 1 root root 0 3月  30 22:50 file
+	> # ln file fileHard
+	> # ln -s file fileSoft
+	> # ll
+		总用量 0
+		-rw-r--r--. 2 root root 0 3月  30 22:50 file
+		-rw-r--r--. 2 root root 0 3月  30 22:50 fileHard
+		lrwxrwxrwx. 1 root root 4 3月  30 22:50 fileSoft -> file
+	> # cd /home
+	> # rm -r /home/renkai
+		rm：是否进入目录"/home/renkai"? y
+		rm：是否删除普通空文件 "/home/renkai/file"？y
+		rm：是否删除普通空文件 "/home/renkai/fileHard"？y
+		rm：是否删除符号链接 "/home/renkai/fileSoft"？y
+		rm：是否删除目录 "/home/renkai"？y
+	> # ll
+- 
+	> find /etc -size +100k > out
+	> wc -l file >> out
+
+2. 用户组操作
+- 
+	>  # groupadd grp1
+	>  # groupadd grp2
+		[root@localhost home]# cat /etc/group |grep grp1
+				grp1:x:1001:
+		[root@localhost home]# cat /etc/group |grep grp2
+				grp2:x:1002:
+	> # useradd -g grp1 -m u11
+	> # useradd -g grp1 -m u12
+	> # useradd -g grp2 -m u21
+	> # useradd -g grp2 -m u22
+	> mkdir /home/u11/theDirInU11
+		# ll /home/u11
+		总用量 0
+		drwxr-xr-x. 2 root root 6 3月  30 23:23 theDirInU11
+	> # touch /home/u21/theFileInU21
+		# ll /home/u21
+		总用量 0
+		-rw-r--r--. 1 root root 0 3月  30 23:24 theFileInU21
+- 
+	> # ll /home
+		总用量 0
+		drwx------. 4 u11 grp1 97 3月  30 23:23 u11
+		drwx------. 3 u12 grp1 78 3月  30 23:18 u12
+		drwx------. 3 u21 grp2 98 3月  30 23:24 u21
+		drwx------. 3 u22 grp2 78 3月  30 23:18 u22
+	> # chmod 770 /home/u11
+		# ll /home
+		总用量 0
+		drwxrwx---. 4 u11 grp1 97 3月  30 23:23 u11
+		drwx------. 3 u12 grp1 78 3月  30 23:18 u12
+		drwx------. 3 u21 grp2 98 3月  30 23:24 u21
+		drwx------. 3 u22 grp2 78 3月  30 23:18 u22
+	> # chmod 764 /home/u22
+		# ll /home
+		总用量 0
+		drwxrwx---. 4 u11 grp1 97 3月  30 23:23 u11
+		drwx------. 3 u12 grp1 78 3月  30 23:18 u12
+		drwx------. 3 u21 grp2 98 3月  30 23:24 u21
+		drwxrw-r--. 3 u22 grp2 78 3月  30 23:18 u22
+
+
+
+
