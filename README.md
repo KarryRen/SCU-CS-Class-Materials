@@ -19,8 +19,8 @@
 
 ## 资料提供者
 
-- [Karry](KarryRenKai@outlook.com)
-- [Frank]()
+- [Karry Ren](KarryRenKai@outlook.com)
+- [Frank Fu]()
 - [J.W.Zhang]()
 
 ## 使用指南
