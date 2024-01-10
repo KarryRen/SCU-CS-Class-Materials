@@ -1,4 +1,0 @@
-Username:Karry;Password:123;Group:grp1
-Username:Ran;Password:123;Group:grp1
-Username:Fengsili;Password:123;Group:grp2
-Username:CHenyuanheng;Password:123;Group:grp2
