@@ -27,7 +27,7 @@
 ## :bow: 资料提供者
 
 1. [**Karry Ren**](KarryRenKai@outlook.com)
-2. [Ayin](https://github.com/Ayin-cc)
+2. [**Ayin**](https://github.com/Ayin-cc)
 3. [Frank Fu]()
 4. [J.W.Zhang]()
 
