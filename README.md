@@ -55,7 +55,7 @@
 
 ```python
 ├── SCU-CS-Class-Materials
-    ├── 大一 （Grade1）
+    ├── 大一 （Grade1） 
         ├── 上学期
             ├── （必修）数字逻辑
                 ├── Ayin_2022_xx
