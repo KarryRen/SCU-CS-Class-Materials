@@ -68,8 +68,6 @@
             	├── Orderheart_2022_xx
             ├── （必修）思想道德修养与法律基础
             	├── Orderheart_2022_xx
-            ├── （选修）UNIX操作系统
-            	├── Orderheart_2022_xx
             ├── （选修）计算机导论
             	├── Orderheart_2022_xx
             
