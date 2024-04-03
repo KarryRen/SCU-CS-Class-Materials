@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Widget</class>
+    <widget class="QWidget" name="Widget">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>1000</width>
+                <height>1000</height>
+            </rect>
+        </property>
+        <property name="maximumSize">
+            <size>
+                <width>2000</width>
+                <height>2000</height>
+            </size>
+        </property>
+        <property name="windowTitle">
+            <string>Widget</string>
+        </property>
+        <property name="styleSheet">
+            <string notr="true"/>
+        </property>
+        <widget class="QGroupBox" name="groupBox1">
+            <property name="geometry">
+                <rect>
+                    <x>40</x>
+                    <y>670</y>
+                    <width>931</width>
+                    <height>221</height>
+                </rect>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">background-color: rgb(225, 225, 225);
+                    border-radius:15px
+                </string>
+            </property>
+            <property name="title">
+                <string/>
+            </property>
+            <widget class="QPushButton" name="startBtn">
+                <property name="geometry">
+                    <rect>
+                        <x>420</x>
+                        <y>60</y>
+                        <width>61</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true"/>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="nextBtn">
+                <property name="geometry">
+                    <rect>
+                        <x>530</x>
+                        <y>60</y>
+                        <width>61</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true"/>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+            <widget class="QSpinBox" name="volumeSpinBox">
+                <property name="geometry">
+                    <rect>
+                        <x>830</x>
+                        <y>90</y>
+                        <width>61</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">QSpinBox {
+                        border:1px solid rgb(123, 169, 255);
+                        background:white
+                        }
+
+                        QSpinBox::up-button {
+                        border-image:url(:/image/up_arrow.png)
+                        }
+
+                        QSpinBox::down-button {
+                        border-image:url(:/image/down_arrow.png)
+                        }
+
+                        QSpinBox::up-button:pressed {
+                        margin-top:3px;
+                        }
+
+                        QSpinBox::down-button:pressed {
+                        margin-bottom:3px;
+                        }
+                    </string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="nameLab">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>0</y>
+                        <width>601</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">font: 12pt &quot;黑体&quot;;
+                        color: rgb(0, 0, 0);
+                    </string>
+                </property>
+                <property name="text">
+                    <string>歌曲名</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="strTime">
+                <property name="geometry">
+                    <rect>
+                        <x>160</x>
+                        <y>140</y>
+                        <width>71</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Time</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="lastBtn">
+                <property name="geometry">
+                    <rect>
+                        <x>310</x>
+                        <y>60</y>
+                        <width>61</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true"/>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label">
+                <property name="geometry">
+                    <rect>
+                        <x>750</x>
+                        <y>70</y>
+                        <width>51</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+            <widget class="QLabel" name="imageLab">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>50</y>
+                        <width>121</width>
+                        <height>111</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">border:1px solid white;
+                        border-radius:0px
+                    </string>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+            <widget class="QSlider" name="volumeSlider">
+                <property name="geometry">
+                    <rect>
+                        <x>810</x>
+                        <y>60</y>
+                        <width>21</width>
+                        <height>71</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">QSlider
+                        {
+                        border-color: #cbcbcb;
+                        }
+                        QSlider::groove:vertical
+                        {
+                        background: #cbcbcb;
+                        width: 6px;
+                        border-radius: 1px;
+                        padding-left:-1px;
+                        padding-right:-1px;
+                        padding-top:-1px;
+                        padding-bottom:-1px;
+                        }
+                        QSlider::sub-page:vertical
+                        {
+                        background: #cbcbcb;
+                        border-radius: 2px;
+                        }
+                        QSlider::add-page:vertical
+                        {
+                        background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #439cf4, stop:1 #439cf4);
+                        background: qlineargradient(x1: 0, y1: 0.2, x2: 1, y2: 1, stop: 0 #439cf4, stop: 1 #439cf4);
+                        width: 10px;
+                        border-radius: 2px;
+                        }
+                        QSlider::handle:vertical
+                        {
+                        border-image: url(:/image/volumeHandle.png);
+                        margin: -2px -7px -2px -7px;
+                        height: 17px;
+                        }
+                    </string>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                </property>
+            </widget>
+            <widget class="QLabel" name="endTime">
+                <property name="geometry">
+                    <rect>
+                        <x>660</x>
+                        <y>140</y>
+                        <width>91</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>endTime</string>
+                </property>
+            </widget>
+            <widget class="QSlider" name="progressBar">
+                <property name="geometry">
+                    <rect>
+                        <x>260</x>
+                        <y>140</y>
+                        <width>361</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">QSlider{
+                        border-color: #bcbcbc;
+                        }
+                        QSlider::groove:horizontal {
+                        border: 1px solid #999999;
+                        height: 1px;
+                        margin: 0px 0;
+                        left: 5px; right: 5px;
+                        }
+                        QSlider::handle:horizontal {
+                        border: 0px ;
+                        border-image: url(:/image/blur.png);
+                        width: 15px;
+                        margin: -7px -7px -7px -7px;
+                        }
+                        QSlider::add-page:horizontal{
+                        background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #bcbcbc, stop:0.25
+                        #bcbcbc, stop:0.5 #bcbcbc, stop:1 #bcbcbc);
+
+                        }
+                        QSlider::sub-page:horizontal{
+                        background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #439cf3, stop:0.25
+                        #439cf3, stop:0.5 #439cf3, stop:1 #439cf3);
+                        }
+                    </string>
+                </property>
+                <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="addBtn">
+                <property name="geometry">
+                    <rect>
+                        <x>800</x>
+                        <y>20</y>
+                        <width>41</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true"/>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="loseBtn">
+                <property name="geometry">
+                    <rect>
+                        <x>800</x>
+                        <y>150</y>
+                        <width>41</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true"/>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_3">
+                <property name="geometry">
+                    <rect>
+                        <x>850</x>
+                        <y>60</y>
+                        <width>51</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>音量</string>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>90</y>
+                    <width>311</width>
+                    <height>511</height>
+                </rect>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">font: 15pt &quot;黑体&quot;;
+                    color: rgb(0, 0, 0);
+                    border:1px solid black;
+                </string>
+            </property>
+            <property name="title">
+                <string>歌曲列表</string>
+            </property>
+            <widget class="QListWidget" name="listWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>50</y>
+                        <width>291</width>
+                        <height>451</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">font: 12pt &quot;黑体&quot;;
+                        color: rgb(0, 0, 0);
+                        border:1px solid white;
+                    </string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton">
+                <property name="geometry">
+                    <rect>
+                        <x>230</x>
+                        <y>0</y>
+                        <width>81</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">font: 10pt &quot;黑体&quot;;
+                        background-color: rgb(225, 225, 225);
+                        color: rgb(0, 0, 0);
+                        border:1px solid rgb(126, 126, 126);
+                        border-radius:5px
+                    </string>
+                </property>
+                <property name="text">
+                    <string>刷新</string>
+                </property>
+            </widget>
+        </widget>
+        <zorder>groupBox</zorder>
+        <zorder>groupBox1</zorder>
+    </widget>
+    <layoutdefault spacing="6" margin="11"/>
+    <resources/>
+    <connections/>
+</ui>
