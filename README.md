@@ -27,9 +27,10 @@
 ## :bow: 资料提供者
 
 1. [**Karry Ren**](KarryRenKai@outlook.com)
-2. [**Ayin**](https://github.com/Ayin-cc)
-3. [Frank Fu]()
-4. [J.W.Zhang]()
+2. [**Orderheart**](https://github.com/Orderheart)
+3. [**Ayin**](https://github.com/Ayin-cc)
+4. [Frank Fu]()
+5. [J.W.Zhang]()
 
 
 
@@ -57,25 +58,25 @@
 ├── SCU-CS-Class-Materials/
     ├── 大一 （Grade1）
         ├── 上学期
-            ├── （必修）数字逻辑
+            ├── （必修）数字逻辑_数逻
                 ├── Ayin_2022_xx
                 ├── Orderheart_2022_xx
-            ├── （必修）高级程序语言设计-Ⅰ
-            	├── Orderheart_2022_xx
-            ├── （必修）微积分(Ⅰ)-1
-            	├── Orderheart_2022_xx
-            ├── （必修）大学生心理健康
-            	├── Orderheart_2022_xx
-            ├── （必修）思想道德修养与法律基础
-            	├── Orderheart_2022_xx
+            ├── （必修）高级程序语言设计-Ⅰ_C语言
+                ├── Orderheart_2022_xx
+            ├── （必修）微积分(Ⅰ)-1_微积分上
+                ├── Orderheart_2022_xx
+            ├── （必修）大学生心理健康_心理健康
+                ├── Orderheart_2022_xx
+            ├── （必修）思想道德修养与法律基础_思修
+                ├── Orderheart_2022_xx
             ├── （选修）计算机导论
-            	├── Orderheart_2022_xx
+                ├── Orderheart_2022_xx
             
         └── 下学期
-            ├── （必修）微积分
+            ├── （必修）微积分（Ⅰ）-2_微积分下
                 ├── Ayin_2023_xx
                 ├── Orderheart_2023_xx
-            ├── （必修）线性代数
+            ├── （必修）线性代数（理工）_线代
                 ├── Ayin_2023_xx
                 ├── Orderheart_2023_xx
             ├── （必修）会计学
@@ -184,11 +185,12 @@
 
 ## :recycle: 错误更正
 
-1. 微机接口笔记中：4.2 什么是端口？ 端口应该是指各个 IO 接口寄存器的 IO 地址。
+1. 微机接口[**笔记**](https://github.com/KarryRen/SCU-CS-Class-Materials/blob/main/Grade2/下学期/（必修）微机系统与接口技术_微机接口/Karry_2022_97/复习笔记.pdf)中：4.2 什么是端口？ 端口应该是指各个 IO 接口寄存器的 IO 地址。
+1. 在部分 `.md` 文件中由于路径问题，图片无法显示，我们都相应补充了 `.pdf` 文件，仍保留 `.md` 文件是为了留下参考格式。
 
 
 
 ## :fire: 更新说明
 
 1. 我们一般在考试结束后进行集中整理更新，如果有些资料大家想要及时获得，可以直接[**联系我们**](KarryRenKai@outlook.com)
-2. 在目录中带有 **updating :rocket: ** 的源码工程团队仍在做调整，将尽快发出～
+2. 在目录中带有 **updating :fire:** 的源码工程团队仍在做调整，将尽快发出～
