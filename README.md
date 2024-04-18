@@ -59,7 +59,7 @@
 **详细目录如下** 
 
 ```python
-├── SCU-CS-Class-Materials/
+SCU-CS-Class-Materials/
 ├── 大一 （Grade1）
     ├── 上学期
         ├── （必修）数字逻辑_数逻
