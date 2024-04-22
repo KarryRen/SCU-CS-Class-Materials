@@ -23,4 +23,4 @@
 
 ## :speaker: 相关说明
 
-如您想要分享自己的笔记，可以直接与我们取得**[联系](KarryRenKai@outlook.com)**。
+如您想要分享自己的笔记，可以直接与我们取得[**联系**](KarryRenKai@outlook.com)。
