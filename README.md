@@ -202,3 +202,6 @@ SCU-CS-Class-Materials/
 
 1. 我们一般在考试结束后进行集中整理更新，如果有些资料大家想要及时获得，可以直接[**联系我们**](KarryRenKai@outlook.com)
 2. 在目录中带有 **updating :fire:** 的源码工程团队仍在做调整，将尽快发出～
+
+## :star: Star History
+[<img src="https://api.star-history.com/svg?repos=KarryRen/SCU-CS-Class-Materials&type=Date" alt="Star History Chart" style="zoom:45%;" />](https://star-history.com/#KarryRen/SCU-CS-Class-Materials&Date)
