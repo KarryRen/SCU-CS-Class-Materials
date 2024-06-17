@@ -204,4 +204,4 @@ SCU-CS-Class-Materials/
 2. 在目录中带有 **updating :fire:** 的源码工程团队仍在做调整，将尽快发出～
 
 ## :star: Star History
-[<img src="https://api.star-history.com/svg?repos=KarryRen/SCU-CS-Class-Materials&type=Date" alt="Star History Chart" style="zoom:45%;" />](https://star-history.com/#KarryRen/SCU-CS-Class-Materials&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=KarryRen/SCU-CS-Class-Materials&type=Date)](https://star-history.com/#KarryRen/SCU-CS-Class-Materials&Date)
