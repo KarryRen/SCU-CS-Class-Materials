@@ -6,7 +6,7 @@
 
 对于本科课程学习而言，**上课听讲、课后练习是最重要的**，但优秀的课程相关资料也必不可少。尤其对于计算机、金融工程等科目而言，完备且质量高的资料集不仅能够帮助我们深入理解理论课程内容，还可以有效指导我们进行课程设计、辅助复习达到事半功倍的效果。
 
-本团队自 2023 年 1 月开始搭建本课程资料项目，旨在提供优质完备的计算机学院本科课程资料，主要涵盖大一到大四年级课程中的以下三部分内容：
+本团队自 2023 年 1 月开始搭建本课程资料项目，旨在提供优质完备的计算机学院本科课程资料，主要涵盖大一到大四年级课程中的以下四部分内容：
 
 1. 计算机科学与技术专业、计算金融专业部分需要考试必修科目的**期末复习笔记**和**期末练习题**与**刷题笔记**
 2. 计算机科学与技术专业、计算金融专业部分必修实验课的**实验报告**和**课程设计源码**
@@ -17,10 +17,11 @@
 
 ## :warning: 重要声明
 
-1. 本项目中所上传资料均和已和作者取得联系并经过授权，如有侵权请立即[**联系我们**](KarryRenKai@outlook.com)进行删除！
+1. 本项目中所上传资料均已和作者取得联系并经过授权，如有侵权请立即[**联系我们**](KarryRenKai@outlook.com)进行删除。分享的资料署名权由分享者所有，个人笔记的版权归属于各自作者！本仓库的资源默认采用[**知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议**](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)进行许可，有特别说明的除外。
 2. 本项目中所有资料均列明资料撰写时间，内容仅供参考，请大家**严格按照当年老师的要求进行泛化学习**，切忌生搬硬套甚至直接抄袭！
-3. 如有任何困惑或意见可以直接[**联系我们**](KarryRenKai@outlook.com)进行交流，也可以[**发送 issues**](https://github.com/KarryRen/SCU-CS-Class-Materials/issues) 进行交流，我们将会在第一时间做出解答并进行更正！
+3. 本项目仅供学习交流帮助大家学习备考，资源来自于用户和互联网，其正确性无法完全保证。如有任何困惑或意见可以直接[**联系我们**](KarryRenKai@outlook.com)进行交流，也可以[**发送 issues**](https://github.com/KarryRen/SCU-CS-Class-Materials/issues) 进行交流，我们将会在第一时间做出解答并进行更正 ！
 4. 如果您乐于将自己的资料**分享到本平台**中或者想要**提供任何建议**，我们**十分欢迎并诚挚地邀请您加入本团队**！
+5. 本仓库**为非营利、永久免费**的开源项目，同学们可以自由取阅分享。希望对你们有所帮助❤️，如果喜欢希望能给个 Star :star2: ！
 
 
 
@@ -32,6 +33,12 @@
 4. [**Charles-cookie**](https://github.com/Charles-cookie)
 5. [Frank Fu]()
 6. [J.W. Zhang]()
+
+
+
+## :rocket: 如何贡献
+
+一个丰富学科资源分享平台需要同学们一起建设，热烈欢迎您成为仓库的 Contributor :bow: ！为了方便您迅速上手贡献资源，我们编写了一份[**资源贡献手册**](./CONTRIBUTION.md)，供您参考。当然如果您在阅读和使用手册过程中遇到任何问题，可以直接[**联系我们**](KarryRenKai@outlook.com)进行交流，或[**发送 issues**](https://github.com/KarryRen/SCU-CS-Class-Materials/issues) 进行交流，我们将会在第一时间做出解答！
 
 
 
@@ -204,5 +211,7 @@ SCU-CS-Class-Materials/
 1. 我们一般在考试结束后进行集中整理更新，如果有些资料大家想要及时获得，可以直接[**联系我们**](KarryRenKai@outlook.com)
 2. 在目录中带有 **updating :fire:** 的源码工程团队仍在做调整，将尽快发出～
 
-## :star: Star History
+
+
+## :star2: Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=KarryRen/SCU-CS-Class-Materials&type=Date)](https://star-history.com/#KarryRen/SCU-CS-Class-Materials&Date)
