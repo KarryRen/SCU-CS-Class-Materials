@@ -29,8 +29,9 @@
 1. [**Karry Ren**](KarryRenKai@outlook.com)
 2. [**Orderheart**](https://github.com/Orderheart)
 3. [**Ayin**](https://github.com/Ayin-cc)
-4. [Frank Fu]()
-5. [J.W. Zhang]()
+4. [**Charles-cookie**](https://github.com/Charles-cookie)
+5. [Frank Fu]()
+6. [J.W. Zhang]()
 
 
 
