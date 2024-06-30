@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>LyricWidget</class>
+    <widget class="QWidget" name="LyricWidget">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>589</width>
+                <height>527</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Form</string>
+        </property>
+        <property name="styleSheet">
+            <string notr="true"/>
+        </property>
+        <widget class="QGroupBox" name="groupBox">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>390</y>
+                    <width>551</width>
+                    <height>131</height>
+                </rect>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">color: rgb(0, 0, 0);
+                    font: 15pt &quot;黑体&quot;;
+                    border:1px solid black;
+                </string>
+            </property>
+            <property name="title">
+                <string>歌词</string>
+            </property>
+            <widget class="QLabel" name="label">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>50</y>
+                        <width>521</width>
+                        <height>71</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">color: rgb(0, 0, 127);
+                        font: 14pt &quot;黑体&quot;;
+                        border:0px solid white;
+                    </string>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_2">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>0</y>
+                    <width>551</width>
+                    <height>361</height>
+                </rect>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">color: rgb(0, 0, 0);
+                    border:1px solid black;
+                    font: 15pt &quot;黑体&quot;;
+                </string>
+            </property>
+            <property name="title">
+                <string>歌曲信息</string>
+            </property>
+            <widget class="QLabel" name="topmusicname">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>60</y>
+                        <width>491</width>
+                        <height>71</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">color: rgb(0, 0, 0);
+                        font: 13pt &quot;黑体&quot;;
+                        border:0px solid white;
+                    </string>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+            <widget class="QLabel" name="singer">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>130</y>
+                        <width>491</width>
+                        <height>81</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">color: rgb(0, 0, 0);
+                        font: 13pt &quot;黑体&quot;;
+                        border:0px solid white;
+                    </string>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+            <widget class="QLabel" name="album">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>200</y>
+                        <width>491</width>
+                        <height>81</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">color: rgb(0, 0, 0);
+                        font: 13pt &quot;黑体&quot;;
+                        border:0px solid white;
+                    </string>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+            <widget class="QLabel" name="fromlab">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>280</y>
+                        <width>491</width>
+                        <height>71</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">color: rgb(0, 0, 0);
+                        font: 13pt &quot;黑体&quot;;
+                        border:0px solid white;
+                    </string>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+        </widget>
+        <zorder>groupBox_2</zorder>
+        <zorder>groupBox</zorder>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
