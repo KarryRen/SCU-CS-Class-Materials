@@ -1,5 +1,7 @@
 # 四川大学计算机学院本科课程资料（更新中）
 
+[![Stars](https://img.shields.io/github/stars/KarryRen/SCU-CS-Class-Materials.svg)](https://github.com/KarryRen/SCU-CS-Class-Materials/stargazers) [![Forks](https://img.shields.io/github/forks/KarryRen/SCU-CS-Class-Materials.svg)](https://github.com/KarryRen/SCU-CS-Class-Materials/network/members) ![GitHub repo size](https://img.shields.io/github/repo-size/KarryRen/SCU-CS-Class-Materials.svg) [![Issues](https://img.shields.io/github/issues/KarryRen/SCU-CS-Class-Materials.svg)]() ![GitHub pull requests](https://img.shields.io/github/issues-pr/KarryRen/SCU-CS-Class-Materials.svg)
+
 ## :books: 资料简介
 
 "信息"是大学中十分重要的资源，打破“信息差”对于系统理解课程知识，高效梳理知识框架，精准把握核心要点有着重要意义。本科是“**打基础、宽视野**”的关键阶段，扎实的基础知识不仅能让我们对相关学科有正确的常识认知，还能让我们熟练掌握日后科研、工作所需工具。
@@ -123,6 +125,8 @@ SCU-CS-Class-Materials/
             ├── Karry_2021_97
         ├── （必修）数据结构与算法分析_数据结构算法
             ├── Karry_2021_95
+        ├── （必修）数据结构与算法分析课程设计_数据结构算法实验
+            ├── Kimokcheon_2023_93
         ├── （必修）离散数学_离散	
             ├── Karry_2021_96
             ├── Kimokcheon_2022_96
@@ -179,6 +183,7 @@ SCU-CS-Class-Materials/
         ├── （必修）现代软件工程（双语）
             ├── Karry_2022_96
         ├── （必修）现代软件工程课程设计_软工实验
+            ├── Kimokcheon_2023_98（含有 "实验室人员管理系统" 一系列配套文档和源码）
             ├── Karry_2022_95（含有 "图书管理系统" 源码和汇报 updating 🔥）
         ├── （必修）研究与开发实践_研开
             ├── Karry_2022_98（含有 "物业管理系统" 源码和系统文档 updating 🔥）
