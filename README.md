@@ -31,8 +31,9 @@
 2. [**Orderheart**](https://github.com/Orderheart)
 3. [**Ayin**](https://github.com/Ayin-cc)
 4. [**Charles-cookie**](https://github.com/Charles-cookie)
-5. [Frank Fu]()
-6. [J.W. Zhang]()
+5. [**Kimokcheon**](https://github.com/Kimokcheon)
+6. [Frank Fu]()
+7. [J.W. Zhang]()
 
 
 
