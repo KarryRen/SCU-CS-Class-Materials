@@ -21,11 +21,13 @@
 15. （必修）离散数学_离散
 16. （必修）体育-3
 17. （选修）JAVA程序设计_JAVA
+18. （必修）数据结构与算法分析(全英文)_数据结构算法(全英文)
 
 
 
 ## :speaker: 相关说明
 
 1. 马原的笔记每年波动性较大，请大家尽量查找**距离自己年份较近**的资料
-1. 宏观经济学推荐 [**B 站视频**](https://www.bilibili.com/video/BV1GC4y117cm/?spm_id_from=333.337.search-card.all.click&vd_source=66823c3216b82637e31f708a5e627a0b)
+2. 宏观经济学推荐 [**B 站视频**](https://www.bilibili.com/video/BV1GC4y117cm/?spm_id_from=333.337.search-card.all.click&vd_source=66823c3216b82637e31f708a5e627a0b)
+3. 数据结构与算法分析(全英文)是拔尖班必修
 
