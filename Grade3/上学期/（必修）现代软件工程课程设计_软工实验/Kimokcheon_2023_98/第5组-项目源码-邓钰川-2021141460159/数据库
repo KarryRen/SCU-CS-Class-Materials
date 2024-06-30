@@ -1,0 +1,262 @@
+-- MariaDB dump 10.19  Distrib 10.11.4-MariaDB, for debian-linux-gnu (x86_64)
+--
+-- Host: sh-cynosdbmysql-grp-bs2lik72.sql.tencentcdb.com    Database: SOFTWARE
+-- ------------------------------------------------------
+-- Server version	5.7.18-cynos-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `askforleave`
+--
+
+DROP TABLE IF EXISTS `askforleave`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `askforleave` (
+  `askforleave_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '设备id',
+  `user_id` int(10) unsigned NOT NULL COMMENT '用户id',
+  `admin_id` int(10) unsigned DEFAULT NULL COMMENT '用户id',
+  `askforleave_reason` varchar(512) NOT NULL DEFAULT '申请请假' COMMENT '请假原因',
+  `askforleave_time` datetime NOT NULL COMMENT '请假时间',
+  `askforleave_back` datetime NOT NULL COMMENT '请假截止时间',
+  `askforleave_reply` varchar(512) NOT NULL DEFAULT '已收到,允许本次请假申请' COMMENT '管理员回复',
+  `askforleave_state` int(11) NOT NULL DEFAULT '0' COMMENT '状态/0待核, 1批准, -1不允许',
+  PRIMARY KEY (`askforleave_id`),
+  KEY `user_id` (`user_id`),
+  KEY `admin_id` (`admin_id`),
+  CONSTRAINT `askforleave_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`),
+  CONSTRAINT `askforleave_ibfk_2` FOREIGN KEY (`admin_id`) REFERENCES `user` (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `askforleave`
+--
+
+/*!40000 ALTER TABLE `askforleave` DISABLE KEYS */;
+INSERT INTO `askforleave` VALUES
+(1,1,2,'生病请假','2023-11-15 10:00:00','2023-11-16 10:00:00','已批准，请假期间注意身体',1),
+(2,2,NULL,'家庭原因','2023-11-15 11:00:00','2023-11-17 11:00:00','同意',1),
+(3,3,3,'个人事务','2023-11-15 12:00:00','2023-11-18 12:00:00','请假期间注意安全',1),
+(4,5,2,'紧急事情','2023-11-15 13:00:00','2023-11-19 13:00:00','太长时间了,请问是什么紧急时期呢',-1),
+(5,1,NULL,'测试1','2023-12-16 08:00:00','2023-12-08 08:00:00','已收到,允许本次请假申请',1),
+(6,1,NULL,'测试11','2023-12-12 08:00:00','2024-01-17 08:00:00','已收到,允许本次请假申请',1),
+(7,3,NULL,'我要回家打瓦','2023-12-09 08:00:00','2023-12-22 08:00:00','不准打游戏',-1),
+(8,3,NULL,'做会议报告','2023-12-20 08:00:00','2023-12-31 08:00:00','路上小心',1),
+(9,1,NULL,'test','2023-12-13 08:00:00','2023-12-29 08:00:00','已收到,允许本次请假申请',1),
+(10,3,NULL,'你好','2023-12-29 08:00:00','2023-12-31 08:00:00','',1),
+(11,1,NULL,'请假测试wuihawdijwd','2023-12-20 08:00:00','2023-12-24 08:00:00','',1),
+(12,1,NULL,'asdada','2023-12-20 08:00:00','2023-12-22 08:00:00','已收到,允许本次请假申请',0);
+/*!40000 ALTER TABLE `askforleave` ENABLE KEYS */;
+
+--
+-- Table structure for table `equipment`
+--
+
+DROP TABLE IF EXISTS `equipment`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `equipment` (
+  `equipment_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '设备id',
+  `equipment_name` char(32) NOT NULL DEFAULT 'H100 80GB显卡' COMMENT '设备名',
+  `equipment_introduction` varchar(128) NOT NULL DEFAULT '第一张商用显卡,用于深度学习计算' COMMENT '设备描述',
+  `equipment_building` char(16) NOT NULL DEFAULT '江安综合楼A座' COMMENT '建筑名',
+  `equipment_classroom` char(16) NOT NULL DEFAULT 'A101' COMMENT '教室',
+  `equipment_state` int(11) NOT NULL DEFAULT '0' COMMENT '状态/0报修中, 1可使用, -1损坏',
+  PRIMARY KEY (`equipment_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `equipment`
+--
+
+/*!40000 ALTER TABLE `equipment` DISABLE KEYS */;
+INSERT INTO `equipment` VALUES
+(1,'H200 120GB显卡','第二张商用显卡,用于深度学习计算','江安综合楼B座','B202',1),
+(2,'H300 240GB显卡','第三张商用显卡,用于深度学习计算','江安综合楼C座','C303',1),
+(3,'H400 480GB显卡','第四张商用显卡,用于深度学习计算','江安综合楼D座','D404',1),
+(4,'显示器','2k','江安综合楼A座','A101',-1),
+(5,'投影仪','用于投影教学内容','教学楼A','A101',1),
+(6,'实验器材','用于科学实验','实验楼B','B202',1),
+(7,'地球仪','用于地理教学','教学楼C','C303',1),
+(8,'白板','用于书写和展示','教学楼D','D404',1);
+/*!40000 ALTER TABLE `equipment` ENABLE KEYS */;
+
+--
+-- Table structure for table `leaveschool`
+--
+
+DROP TABLE IF EXISTS `leaveschool`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `leaveschool` (
+  `leaveschool_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '设备id',
+  `user_id` int(10) unsigned NOT NULL COMMENT '用户id',
+  `admin_id` int(10) unsigned DEFAULT NULL COMMENT '用户id',
+  `leaveschool_reason` varchar(512) NOT NULL DEFAULT '申请离校' COMMENT '离校原因',
+  `leaveschool_time` datetime NOT NULL COMMENT '离校时间',
+  `leaveschool_back` datetime NOT NULL COMMENT '返校时间',
+  `leaveschool_reply` varchar(512) NOT NULL DEFAULT '已收到,允许本次离校申请' COMMENT '管理员回复',
+  `leaveschool_state` int(11) NOT NULL DEFAULT '0' COMMENT '状态/0为审核, 1批准, -1不允许',
+  PRIMARY KEY (`leaveschool_id`),
+  KEY `user_id` (`user_id`),
+  KEY `admin_id` (`admin_id`),
+  CONSTRAINT `leaveschool_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`),
+  CONSTRAINT `leaveschool_ibfk_2` FOREIGN KEY (`admin_id`) REFERENCES `user` (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `leaveschool`
+--
+
+/*!40000 ALTER TABLE `leaveschool` DISABLE KEYS */;
+INSERT INTO `leaveschool` VALUES
+(1,1,NULL,'家庭聚会','2023-11-15 10:00:00','2023-11-18 10:00:00','路上小心',1),
+(2,5,3,'紧急事务','2023-11-15 11:00:00','2023-11-17 11:00:00','已批准，请假期间注意事项',1),
+(3,1,2,'个人事情','2023-11-15 12:00:00','2023-11-16 12:00:00','此时间段有重要的学术会议,留下俩开会',-1),
+(4,4,2,'学术会议','2023-11-15 13:00:00','2023-11-19 13:00:00','已批准，请假期间尽快处理',1),
+(5,1,NULL,'测试1','2023-12-20 08:00:00','2023-12-26 08:00:00','已收到,允许本次离校申请',1),
+(6,1,NULL,'测试2','2023-12-14 08:00:00','2023-12-12 08:00:00','已收到,允许本次离校申请',1),
+(7,1,NULL,'你好111','2023-12-22 08:00:00','2023-12-23 08:00:00','已收到,允许本次离校申请',0),
+(8,1,NULL,'测试去1123132131231','2023-12-27 08:00:00','2023-12-16 08:00:00','已收到,允许本次离校申请',0);
+/*!40000 ALTER TABLE `leaveschool` ENABLE KEYS */;
+
+--
+-- Table structure for table `repair`
+--
+
+DROP TABLE IF EXISTS `repair`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `repair` (
+  `repair_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '设备id',
+  `user_id` int(10) unsigned NOT NULL COMMENT '用户id',
+  `admin_id` int(10) unsigned DEFAULT NULL COMMENT '用户id',
+  `equipment_id` int(10) unsigned DEFAULT NULL COMMENT '设备id',
+  `repair_reason` varchar(512) NOT NULL DEFAULT '江安综合楼A座' COMMENT '设备故障现象',
+  `repair_reply` varchar(512) NOT NULL DEFAULT '' COMMENT '管理员回复',
+  `repair_state` int(11) NOT NULL DEFAULT '0' COMMENT '状态/0待审核, 1维修中, 2修理完成, -1不可逆转的损坏',
+  PRIMARY KEY (`repair_id`),
+  KEY `user_id` (`user_id`),
+  KEY `equipment_id` (`equipment_id`),
+  KEY `admin_id` (`admin_id`),
+  CONSTRAINT `repair_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`),
+  CONSTRAINT `repair_ibfk_2` FOREIGN KEY (`equipment_id`) REFERENCES `equipment` (`equipment_id`),
+  CONSTRAINT `repair_ibfk_3` FOREIGN KEY (`admin_id`) REFERENCES `user` (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `repair`
+--
+
+/*!40000 ALTER TABLE `repair` DISABLE KEYS */;
+INSERT INTO `repair` VALUES
+(1,1,NULL,1,'打印机无法正常打印','维修完毕',2),
+(2,4,NULL,2,'投影仪无法开机','坏掉了修不了',-1),
+(3,5,NULL,3,'电脑蓝屏','申请购买显示器中',2),
+(4,4,3,4,'空调无法制冷','',2),
+(5,5,2,1,'打印机无法正常打印','已更换打印头，现在可以正常使用',2),
+(6,1,3,2,'投影仪无法开机','更换了电源模块，现在可以正常使用',2),
+(7,1,2,3,'电脑蓝屏','硬盘损坏，无法修复',-1),
+(8,1,NULL,NULL,'洗衣机排水故障','sadasd',2),
+(9,1,NULL,NULL,'玩不了游戏','',0),
+(10,1,NULL,NULL,'玩不了游戏111','',0),
+(11,2,NULL,NULL,'打印机无法正常打印','',0),
+(12,1,NULL,NULL,'电脑屏幕不显示','',0),
+(13,1,NULL,NULL,'屏','',0),
+(14,1,NULL,NULL,'维修测试11111','',0);
+/*!40000 ALTER TABLE `repair` ENABLE KEYS */;
+
+--
+-- Table structure for table `user`
+--
+
+DROP TABLE IF EXISTS `user`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `user` (
+  `user_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '用户id',
+  `user_name` char(32) NOT NULL DEFAULT '萌新' COMMENT '用户名',
+  `user_img` char(32) NOT NULL DEFAULT '0' COMMENT '用户头像',
+  `user_license` char(16) NOT NULL DEFAULT '0000000000000000' COMMENT '用户证件号',
+  `user_phone` char(16) NOT NULL COMMENT '用户联系方式/手机',
+  `user_email` char(32) NOT NULL COMMENT '用户邮箱',
+  `user_salt` char(64) NOT NULL COMMENT '盐',
+  `user_passwd` char(64) NOT NULL COMMENT '密码',
+  `user_permissions` int(11) NOT NULL DEFAULT '0' COMMENT '权限/0普通用户, 1管理员',
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `user`
+--
+
+/*!40000 ALTER TABLE `user` DISABLE KEYS */;
+INSERT INTO `user` VALUES
+(1,'川大牛逼','0.png','1111112111','asdasd','1124654372@qq.com','FOrMIIo3wjDOWEZeZFLrQHGUEVAGjwt49UVQmh8YVzii6bw2ihWorJJ4QANs5DVy','1602aa41a3d152f3d5e13b871bdb2751f1837e6e5a7bfdd1d5cfbac1e97a6de9',0),
+(2,'testAdmin','0.png','1999141460000','18574673827','1729402763@qq.com','5Vpqy8q3kJSXRiCBJDSbt8WXGE2Zj7LmSKeDmHdLr6sTjuG2QemSwcyouQVGwF2n','bf0876d57528a667f6083a72a073d53fad5082182c1deb8af683d0f232efed27',1),
+(3,'张三','avatar1.jpg','1234567890123456','13800138000','zhangsan@example.com','r4hT7NQvK7hzW6sAqviPegG8fhzrW95BuTpEwFuxlYaW97jffUysaQv1sF6pHffk','531e4364949cc379e932fe54d28d7dc769ec93f5c9c0b97c720d9f3b93b4dd6d',1),
+(4,'李四','avatar2.jpg','6543210987654321','13900139000','lisi@example.com','vK19g1gVbCR49gaT2asYxowAiGYnT2fOr4X14jRhEHwuSJ74S5eQggkUgD7v5e1g','f6da3816dea670b253f6ed381870c6746996f5de4c4a2834d6dcc698ecefd8ae',0),
+(5,'王五','avatar3.jpg','9876543210123456','13700137000','wangwu@example.com','dEnJlhliG9mBtlNkDVACNltmWvaVwhlfiTr87wA1s8Vh3SqVU3zW9HiELMRvc3TC','d5a98011435e40b7eb67c937d0e063e32e954fe2271e0e6dc5bfbf34efd1eff5',0),
+(6,' 测试用户2','0','22222222','22222222','222222222@qq.com','cWPNfic2Z7nEDSoda5oPMEc98KxYrhMJwzB5F7AnxwNyvGYjgAFhJlBHG3ihVdNv','7b61bc4bd02348e7b74a0e7533d9b1104fc05941f106f391d1ef2182ceeab3d5',0);
+/*!40000 ALTER TABLE `user` ENABLE KEYS */;
+
+--
+-- Table structure for table `workstation`
+--
+
+DROP TABLE IF EXISTS `workstation`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `workstation` (
+  `workstation_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '工位id',
+  `user_id` int(10) unsigned NOT NULL COMMENT '用户id',
+  `workstation_building` char(16) NOT NULL DEFAULT '江安综合楼A座' COMMENT '建筑名',
+  `workstation_classroom` char(16) NOT NULL DEFAULT 'A101' COMMENT '教室',
+  `workstation_seat` int(11) NOT NULL DEFAULT '1' COMMENT '座位号',
+  `workstation_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '工位分配时间',
+  `workstation_state` int(11) NOT NULL DEFAULT '0' COMMENT '状态/0可用, 1已用, -1不可用',
+  PRIMARY KEY (`workstation_id`),
+  KEY `user_id` (`user_id`),
+  CONSTRAINT `workstation_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `workstation`
+--
+
+/*!40000 ALTER TABLE `workstation` DISABLE KEYS */;
+INSERT INTO `workstation` VALUES
+(10,1,'教学楼A','A123',2,'2023-12-07 22:35:06',0),
+(11,3,' 教学楼B','B121',13,'2023-12-09 17:32:47',0);
+/*!40000 ALTER TABLE `workstation` ENABLE KEYS */;
+
+--
+-- Dumping routines for database 'SOFTWARE'
+--
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-12-09 21:36:36
