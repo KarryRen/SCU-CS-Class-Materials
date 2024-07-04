@@ -34,8 +34,9 @@
 3. [**Ayin**](https://github.com/Ayin-cc)
 4. [**Charles-cookie**](https://github.com/Charles-cookie)
 5. [**Kimokcheon**](https://github.com/Kimokcheon)
-6. [Frank Fu]()
-7. [J.W. Zhang]()
+6. [**StreLitziaYc**](https://github.com/StreLitziaYc)
+7. [Frank Fu]()
+8. [J.W. Zhang]()
 
 
 
