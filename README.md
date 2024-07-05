@@ -35,8 +35,9 @@
 4. [**Charles-cookie**](https://github.com/Charles-cookie)
 5. [**Kimokcheon**](https://github.com/Kimokcheon)
 6. [**StreLitziaYc**](https://github.com/StreLitziaYc)
-7. [Frank Fu]()
-8. [J.W. Zhang]()
+7. [**MountMist**](https://github.com/MountMist)
+8. [Frank Fu]()
+9. [J.W. Zhang]()
 
 
 
