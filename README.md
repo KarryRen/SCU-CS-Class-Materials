@@ -36,9 +36,9 @@
 5. [**Kimokcheon**](https://github.com/Kimokcheon)
 6. [**StreLitziaYc**](https://github.com/StreLitziaYc)
 7. [**MountMist**](https://github.com/MountMist)
-8. [Frank Fu]()
-9. [J.W. Zhang]()
-10. [**Narrao**](https://github.com/Narrao)
+8. [**Narrao**](https://github.com/Narrao)
+9. [Frank Fu]()
+10. [J.W. Zhang]()
 
 
 
