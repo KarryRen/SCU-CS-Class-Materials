@@ -153,6 +153,7 @@ SCU-CS-Class-Materials/
             ├── Karry_2022_97
             ├── Ayin_2024_xx
             ├── Charles_2024_xx
+            ├── Kimokcheon_2024_91
         ├── （必修）微机系统与接口技术实验_微机接口实验
             ├── Karry_2022_95（含所有 "实验报告"）
             ├── Frank_2022_95（含所有 "实验报告"）
