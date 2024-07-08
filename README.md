@@ -80,8 +80,11 @@ SCU-CS-Class-Materials/
         ├── （必修）数字逻辑_数逻
             ├── Ayin_2022_xx
             ├── Orderheart_2022_xx
+        ├── （必修）数字逻辑实验
+            ├── MountMist_2022_94
         ├── （必修）高级程序语言设计-Ⅰ_C语言
             ├── Orderheart_2022_xx
+            ├── MountMist_2022_90
         ├── （必修）微积分(Ⅰ)-1_微积分上
             ├── Orderheart_2022_xx
         ├── （必修）大学生心理健康_心理健康
@@ -108,6 +111,7 @@ SCU-CS-Class-Materials/
             ├── Karry_2021_99
         ├── （必修）中国近现代史纲要
             ├── Orderheart_2023_xx
+            ├── MountMist_2023_90
         ├── （必修）中国特色社会主义政治经济学_中特政经
             ├── Karry_2021_93
         ├── （必修）编程实战
