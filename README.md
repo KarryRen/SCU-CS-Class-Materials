@@ -172,6 +172,7 @@ SCU-CS-Class-Materials/
             ├── Karry_2022_97
             ├── Ayin_2024_xx
             ├── Charles_2024_xx
+            ├── Kimokcheon_2024_91
             ├── MountMist_2024_87
             ├── Narrao_2024_95
         ├── （必修）微机系统与接口技术实验_微机接口实验
@@ -179,6 +180,7 @@ SCU-CS-Class-Materials/
             ├── Frank_2022_95（含所有 "实验报告"）
             ├── Ayin_2024_xx（含所有 "实验报告"）
             ├── StreLitziaYc_2024_99（含所有 "2024 年最新版实验报告"）
+            ├── Kimokcheon_2024_98（含所有 "实验报告"）
             ├── MountMist_2024_95
         ├── （必修）操作系统原理_操作系统
             ├── Karry_2022_90（含五次 "课堂作业"）
@@ -202,7 +204,7 @@ SCU-CS-Class-Materials/
             ├── Karry_2022_98（含九次 "课堂作业"）
         ├── （选修）模式识别引论_模式识别
             ├── Kimokcheon_2021_91
-        ├── （必修）计算理论（全英文）
+        ├── （必修）计算理论（全英文）_计算理论
             ├── Kimokcheon_2023_94
         ├── （选修）数据挖掘导引
             ├── MountMist_2024_97
