@@ -38,6 +38,7 @@
 7. [**MountMist**](https://github.com/MountMist)
 8. [Frank Fu]()
 9. [J.W. Zhang]()
+10. [novelyear](https://github.com/novelyear)
 
 
 
@@ -167,6 +168,9 @@ SCU-CS-Class-Materials/
             ├── Frank_2022_96（含所有 "实验报告"）
         ├── （必修）毛泽东思想和中国特色社会主义理论体系概论_毛概（含 "暑期实践报告"）
             ├── Karry_2022_93
+        ├── （必修）习近平新时代中国特色社会主义思想概论
+            ├── Karry_2022_95
+            ├── novelyear_2024_93
         ├── （必修）计量经济学_计量
             ├── Karry_2022_96（含五次 "课堂作业"）
             ├── Frank_2022_95（含五次 "课堂作业"）
@@ -181,8 +185,6 @@ SCU-CS-Class-Materials/
     ├── 上学期
         ├── （必修）金融计量学
             ├── Karry_2022_94（含 "课堂作业" updating）
-        ├── （必修）习近平新时代中国特色社会主义思想概论
-            ├── Karry_2022_95
         ├── （必修）政治经济学
             ├── Karry_2022_95
         ├── （必修）数据库系统原理
