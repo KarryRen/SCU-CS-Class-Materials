@@ -87,7 +87,7 @@ SCU-CS-Class-Materials/
         ├── （必修）高级程序语言设计-Ⅰ_C语言
             ├── Orderheart_2022_xx
             ├── MountMist_2022_90
-        ├── （必修）微积分(Ⅰ)-1_微积分上
+        ├── （必修）微积分（Ⅰ）-1_微积分上
             ├── Orderheart_2022_xx
             ├── Narrao_2022_xx
         ├── （必修）大学生心理健康_心理健康
@@ -97,6 +97,8 @@ SCU-CS-Class-Materials/
             ├── Narrao_2022_95
         ├── （选修）计算机导论
             ├── Orderheart_2022_xx
+        ├── （选修）UNIX操作系统_UNIX
+            ├── Kimokcheon_2021_94
             
     └── 下学期
         ├── （必修）微积分（Ⅰ）-2_微积分下
@@ -210,7 +212,8 @@ SCU-CS-Class-Materials/
             ├── MountMist_2024_97
         ├── （选修）网络工程
             ├── MountMist_2024_92
-        
+        ├── （跨专） 数论与代数基础_数论
+            ├── Kimokcheon_2022_90
 ├── 大三 （Grade3）
     ├── 上学期
         ├── （必修）金融计量学
