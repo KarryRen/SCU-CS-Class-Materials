@@ -36,8 +36,9 @@
 5. [**Kimokcheon**](https://github.com/Kimokcheon)
 6. [**StreLitziaYc**](https://github.com/StreLitziaYc)
 7. [**MountMist**](https://github.com/MountMist)
-8. [Frank Fu]()
-9. [J.W. Zhang]()
+8. [**Narrao**](https://github.com/Narrao)
+9. [Frank Fu]()
+10. [J.W. Zhang]()
 
 
 
@@ -80,14 +81,17 @@ SCU-CS-Class-Materials/
         ├── （必修）数字逻辑_数逻
             ├── Ayin_2022_xx
             ├── Orderheart_2022_xx
+            ├── Narrao_2022_91
         ├── （必修）高级程序语言设计-Ⅰ_C语言
             ├── Orderheart_2022_xx
         ├── （必修）微积分(Ⅰ)-1_微积分上
             ├── Orderheart_2022_xx
+            ├── Narrao_2022_xx
         ├── （必修）大学生心理健康_心理健康
             ├── Orderheart_2022_xx
         ├── （必修）思想道德修养与法律基础_思修
             ├── Orderheart_2022_xx
+            ├── Narrao_2022_95
         ├── （选修）计算机导论
             ├── Orderheart_2022_xx
             
@@ -99,6 +103,7 @@ SCU-CS-Class-Materials/
             ├── Ayin_2023_xx
             ├── Orderheart_2023_xx
             ├── Charles_2022_xx
+            ├── Narrao_2023_94
         ├── （必修）会计学
             ├── Karry_2021_91
         ├── （必修）高级语言程序设计-Ⅱ_C++
@@ -111,6 +116,7 @@ SCU-CS-Class-Materials/
             ├── Karry_2021_93
         ├── （必修）编程实战
             ├── Karry_2021_94（含项目 "简单音乐播放器" 源码）
+            ├── Narrao_2023_96
         ├── （必修）汇编语言程序设计_汇编
             ├── Karry_2021_92
             ├── Orderheart_2023_xx
@@ -121,21 +127,27 @@ SCU-CS-Class-Materials/
     ├── 上学期
         ├── （必修）大学物理（理工）Ⅲ-2_大物
             ├── Karry_2021_94
+            ├── Narrao_2023_94
         ├── （必修）大学物理实验（理工）Ⅲ-2_大物实验
             ├── Karry_2021_95（含扫描版 "3 次实验报告合集"）
         ├──（必修）计算机组成原理_计组
             ├── Karry_2021_97
+            ├── Narrao_2023_100
         ├── （必修）数据结构与算法分析_数据结构算法
             ├── Karry_2021_95
+            ├── Narrao_2023_93
         ├── （必修）数据结构与算法分析课程设计_数据结构算法实验
             ├── Kimokcheon_2023_93
         ├── （必修）离散数学_离散	
             ├── Karry_2021_96
             ├── Kimokcheon_2022_96
+            ├── Narrao_2023_97
         ├── （必修） 概率统计（理工）_概统
             ├── Karry_2021_97
+            ├── Narrao_2023_94
         ├── （必修） 马克思主义基本原理概论_马原
             ├── Karry_2021_95
+            ├── Narrao_2023_95.65
         ├── （必修） 财政学
             ├── Karry_2021_92
         ├── （必修）统计学
@@ -153,6 +165,7 @@ SCU-CS-Class-Materials/
             ├── Karry_2022_97
             ├── Ayin_2024_xx
             ├── Charles_2024_xx
+            ├── Narrao_2024_95
         ├── （必修）微机系统与接口技术实验_微机接口实验
             ├── Karry_2022_95（含所有 "实验报告"）
             ├── Frank_2022_95（含所有 "实验报告"）
@@ -162,11 +175,15 @@ SCU-CS-Class-Materials/
             ├── Karry_2022_90（含五次 "课堂作业"）
             ├── Ayin_2024_xx
             ├── Kimokcheon_2023_99
+            ├── Narrao_2024_93
         ├── （必修）操作系统课程设计_操作系统实验
             ├── Karry_2022_95（含所有 "实验报告"）
             ├── Frank_2022_96（含所有 "实验报告"）
         ├── （必修）毛泽东思想和中国特色社会主义理论体系概论_毛概（含 "暑期实践报告"）
             ├── Karry_2022_93
+            ├── Narrao_2024_xx
+        ├── （必修）习近平新时代中国特色社会主义思想概论_习概
+            ├── Narrao_2024_94
         ├── （必修）计量经济学_计量
             ├── Karry_2022_96（含五次 "课堂作业"）
             ├── Frank_2022_95（含五次 "课堂作业"）
