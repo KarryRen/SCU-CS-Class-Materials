@@ -135,15 +135,19 @@ Issue 的使用方法（需要登录 GitHub 账号）：
 由于 Pull Request 的使用门槛较高，故对于不熟悉 GitHub 工作流程的贡献者，我们推荐您使用 Email 和 Issue 来进行贡献。如果您熟悉 GitHub 的各种操作，那就请直接提交 Pull Request 吧！如果您想要学习 Github 的使用流程，可阅读（1）[Git官方文档](https://git-scm.com/book/zh/v2)；（2）[菜鸟教程 | Github简明教程](https://www.runoob.com/w3cnote/git-guide.html)；（3）[Github官方文档 | Hellow World](https://docs.github.com/zh/get-started/start-your-journey/hello-world)；（4）[Github官方文档 | 参与项目](https://docs.github.com/zh/get-started/exploring-projects-on-github/contributing-to-a-project)
 
 不过我们也提供了Pull Request的简易教程，按照以下步骤，就可以轻松创建Pull Request啦！  
-（对于从未使用过github、git bash的准贡献者，建议学习上述文档后再跟随该简易教程❗）
+
+**注意**：  
+- 途中遇到任何问题请自行解决，如分支冲突、远程连接失败等。
+- 对于从未使用过github、git bash的准贡献者，建议学习上述文档后再跟随该简易教程❗
 
 步骤|示例
 ---|---
-我们首先要做的是 Fork 仓库，点击仓库首页右上角的 `Fork` 按钮。进入下一页面后点击`Create fork`即可。|![](/img/click_fork.png)<br>![](/img/create_fork.jpg)
+我们首先要做的是 Fork 仓库，点击仓库首页右上角的 `Fork` 按钮。进入下一页面后点击`Create fork`即可。|![](/img/click_fork.png)
 之后会进入一个同名仓库，但所有者变成了您<br>在仓库名下方会有`forked from KarryRen/SCU-CS-Class-Materials`|![](/img/forked.png)
 然后就可以对您 Fork 的仓库做各种改动，<br>例如修改 CONTRIBUTION.md 文件；修改完成后，<br>点击![](/img/commit_change.png)按钮提交 `Commit`。|![](/img/play1.gif)
 您也可以上传文件或者文件夹，<br>进入您想要上传资源的目录，<br>点击右上角的 `Add file`，再点击`Upload files` 按钮，<br>选择或者拖动文件/文件夹到网页中间的框内，然后提交 `Commit`。<br>例如上传`大四上`资料，注意示例中为方便并未新增文件夹|![](/img/load.gif)
 假如您对 Fork 的仓库提交了18次 `Commit`，<br>`This branch is 18 commits ahead of Xovee:master`<br>表示当前分支比源仓库领先 `18` 个提交。|![](/img/ahead.png)
-回到仓库首页，点击状态条右侧的<br> `Pull Request` 按钮或者 `Compare` 按钮，即可查看您所做出的改动，然后点击图按钮。|![](/img/compare.gif)
+回到仓库首页，点击状态条右侧的<br> `Contribute` 按钮，再点击`Open pull request` 按钮，即可创建pr|![](/img/pr.png)
+
 
 作者：novelyear
