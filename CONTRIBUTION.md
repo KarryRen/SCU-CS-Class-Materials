@@ -19,7 +19,7 @@
     - [Email、Issue](#emailissue)
     - [Pull Request](#pull-request)
 # 贡献途径
-## 新增资源⭐
+## 新增资源⭐⭐
 
 **资源范围：**：仓库当前规划资源为四川大学计算机学院本科课程资料，包括：  
 （1）计算机专业（计科、人工智能、计金、物联网）培养方案中的必修课与选修课资料  
@@ -50,15 +50,15 @@
 
 本仓库仍在不断完善，如果您对本仓库有改进意见或建议，包括但不限于仓库的各种组织架构、设计细节等问题，请移步[issue](https://github.com/KarryRen/SCU-CS-Class-Materials/issues)处点击`提出意见`向我们提出意见，或联系仓库所有者KarryRen(KarryRenKai@outlook.com)。
 
-## 加入仓库项目组🤩
+## 加入仓库项目组
 
 欢迎提交PR成为本仓库的contributor！🤩🤩🤩
 
 
 # 贡献的规范
 
-## 需要避免的问题❌
-**禁止上传**：  
+## 需要避免的问题
+**禁止上传❌❌❌**：  
 请各位贡献者务必不要上传**无关资源**，包括但不限于：  
 - 涉及隐私的，如电话号码、家庭住址、身份证号等个人信息
 - 包含对老师或课程主观评价的
@@ -74,17 +74,17 @@
     - 侮辱或者诽谤他人，侵害他人合法权益的；
     - 含有法律、行政法规禁止的其他内容的。
 
-## 文件名规范📄
+## 文件名规范
 
-对于资源文件名，请参考以下规范：
+对于资源文件名📄，请参考以下规范：
 
 复习资料|历年试题|作业
 ---|---|---
 不作规范，由贡献者自行命名。|`[考试时间]-[考试类型]-试卷`<br>`[考试时间]-[考试类型]-答案`<br>2019年春-期末考试-试卷<br>2018年秋-期中考试-答案|`[布置时间]-[作业类型]`<br>2019年春-课后作业<br>2018年秋-课堂作业-1<br>2018年秋-课堂作业-2|
 
-## 文件结构规范🗂️
+## 文件结构规范
 
-对于文件结构规范，请参考以下规范：  
+对于文件结构规范🗂️，请参考以下规范：  
 本资料目录共有 4 级，分别是：
 
 - 年级（`大一`、`大二`、`大三`、`大四`）
@@ -101,8 +101,8 @@
 > - [markdown官方教程](https://markdown.com.cn/)  
 > - [如何在github上写出漂亮的readme.md](https://github.com/Hubery-Lee/Notes/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E4%B8%8A%E5%86%99%E5%87%BA%E6%BC%82%E4%BA%AE%E7%9A%84readme.md.md)
 
-## 贡献前的检查✔️
-- 贡献者在贡献前请务必检查资料是否合规合法，注意去除敏感个人信息，避免上传不可公开资料。
+## 贡献前的检查
+- 贡献者在贡献前请务必检查资料是否合规合法✔️，注意去除敏感个人信息，避免上传不可公开资料。
 - 贡献者在贡献资料前请务必查重，即，阅读完课程文件夹下所有贡献者的资料，确保自己想要贡献的资料没有被其他没读过用过的贡献者上传过。
 
 # 贡献的方法和详细步骤
@@ -134,20 +134,20 @@ Issue 的使用方法（需要登录 GitHub 账号）：
 
 由于 Pull Request 的使用门槛较高，故对于不熟悉 GitHub 工作流程的贡献者，我们推荐您使用 Email 和 Issue 来进行贡献。如果您熟悉 GitHub 的各种操作，那就请直接提交 Pull Request 吧！如果您想要学习 Github 的使用流程，可阅读（1）[Git官方文档](https://git-scm.com/book/zh/v2)；（2）[菜鸟教程 | Github简明教程](https://www.runoob.com/w3cnote/git-guide.html)；（3）[Github官方文档 | Hellow World](https://docs.github.com/zh/get-started/start-your-journey/hello-world)；（4）[Github官方文档 | 参与项目](https://docs.github.com/zh/get-started/exploring-projects-on-github/contributing-to-a-project)
 
-不过我们也提供了Pull Request的简易教程，按照以下步骤，就可以轻松创建Pull Request啦！  
+不过我们也提供了Pull Request的简易教程，按照以下步骤，就可以轻松创建Pull Request啦！🎉🎉🎉  
 
 **注意**：  
-- 途中遇到任何问题请自行解决，如分支冲突、远程连接失败等。
-- 对于从未使用过github、git bash的准贡献者，建议学习上述文档后再跟随该简易教程❗
+- 途中遇到任何问题请尝试自行搜索解决，如分支冲突、远程连接失败等。❗❗❗
+- 对于从未使用过github、git bash的准贡献者，建议学习上述文档后再跟随该简易教程❗❗❗
 
 步骤|示例
 ---|---
 我们首先要做的是 Fork 仓库，点击仓库首页右上角的 `Fork` 按钮。进入下一页面后点击`Create fork`即可。|![click fork](/img/click_fork.png)
-之后会进入一个同名仓库，但所有者变成了您<br>在仓库名下方会有`forked from KarryRen/SCU-CS-Class-Materials`|![forked](/img/forked.png)
-然后就可以对您 Fork 的仓库做各种改动，<br>例如修改 CONTRIBUTION.md 文件；修改完成后，<br>点击![](/img/commit_change.png)按钮提交 `Commit`。|![edit](/img/play1.gif)
-您也可以上传文件或者文件夹，<br>进入您想要上传资源的目录，<br>点击右上角的 `Add file`，再点击`Upload files` 按钮，<br>选择或者拖动文件/文件夹到网页中间的框内，然后提交 `Commit`。<br>例如上传`大四上`资料，注意示例中为方便并未新增文件夹|![update](/img/load.gif)
-假如您对 Fork 的仓库提交了18次 `Commit`，<br>`This branch is 18 commits ahead of Xovee:master`<br>表示当前分支比源仓库领先 `18` 个提交。|![ahead](/img/ahead.png)
-回到仓库首页，点击状态条右侧的<br> `Contribute` 按钮，再点击`Open pull request` 按钮，即可创建pr|![pr](/img/pr.png)
+之后会进入一个同名仓库，但所有者变成了您<br>在仓库名下方会有`forked from KarryRen/SCU-CS-Class-Materials`|<img src='./img/forked.png' height=200px>
+然后就可以对您 Fork 的仓库做各种改动，<br>例如修改 CONTRIBUTION.md 文件；修改完成后，<br>点击<img src='./img/commit_change.png' height=40px>按钮提交 `Commit`。|![图有点糊将就看](/img/play1.gif)
+您也可以上传文件或者文件夹，<br>进入您想要上传资源的目录，<br>点击右上角的 `Add file`，再点击`Upload files` 按钮，<br>选择或者拖动文件/文件夹到网页中间的框内，然后提交 `Commit`。<br>例如上传`大四上`资料，注意示例中图方便并未新增贡献人文件夹|![update](/img/load.gif)
+假如您对 Fork 的仓库提交了18次 `Commit`，<br>`This branch is 18 commits ahead of Xovee:master`<br>表示当前分支比源仓库领先 `18` 个提交。|<img src='./img/ahead.png'>
+回到仓库首页，点击状态条右侧的<br> `Contribute` 按钮，再点击`Open pull request` 按钮，即可创建pr| <img src='./img/pr.png' height=200px>
 
 
 作者：novelyear
