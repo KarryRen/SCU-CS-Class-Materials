@@ -2,7 +2,7 @@
 
 [![Stars](https://img.shields.io/github/stars/KarryRen/SCU-CS-Class-Materials.svg)](https://github.com/KarryRen/SCU-CS-Class-Materials/stargazers) [![Forks](https://img.shields.io/github/forks/KarryRen/SCU-CS-Class-Materials.svg)](https://github.com/KarryRen/SCU-CS-Class-Materials/network/members) ![GitHub repo size](https://img.shields.io/github/repo-size/KarryRen/SCU-CS-Class-Materials.svg) [![Issues](https://img.shields.io/github/issues/KarryRen/SCU-CS-Class-Materials.svg)]() ![GitHub pull requests](https://img.shields.io/github/issues-pr/KarryRen/SCU-CS-Class-Materials.svg)
 
-## :books: 资料简介
+## 📚 资料简介
 
 "信息"是大学中十分重要的资源，打破“信息差”对于系统理解课程知识，高效梳理知识框架，精准把握核心要点有着重要意义。本科是“**打基础、宽视野**”的关键阶段，扎实的基础知识不仅能让我们对相关学科有正确的常识认知，还能让我们熟练掌握日后科研、工作所需工具。
 
@@ -15,19 +15,15 @@
 3. 部分科目的**课程论文**和**课后作业**
 4. 部分科目的**学习心得与体会**
 
-
-
-## :warning: 重要声明
+## ⚠️ 重要声明
 
 1. 本项目中所上传资料均已和作者取得联系并经过授权，如有侵权请立即[**联系我们**](KarryRenKai@outlook.com)进行删除。分享的资料署名权由分享者所有，个人笔记的版权归属于各自作者！本仓库的资源默认采用[**知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议**](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)进行许可，有特别说明的除外。
 2. 本项目中所有资料均列明资料撰写时间，内容仅供参考，请大家**严格按照当年老师的要求进行泛化学习**，切忌生搬硬套甚至直接抄袭！
 3. 本项目仅供学习交流帮助大家学习备考，资源来自于用户和互联网，其正确性无法完全保证。如有任何困惑或意见可以直接[**联系我们**](KarryRenKai@outlook.com)进行交流，也可以[**发送 issues**](https://github.com/KarryRen/SCU-CS-Class-Materials/issues) 进行交流，我们将会在第一时间做出解答并进行更正 ！
 4. 如果您乐于将自己的资料**分享到本平台**中或者想要**提供任何建议**，我们**十分欢迎并诚挚地邀请您加入本团队**！
-5. 本仓库**为非营利、永久免费**的开源项目，同学们可以自由取阅分享。希望对你们有所帮助 :hearts:，如果喜欢希望能给个 Star :star2: 哦 ～ 十分感谢大家的支持！
+5. 本仓库**为非营利、永久免费**的开源项目，同学们可以自由取阅分享。希望对你们有所帮助 ♥️，如果喜欢希望能给个 Star 🌟 哦 ～ 十分感谢大家的支持！
 
-
-
-## :bow: 资料提供者
+## 🙇 资料提供者
 
 1. [**Karry Ren**](KarryRenKai@outlook.com)
 2. [**Orderheart**](https://github.com/Orderheart)
@@ -39,31 +35,23 @@
 8. [**Narrao**](https://github.com/Narrao)
 9. [Frank Fu]()
 10. [J.W. Zhang]()
+11. [**novelyear**](https://github.com/novelyear)
 
+## 🚀 如何贡献
 
+一个丰富学科资源分享平台需要同学们一起建设，热烈欢迎您成为仓库的 Contributor 🙇 ！为了方便您迅速上手贡献资源，我们编写了一份[**资源贡献手册**](./CONTRIBUTION.md)，供您参考。当然如果您在阅读和使用手册过程中遇到任何问题，可以直接[**联系我们**](KarryRenKai@outlook.com)进行交流，或[**发送 issues**](https://github.com/KarryRen/SCU-CS-Class-Materials/issues) 进行交流，我们将会在第一时间做出解答！
 
-## :rocket: 如何贡献
-
-一个丰富学科资源分享平台需要同学们一起建设，热烈欢迎您成为仓库的 Contributor :bow: ！为了方便您迅速上手贡献资源，我们编写了一份[**资源贡献手册**](./CONTRIBUTION.md)，供您参考。当然如果您在阅读和使用手册过程中遇到任何问题，可以直接[**联系我们**](KarryRenKai@outlook.com)进行交流，或[**发送 issues**](https://github.com/KarryRen/SCU-CS-Class-Materials/issues) 进行交流，我们将会在第一时间做出解答！
-
-
-
-## :mag: 使用指南
+## 🔍 使用指南
 
 由于本项目内容较多，逐个翻找目标文件十分繁琐，因此我们建议大家按照如下两步使用本项目：
 
 - **Step 1.** 先在如下的资料目录中**查找**（快捷键 `Ctrl + F` 输入科目名称）是否有您需要的科目。注意：课程名称均按照[**四川大学教务系统**](http://zhjw.scu.edu.cn)课表系统内的官方命名，您可以登录进行查看。另外，为方便大家查找，我们也将一些耳熟能祥的**课程简称**加入文件夹命名中。
-
 - **Step 2.** 如果找到了您所需要的文件，那么就可以进行资料的下载（如果网络比较卡顿，我们建议您[**连接四川大学校园网**](http://192.168.2.135)）：
-  
+
   - 可以直接对单个文件进行下载，进入到您需要的文件网页界面，然后点击右上方的下载 ⏬ 按钮（Donwload raw file）
-  
   - 可以直接下载整个项目，点击本[**链接**](https://github.com/KarryRen/SCU-CS-Class-Materials/archive/refs/heads/main.zip)进行下载（我们推荐您直接下载本项目所有内容，比较简单方便）
 
-
-
-
-## :memo: 资料目录
+## 📝 资料目录
 
 本资料目录**共有 4 级**，分别是：
 
@@ -72,7 +60,7 @@
 3. **科目**（（必修/选修）\_教务系统官方课程名\_常见简称）
 4. **资料文件**（提供者\_上课年份\_分数）（由于部分贡献者不想暴露个人分数，所以用 xx 替代）
 
-**详细目录如下** 
+**详细目录如下**
 
 ```python
 SCU-CS-Class-Materials/
@@ -99,7 +87,7 @@ SCU-CS-Class-Materials/
             ├── Orderheart_2022_xx
         ├── （选修）UNIX操作系统_UNIX
             ├── Kimokcheon_2021_94
-            
+  
     └── 下学期
         ├── （必修）微积分（Ⅰ）-2_微积分下
             ├── Ayin_2023_xx
@@ -146,7 +134,7 @@ SCU-CS-Class-Materials/
             ├── Narrao_2023_93
         ├── （必修）数据结构与算法分析课程设计_数据结构算法实验
             ├── Kimokcheon_2023_93
-        ├── （必修）离散数学_离散	
+        ├── （必修）离散数学_离散
             ├── Karry_2021_96
             ├── Kimokcheon_2022_96
             ├── Narrao_2023_97
@@ -197,8 +185,9 @@ SCU-CS-Class-Materials/
         ├── （必修）毛泽东思想和中国特色社会主义理论体系概论_毛概（含 "暑期实践报告"）
             ├── Karry_2022_93
             ├── Narrao_2024_xx
-        ├── （必修）习近平新时代中国特色社会主义思想概论_习概
-            ├── Narrao_2024_94
+        ├── （必修）习近平新时代中国特色社会主义思想概论
+            ├── Karry_2022_95
+            ├── novelyear_2024_93
         ├── （必修）计量经济学_计量
             ├── Karry_2022_96（含五次 "课堂作业"）
             ├── Frank_2022_95（含五次 "课堂作业"）
@@ -218,9 +207,6 @@ SCU-CS-Class-Materials/
     ├── 上学期
         ├── （必修）金融计量学
             ├── Karry_2022_94（含 "课堂作业" updating）
-        ├── （必修）习近平新时代中国特色社会主义思想概论
-            ├── Karry_2022_95
-            ├── MountMist_2024_90
         ├── （必修）政治经济学
             ├── Karry_2022_95
         ├── （必修）数据库系统原理
@@ -240,7 +226,7 @@ SCU-CS-Class-Materials/
         ├── （必修）计算机网络课程设计_计网实验
             ├── Kimokcheon_2023_99
         ├── （必修）数据库系统原理_数据库
-            ├── Karry_2022_96（含有 "图书管理系统" 源码和文档 updating 🔥）    
+            ├── Karry_2022_96（含有 "图书管理系统" 源码和文档 updating 🔥）  
     └── 下学期 （Grade4）
         ├── （必修）编译原理
             ├── Karry_2023_91
@@ -260,21 +246,16 @@ SCU-CS-Class-Materials/
             └── 任凯-计科之星PPT.pdf
 ```
 
-
-
-## :recycle: 错误更正
+## ♻️ 错误更正
 
 1. 微机接口[**笔记**](https://github.com/KarryRen/SCU-CS-Class-Materials/blob/main/Grade2/下学期/（必修）微机系统与接口技术_微机接口/Karry_2022_97/复习笔记.pdf)中：4.2 什么是端口？ 端口应该是指各个 IO 接口寄存器的 IO 地址。
-1. 在部分 `.md` 文件中由于路径问题，图片无法显示，我们都相应补充了 `.pdf` 文件，仍保留 `.md` 文件是为了留下参考格式。
+2. 在部分 `.md` 文件中由于路径问题，图片无法显示，我们都相应补充了 `.pdf` 文件，仍保留 `.md` 文件是为了留下参考格式。
 
-
-
-## :fire: 更新说明
+## 🔥 更新说明
 
 1. 我们一般在考试结束后进行集中整理更新，如果有些资料大家想要及时获得，可以直接[**联系我们**](KarryRenKai@outlook.com)
-2. 在目录中带有 **updating :fire:** 的源码工程团队仍在做调整，将尽快发出～
+2. 在目录中带有 **updating 🔥** 的源码工程团队仍在做调整，将尽快发出～
 
+## 🌟 Star History
 
-
-## :star2: Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=KarryRen/SCU-CS-Class-Materials&type=Date)](https://star-history.com/#KarryRen/SCU-CS-Class-Materials&Date)
