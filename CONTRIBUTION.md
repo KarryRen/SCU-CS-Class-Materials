@@ -1,7 +1,7 @@
 # 👀前言
-✅**本手册参考[uestc资源贡献手册](https://github.com/Xovee/uestc-course/blob/main/assets/%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97.md)编写，已征得原作者同意，并向原作者[Xovee](https://github.com/Xovee)表示感谢❤️❤️❤️**。
+✅ **本手册参考 [uestc 资源贡献手册](https://github.com/Xovee/uestc-course/blob/main/assets/%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97.md)编写，已征得原作者同意，并向原作者 [Xovee](https://github.com/Xovee)表示感谢❤️❤️❤️**。
 
-感谢您想要为仓库做出贡献的无私心愿🙏，仓库的活力需要不断涌入的新鲜血液来维持，资源的时效性需要后继的贡献者来维护。仓库资源能由简至臻，依赖于每位贡献者的无私贡献！ 🫶🫶
+感谢您想要为仓库做出贡献的无私心愿 🙏，仓库的活力需要不断涌入的新鲜血液来维持，资源的时效性需要后继的贡献者来维护。仓库资源能由简至臻，依赖于每位贡献者的无私贡献！ 🫶🫶
 
 # 手册目录
 - [前言](#前言)
@@ -80,7 +80,7 @@
 
 复习资料|历年试题|作业
 ---|---|---
-不作规范，由贡献者自行命名。|`[考试时间]-[考试类型]-试卷`<br>`[考试时间]-[考试类型]-答案`<br>2019年春-期末考试-试卷<br>2018年秋-期中考试-答案|`[布置时间]-[作业类型]`<br>2019年春-课后作业<br>2018年秋-课堂作业-1<br>2018年秋-课堂作业-2|
+不作规范，由贡献者自行命名。|`[考试时间]-[考试类型]-试卷`<br>`[考试时间]-[考试类型]-答案`<br>2019年春-期末考试-试卷<br>2018年秋-期中考试-答案|`[布置时间]-[作业类型]`<br>2019年春-课后作业<br>2018年秋-课堂作业-1<br>2018年秋-课堂作业-2
 
 ## 文件结构规范
 
@@ -142,10 +142,10 @@ Issue 的使用方法（需要登录 GitHub 账号）：
 
 步骤|示例
 ---|---
-我们首先要做的是 Fork 仓库，点击仓库首页右上角的 `Fork` 按钮。进入下一页面后点击`Create fork`即可。|![click fork](/img/click_fork.png)
+我们首先要做的是 Fork 仓库，点击仓库首页右上角的 `Fork` 按钮。进入下一页面后点击`Create fork`即可。|![click fork](./img/click_fork.png)
 之后会进入一个同名仓库，但所有者变成了您<br>在仓库名下方会有`forked from KarryRen/SCU-CS-Class-Materials`|<img src='./img/forked.png' height=200px>
-然后就可以对您 Fork 的仓库做各种改动，<br>例如修改 CONTRIBUTION.md 文件；修改完成后，<br>点击<img src='./img/commit_change.png' height=40px>按钮提交 `Commit`。|![图有点糊将就看](/img/play1.gif)
-您也可以上传文件或者文件夹，<br>进入您想要上传资源的目录，<br>点击右上角的 `Add file`，再点击`Upload files` 按钮，<br>选择或者拖动文件/文件夹到网页中间的框内，然后提交 `Commit`。<br>例如上传`大四上`资料，注意示例中图方便并未新增贡献人文件夹|![update](/img/load.gif)
+然后就可以对您 Fork 的仓库做各种改动，<br>例如修改 CONTRIBUTION.md 文件；修改完成后，<br>点击<img src='./img/commit_change.png' height=40px>按钮提交 `Commit`。|![图有点糊将就看](./img/play1.gif)
+您也可以上传文件或者文件夹，<br>进入您想要上传资源的目录，<br>点击右上角的 `Add file`，再点击`Upload files` 按钮，<br>选择或者拖动文件/文件夹到网页中间的框内，然后提交 `Commit`。<br>例如上传`大四上`资料，注意示例中图方便并未新增贡献人文件夹|![update](./img/load.gif)
 假如您对 Fork 的仓库提交了18次 `Commit`，<br>`This branch is 18 commits ahead of Xovee:master`<br>表示当前分支比源仓库领先 `18` 个提交。|<img src='./img/ahead.png'>
 回到仓库首页，点击状态条右侧的<br> `Contribute` 按钮，再点击`Open pull request` 按钮，即可创建pr| <img src='./img/pr.png' height=200px>
 
