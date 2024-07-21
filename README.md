@@ -2,8 +2,6 @@
 
 [![Stars](https://img.shields.io/github/stars/KarryRen/SCU-CS-Class-Materials.svg)](https://github.com/KarryRen/SCU-CS-Class-Materials/stargazers) [![Forks](https://img.shields.io/github/forks/KarryRen/SCU-CS-Class-Materials.svg)](https://github.com/KarryRen/SCU-CS-Class-Materials/network/members) ![GitHub repo size](https://img.shields.io/github/repo-size/KarryRen/SCU-CS-Class-Materials.svg) [![Issues](https://img.shields.io/github/issues/KarryRen/SCU-CS-Class-Materials.svg)](https://github.com/KarryRen/SCU-CS-Class-Materials/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/KarryRen/SCU-CS-Class-Materials.svg)](https://github.com/KarryRen/SCU-CS-Class-Materials/pulls)
 
-
-
 ## 📚 资料简介
 
 "信息"是大学中十分重要的资源，打破“信息差”对于系统理解课程知识，高效梳理知识框架，精准把握核心要点有着重要意义。本科是“**打基础、宽视野**”的关键阶段，扎实的基础知识不仅能让我们对相关学科有正确的常识性认知，还能让我们熟练掌握日后科研、工作所需的基础工具。
@@ -21,7 +19,7 @@
 
 ## ⚠️ 重要声明
 
-1. 本项目中所上传资料均已和作者取得联系并经过授权，如有侵权请立即[**联系我们**](KarryRenKai@outlook.com)进行删除。分享的资料署名权由分享者所有，个人笔记的版权归属于各自作者！本仓库的资源默认采用[**知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议**](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)进行许可，有特别说明的除外。
+1. 本项目中所上传资料均已和作者取得联系并经过授权，如有侵权请立即[**联系我们**](KarryRenKai@outlook.com)进行删除。分享的资料署名权由分享者所有，个人笔记的版权归属于各自作者！本仓库的资料默认采用[**知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议**](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)进行许可，有特别说明的除外。
 2. 本项目采用较为中心化的方式进行**持续更新** 🔥 每学期期末考试结束后为项目更新的高峰期 ！所提供资料带有较强的时间特征，且均列明资料撰写及修读课程的时间，**内容仅供参考，请大家严格按照当年老师的要求进行泛化学习，切忌生搬硬套甚至直接抄袭**！
 3. 本项目的初衷是互相交流，帮助大家尽可能高效全面地学习、备考。资源来自于往届学院学生及互联网，其正确性无法完全保证。如有任何困惑或意见可以直接[**联系我们**](KarryRenKai@outlook.com)进行交流，也可以[**发送 issues**](https://github.com/KarryRen/SCU-CS-Class-Materials/issues/new/choose) 进行交流，我们将会在第一时间做出解答并进行更正 ！
 4. 如果您乐于将自己的资料**分享到本平台**中或者想要**提供任何建议**，我们**十分欢迎并诚挚地邀请您加入本团队**！贡献的具体流程[**如下**](https://github.com/KarryRen/SCU-CS-Class-Materials?tab=readme-ov-file#-如何贡献)。
@@ -29,42 +27,34 @@
 
 
 
-## 🙇 资料提供者
-
-[**Karry Ren**](KarryRenKai@outlook.com)；[**Orderheart**](https://github.com/Orderheart)；[**Ayin**](https://github.com/Ayin-cc)；[**Charles-cookie**](https://github.com/Charles-cookie)；[**Kimokcheon**](https://github.com/Kimokcheon)；[**StreLitziaYc**](https://github.com/StreLitziaYc)；[**MountMist**](https://github.com/MountMist)；[**Narrao**](https://github.com/Narrao)；[Frank Fu]()；[J.W. Zhang]()
-
-[**novelyear**](https://github.com/novelyear)；[**jeanhua**](https://github.com/jeanhua)；[**57UU**](https://github.com/57UU)
-
-
-
-## 🚀 如何贡献
-
-一个丰富学科资源分享平台需要同学们一起建设，热烈欢迎您成为仓库的 Contributor 🙇 ！为了方便您迅速上手贡献资源，我们编写了一份[**资源贡献手册**](./CONTRIBUTION.md)，供您参考。当然如果您在阅读和使用手册过程中遇到任何问题，可以直接[**联系我们**](KarryRenKai@outlook.com)进行交流，或[**发送 issues**](https://github.com/KarryRen/SCU-CS-Class-Materials/issues) 进行交流，我们将会在第一时间做出解答！
-
-
-
 ## 🔍 使用指南
 
-由于本项目内容较多，逐个翻找目标文件十分繁琐，因此我们建议大家按照如下两步使用本项目：
+由于本项目内容较多，逐个翻找查询目标文件十分繁琐、低效，因此我们建议大家按照如下两步进行使用：
 
-- **Step 1.** 先在如下的资料目录中**查找**（快捷键 `Ctrl + F` 输入科目名称）是否有您需要的科目。注意：课程名称均按照[**四川大学教务系统**](http://zhjw.scu.edu.cn)课表系统内的官方命名，您可以登录进行查看。另外，为方便大家查找，我们也将一些耳熟能祥的**课程简称**加入文件夹命名中。
-- **Step 2.** 如果找到了您所需要的文件，那么就可以进行资料的下载（如果网络比较卡顿，我们建议您[**连接四川大学校园网**](http://192.168.2.135)）：
+- **Step 1.** 在如下的资料目录中**查找**（快捷键 `Ctrl + F` 输入科目名称或课程简称）是否含有您需要的科目。请注意：项目中的课程名称均按照[**四川大学教务系统**](http://zhjw.scu.edu.cn)内**课表系统中的官方命名**，您可以登录进行查看。另外，为方便大家查找，我们也将一些**耳熟能祥的课程简称**（如 高级语言程序设计-Ⅱ 简称为 C++ 等）加入文件夹命名中。
+- **Step 2.** 如果**查找到了您所需要的课程文件夹**，那么就可以进行资料的下载（如果网络比较卡顿，我们建议您[**连接四川大学校园网**](http://192.168.2.135)）：
+  - 直接对单个文件进行下载，进入到您需要的文件网页界面，然后点击右上方的下载 ⏬ 按钮（Donwload raw file）
+  - 直接下载整个项目，点击本[**链接**](https://github.com/KarryRen/SCU-CS-Class-Materials/archive/refs/heads/main.zip)进行下载（我们推荐您直接下载本项目所有内容，比较简单方便）
+  - 通过 Git 工具将整个项目 Clone 到本地：`git clone https://github.com/KarryRen/SCU-CS-Class-Materials.git`
+- **Others.** 在整个使用工程中，您可能会遇到如下问题：
+  - **没有查找到您所需要的课程文件夹，该怎么办** ？这是因为我们团队目前还没有对该课程进行维护，您可以将自己需要的课程内容通过[**发送 issues**](https://github.com/KarryRen/SCU-CS-Class-Materials/issues/new/choose) 提出，我们将尽可能地收集、上传并维护该课程资料供您查找使用。
+  - **对单个文件进行下载失败，该怎么办** ？当您进行到 Step 2. 并已经连接校园网后，想要直接对单个文件进行下载，发现点击下载按钮后没有反应，该问题产生的核心原因是网络问题，推荐您多尝试几次，或者更换网络。
+  - **点击链接下载项目，或者 Git Clone 项目总是失败，该怎么办** ？当您进行到 Step 2. 并已经连接校园网后，想要直接下载或者 Clone 整个项目到本地：但是发现下载不成功，或者 Clone 到一半报错而无法完成，这也是因为网络问题，推荐您多尝试几次，或者更换网络。
+  - 如果您在使用过程中还遇到了其他问题可以随时通过[**发送 issues**](https://github.com/KarryRen/SCU-CS-Class-Materials/issues/new/choose) 提出，我们会尽可能在第一时间给予回应和参考解决方法。
 
-  - 可以直接对单个文件进行下载，进入到您需要的文件网页界面，然后点击右上方的下载 ⏬ 按钮（Donwload raw file）
-  - 可以直接下载整个项目，点击本[**链接**](https://github.com/KarryRen/SCU-CS-Class-Materials/archive/refs/heads/main.zip)进行下载（我们推荐您直接下载本项目所有内容，比较简单方便）
 
 
 
 ## 📝 资料目录
 
-本资料目录**共有 4 级**，分别是：
+本资料具体目录如下，理解目录架构是使用本项目的关键。本资料仓库的目录**共有 4 级**，分别是：
 
 1. **年级**（大一、大二、大三、大四）
 2. **学期**（上学期、下学期）
-3. **科目**（（必修/选修）\_教务系统官方课程名\_常见简称）
-4. **资料文件**（提供者\_上课年份\_分数）（由于部分贡献者不想暴露个人分数，所以用 xx 替代）
+3. **科目**（（必修/选修）\_教务系统官方课程名\_耳熟能详的课程简称）
+4. **资料文件**（提供者\_上课年份\_分数）（请注意：部分贡献者不想暴露个人分数，所以用 `xx` 替代）
 
-**详细目录如下**
+可以发现：每一学期下都有一个 `README.md` 文件，该文件是对一学期课程的资料总览，包括 📖 **主要课程**和 🔈 **相关说明**。
 
 ```python
 SCU-CS-Class-Materials/
@@ -251,6 +241,30 @@ SCU-CS-Class-Materials/
         └── 计科之星
             └── 任凯-计科之星PPT.pdf
 ```
+
+
+
+## 🙇 [资料提供者](https://github.com/KarryRen/SCU-CS-Class-Materials/graphs/contributors)
+
+1. [**Karry Ren**](KarryRenKai@outlook.com)
+2. [**Orderheart**](https://github.com/Orderheart)
+3. [**Ayin**](https://github.com/Ayin-cc)
+4. [**Charles-cookie**](https://github.com/Charles-cookie)
+5. [**Kimokcheon**](https://github.com/Kimokcheon)
+6. [**StreLitziaYc**](https://github.com/StreLitziaYc)
+7. [**MountMist**](https://github.com/MountMist)
+8. [**Narrao**](https://github.com/Narrao)
+9. [**novelyear**](https://github.com/novelyear)
+10. [**jeanhua**](https://github.com/jeanhua)
+11. [**57UU**](https://github.com/57UU)
+12. [Frank Fu]()
+13. [J.W. Zhang]()
+
+
+
+## 🚀 如何贡献
+
+一个丰富学科资源分享平台需要同学们一起建设，热烈欢迎您成为仓库的 Contributor 🙇 ！为了方便您迅速上手贡献资源，我们编写了一份[**资源贡献手册**](./CONTRIBUTION.md)，供您参考。当然如果您在阅读和使用手册过程中遇到任何问题，可以直接[**联系我们**](KarryRenKai@outlook.com)进行交流，或[**发送 issues**](https://github.com/KarryRen/SCU-CS-Class-Materials/issues) 进行交流，我们将会在第一时间做出解答！
 
 
 
