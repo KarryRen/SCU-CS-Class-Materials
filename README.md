@@ -275,7 +275,7 @@ SCU-CS-Class-Materials/
 
 ## 🚀 如何贡献
 
-一个丰富学科资源分享平台需要同学们一起建设，热烈欢迎您成为仓库的 Contributor 🙇 ！为了方便您迅速上手贡献资源，我们编写了一份[**资源贡献手册**](./CONTRIBUTION.md)，供您参考。当然如果您在阅读和使用手册过程中遇到任何问题，可以直接[**联系我们**](KarryRenKai@outlook.com)进行交流，或[**发送 issues**](https://github.com/KarryRen/SCU-CS-Class-Materials/issues) 进行交流，我们将会在第一时间做出解答！
+一个丰富学科资源分享平台需要同学们一起建设，热烈欢迎您成为仓库的 **Contributor** 🙇 ！为了方便您迅速上手贡献资源，我们编写了一份[**资源贡献手册**](.assets/CONTRIBUTION.md)，供您参考。当然如果您在阅读和使用手册过程中遇到任何问题，可以直接[**联系我们**](KarryRenKai@outlook.com)进行交流，或[**发送 issues**](https://github.com/KarryRen/SCU-CS-Class-Materials/issues/new/choose) 进行交流，我们将会在第一时间做出解答！
 
 
 
