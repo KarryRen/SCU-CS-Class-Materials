@@ -242,6 +242,7 @@ SCU-CS-Class-Materials/
             ├── Karry_2023_98 # 含所有 "实验报告" 及 C++ 源码 updating 🔥
         ├── （必修）计算机系统结构
             ├── Karry_2023_97
+            ├── Kimokcheon_2024_90
         ├── （必修）证券投资学
             ├── Karry_2023_94
         ├── （必修）金融风险管理
