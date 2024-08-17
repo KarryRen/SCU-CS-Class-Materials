@@ -72,8 +72,10 @@ SCU-CS-Class-Materials/
             ├── Ayin_2022_xx
             ├── Narrao_2022_91
             ├── Orderheart_2022_xx
+            ├── Kimokcheon_2021_xx
         ├── （必修）数字逻辑实验_数逻实验
             ├── MountMist_2022_94
+            ├── Kimokcheon_2021_xx
         ├── （必修）高级程序语言设计-Ⅰ_C语言
             ├── MountMist_2022_90
             ├── Orderheart_2022_xx
