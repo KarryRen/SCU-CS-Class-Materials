@@ -202,6 +202,7 @@ SCU-CS-Class-Materials/
             ├── Kimokcheon_2022_90
         ├── （选修）数据挖掘导引
             ├── MountMist_2024_97
+            ├── Kimokcheon_2023_94
         ├── （选修）模式识别引论_模式识别
             ├── Kimokcheon_2021_91
         ├── （选修）算法设计
