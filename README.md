@@ -72,8 +72,10 @@ SCU-CS-Class-Materials/
             ├── Ayin_2022_xx
             ├── Narrao_2022_91
             ├── Orderheart_2022_xx
+            ├── Kimokcheon_2021_xx
         ├── （必修）数字逻辑实验_数逻实验
             ├── MountMist_2022_94
+            ├── Kimokcheon_2021_xx
         ├── （必修）高级程序语言设计-Ⅰ_C语言
             ├── MountMist_2022_90
             ├── Orderheart_2022_xx
@@ -200,6 +202,7 @@ SCU-CS-Class-Materials/
             ├── Kimokcheon_2022_90
         ├── （选修）数据挖掘导引
             ├── MountMist_2024_97
+            ├── Kimokcheon_2023_94
         ├── （选修）模式识别引论_模式识别
             ├── Kimokcheon_2021_91
         ├── （选修）算法设计
