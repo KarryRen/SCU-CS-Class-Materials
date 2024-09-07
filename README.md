@@ -1,5 +1,7 @@
 # 四川大学计算机学院本科课程资料（更新中）
 
+<img src="./assets/imgs/Repo-Logo.png" alt="Repo-Logo " style="zoom:50%;" />
+
 [![Stars](https://img.shields.io/github/stars/KarryRen/SCU-CS-Class-Materials.svg)](https://github.com/KarryRen/SCU-CS-Class-Materials/stargazers) [![Forks](https://img.shields.io/github/forks/KarryRen/SCU-CS-Class-Materials.svg)](https://github.com/KarryRen/SCU-CS-Class-Materials/network/members) ![GitHub repo size](https://img.shields.io/github/repo-size/KarryRen/SCU-CS-Class-Materials.svg) [![Issues](https://img.shields.io/github/issues/KarryRen/SCU-CS-Class-Materials.svg)](https://github.com/KarryRen/SCU-CS-Class-Materials/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/KarryRen/SCU-CS-Class-Materials.svg)](https://github.com/KarryRen/SCU-CS-Class-Materials/pulls)
 
 ## 📚 资料简介
@@ -272,8 +274,9 @@ SCU-CS-Class-Materials/
 9. [**novelyear**](https://github.com/novelyear)
 10. [**jeanhua**](https://github.com/jeanhua)
 11. [**57UU**](https://github.com/57UU)
-12. [Frank Fu]()
-13. [J.W. Zhang]()
+12. [**jeanhua**](https://github.com/jeanhua)
+13. [Frank Fu]()
+14. [J.W. Zhang]()
 
 
 
