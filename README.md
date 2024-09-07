@@ -274,7 +274,6 @@ SCU-CS-Class-Materials/
 9. [**novelyear**](https://github.com/novelyear)
 10. [**jeanhua**](https://github.com/jeanhua)
 11. [**57UU**](https://github.com/57UU)
-12. [**jeanhua**](https://github.com/jeanhua)
 13. [Frank Fu]()
 14. [J.W. Zhang]()
 
