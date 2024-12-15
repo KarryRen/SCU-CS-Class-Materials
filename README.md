@@ -81,6 +81,7 @@ SCU-CS-Class-Materials/
         ├── （必修）高级程序语言设计-Ⅰ_C语言
             ├── MountMist_2022_90
             ├── Orderheart_2022_xx
+            ├── jeanhua_2023_93 #大一上C语言练习合集
         ├── （选修）UNIX操作系统_UNIX
             ├── Kimokcheon_2021_94
         ├── （选修）计算机导论
