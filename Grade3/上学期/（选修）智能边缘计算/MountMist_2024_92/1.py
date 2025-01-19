@@ -1,0 +1,15 @@
+import time
+# f = open("/sys/class/gpio/export", "w")
+# f.write("504")
+# f.close()
+f = open("/sys/class/gpio/gpio504/direction", "w")
+f.write("out")
+f.close()
+f = open("/sys/class/gpio/gpio504/value", "w")
+while True:
+    f.write("1")
+    f.flush()
+    time.sleep(1)
+    f.write("0")
+    f.flush()
+    time.sleep(0.5)
