@@ -32,5 +32,6 @@
 2. 宏观经济学推荐 [**B 站视频**](https://www.bilibili.com/video/BV1GC4y117cm/?spm_id_from=333.337.search-card.all.click&vd_source=66823c3216b82637e31f708a5e627a0b)
 3. 数据结构与算法分析(全英文)是拔尖班必修
 4. 学术研讨-I：论文研读（双语）是拔尖班必修
+5. 人工智能引论是人工智能专业必修
 
 
