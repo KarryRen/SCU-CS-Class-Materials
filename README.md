@@ -65,14 +65,14 @@ SCU-CS-Class-Materials/
         ├── （必修）大学生心理健康_心理健康
             ├── Orderheart_2022_xx
         ├── （必修）微积分（Ⅰ）-1_微积分上
-            ├── Narrao_2022_xx
+            ├── Zitann_2022_xx
             ├── Orderheart_2022_xx
         ├── （必修）思想道德修养与法律基础_思修
-            ├── Narrao_2022_95
+            ├── Zitann_2022_95
             ├── Orderheart_2022_xx
         ├── （必修）数字逻辑_数逻
             ├── Ayin_2022_xx
-            ├── Narrao_2022_91
+            ├── Zitann_2022_91
             ├── Orderheart_2022_xx
             ├── Kimokcheon_2021_xx
         ├── （必修）数字逻辑实验_数逻实验
@@ -108,10 +108,10 @@ SCU-CS-Class-Materials/
             ├── Ayin_2023_xx
             ├── Orderheart_2023_xx
             ├── Charles_2022_xx
-            ├── Narrao_2023_94
+            ├── Zitann_2023_94
         ├── （必修）编程实战
             ├── Karry_2021_94# 含项目 "简单音乐播放器" 源码
-            ├── Narrao_2023_96
+            ├── Zitann_2023_96
         ├── （必修）高级语言程序设计-Ⅱ_C++
             ├── Karry_2021_99# 含课程大作业 "简略版 Steam 游戏 TripleTown" 源码
             ├── MountMist_2023_95 # 含课程大作业 "深度搜索寻路"
@@ -123,7 +123,7 @@ SCU-CS-Class-Materials/
     ├── 上学期
         ├── （必修）大学物理（理工）Ⅲ-2_大物
             ├── Karry_2021_94
-            ├── Narrao_2023_94
+            ├── Zitann_2023_94
         ├── （必修）大学物理实验（理工）Ⅲ-2_大物实验
             ├── Karry_2021_95 # 含扫描版 "3 次实验报告合集"
         ├── （必修）宏观经济学_宏观
@@ -131,23 +131,23 @@ SCU-CS-Class-Materials/
         ├── （必修）数据结构与算法分析_数据结构算法
             ├── Karry_2021_95
             ├── MountMist_2023_89  
-            ├── Narrao_2023_93
+            ├── Zitann_2023_93
         ├── （必修）数据结构与算法分析(全英文)_数据结构算法(全英文)
             ├── Kimokcheon_2022_90
         ├── （必修）数据结构与算法分析课程设计_数据结构算法实验
             ├── Kimokcheon_2023_93
         ├── （必修） 概率统计（理工）_概统
             ├── Karry_2021_97
-            ├── Narrao_2023_94
+            ├── Zitann_2023_94
         ├── （必修）离散数学_离散
             ├── Karry_2021_96
             ├── Kimokcheon_2022_96
-            ├── Narrao_2023_97
+            ├── Zitann_2023_97
         ├── （必修）统计学
             ├── Karry_2021_98
         ├── （必修）计算机组成原理_计组
             ├── Karry_2021_97
-            ├── Narrao_2023_100
+            ├── Zitann_2023_100
         ├── （必修）计算机组成原理实验_计组实验
             ├── Kimokcheon_2022_100
             ├── MountMist_2023_95
@@ -158,7 +158,7 @@ SCU-CS-Class-Materials/
         ├── （必修） 马克思主义基本原理概论_马原
             ├── Karry_2021_95
             ├── MountMist_2023_98
-            ├── Narrao_2023_95
+            ├── Zitann_2023_95
         ├── （选修）JAVA程序设计_JAVA
             ├── Karry_2021_99 # 含课程设计 "飞机大战" 源码和报告
         ├── （选修）多模态学习导论
@@ -173,7 +173,7 @@ SCU-CS-Class-Materials/
             ├── Charles_2024_xx
             ├── Kimokcheon_2024_91
             ├── MountMist_2024_87
-            ├── Narrao_2024_95
+            ├── Zitann_2024_95
         ├── （必修）微机系统与接口技术实验_微机接口实验
             ├── Karry_2022_95 # 含所有 "实验报告"
             ├── Frank_2022_95 # 含所有 "实验报告"
@@ -186,14 +186,14 @@ SCU-CS-Class-Materials/
             ├── Ayin_2024_xx
             ├── Kimokcheon_2023_99
             ├── MountMist_2024_85 # 仅含"思维导图"
-            ├── Narrao_2024_93
+            ├── Zitann_2024_93
         ├── （必修）操作系统课程设计_操作系统实验
             ├── Karry_2022_95 # 含所有 "实验报告"
             ├── Frank_2022_96 # 含所有 "实验报告"
             ├── MountMist_2024_92
         ├── （必修）毛泽东思想和中国特色社会主义理论体系概论_毛概
             ├── Karry_2022_93 # 含 "暑期实践报告"
-            ├── Narrao_2024_xx
+            ├── Zitann_2024_xx
         ├── （必修）计算理论（全英文）_计算理论
             ├── Kimokcheon_2023_94
         ├── （必修）计量经济学_计量
@@ -221,7 +221,7 @@ SCU-CS-Class-Materials/
             ├── Karry_2022_95
             ├── novelyear_2024_93
             ├── MountMist_2024_90
-            ├── Narrao_2024_94
+            ├── Zitann_2024_94
         ├── （必修）政治经济学
             ├── Karry_2022_95
         ├── （必修）数据库系统原理_数据库
@@ -273,7 +273,7 @@ SCU-CS-Class-Materials/
 5. [**Kimokcheon**](https://github.com/Kimokcheon)
 6. [**StreLitziaYc**](https://github.com/StreLitziaYc)
 7. [**MountMist**](https://github.com/MountMist)
-8. [**Narrao**](https://github.com/Narrao)
+8. [**Zitann**](https://github.com/Zitann)
 9. [**novelyear**](https://github.com/novelyear)
 10. [**jeanhua**](https://github.com/jeanhua)
 11. [**57UU**](https://github.com/57UU)
