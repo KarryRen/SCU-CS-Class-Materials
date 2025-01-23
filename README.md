@@ -238,6 +238,7 @@ SCU-CS-Class-Materials/
         ├── （必修）计算机网络（双语）_计网
             ├── Karry_2022_91
             ├── Kimokcheon_2023_94
+            ├── Zitann_2024_xx
         ├── （必修）计算机网络课程设计_计网实验
             ├── Kimokcheon_2023_99
         ├── （必修）金融计量学
