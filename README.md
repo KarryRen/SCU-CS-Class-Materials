@@ -145,6 +145,7 @@ SCU-CS-Class-Materials/
         ├── （必修）离散数学_离散
             ├── Karry_2021_96
             ├── Kimokcheon_2022_96
+            ├── Zitann_2023_97
             ├── Hannah_2024
         ├── （必修）统计学
             ├── Karry_2021_98
