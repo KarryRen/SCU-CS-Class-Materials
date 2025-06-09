@@ -139,6 +139,7 @@ SCU-CS-Class-Materials/
         ├── （必修）数据结构与算法分析课程设计_数据结构算法实验
             ├── Kimokcheon_2023_93
             ├── 57UU_2024_98
+            ├── Jesse_2024_93
         ├── （必修） 概率统计（理工）_概统
             ├── Karry_2021_97
             ├── Zitann_2023_94
@@ -170,6 +171,8 @@ SCU-CS-Class-Materials/
             ├── Kimokcheon_2022_94
         ├── （选修）人工智能引论
             ├── 57UU_2024_98 # 含小组作业：半监督模型训练、技术分享
+        ├── （选修）数据科学引论
+            ├── Jesse_2023_92
         └── README.md 
     └── 下学期
         ├── （必修）公司金融
@@ -215,6 +218,11 @@ SCU-CS-Class-Materials/
             ├── Kimokcheon_2023_94
         ├── （选修）模式识别引论_模式识别
             ├── Kimokcheon_2021_91
+        ├── （选修）多模态学习导论_多模态
+            ├── Kimokcheon_2022_94
+            ├── Jesse_2025_xx
+        ├── （选修）智能决策
+            ├── Jesse_2024_93
         ├── （选修）算法设计
             ├── StreLitziaYc_2024_90
         ├── （选修）网络工程
@@ -296,8 +304,9 @@ SCU-CS-Class-Materials/
 9. [**novelyear**](https://github.com/novelyear)
 10. [**jeanhua**](https://github.com/jeanhua)
 11. [**57UU**](https://github.com/57UU)
-13. [Frank Fu]()
-14. [J.W. Zhang]()
+12. [Frank Fu]()
+13. [J.W. Zhang]()
+14. [**Jesse**](https://github.com/Jiaxi-Huang)
 
 
 
