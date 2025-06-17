@@ -228,7 +228,9 @@ SCU-CS-Class-Materials/
         ├── （选修）网络工程
             ├── MountMist_2024_92
         ├──（必修）学术研讨Ⅱ-论文写作
-            ├──Kimokcheon_2022_98
+            ├── Kimokcheon_2022_98
+        ├──（选修）机器学习
+            ├── jeanhua_2025_xx # 含作业和ppt
         └── README.md 
 ├── 大三 （Grade3）
     ├── 上学期
