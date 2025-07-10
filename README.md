@@ -70,6 +70,7 @@ SCU-CS-Class-Materials/
         ├── （必修）思想道德修养与法律基础_思修
             ├── Zitann_2022_95
             ├── Orderheart_2022_xx
+            ├── assumeengage_2024_xx            
         ├── （必修）数字逻辑_数逻
             ├── Ayin_2022_xx
             ├── Zitann_2022_91
@@ -78,6 +79,7 @@ SCU-CS-Class-Materials/
         ├── （必修）数字逻辑实验_数逻实验
             ├── MountMist_2022_94
             ├── Kimokcheon_2021_xx
+            ├── assumeengage_2024_xx
         ├── （必修）高级程序语言设计-Ⅰ_C语言
             ├── MountMist_2022_90
             ├── Orderheart_2022_xx
@@ -86,6 +88,8 @@ SCU-CS-Class-Materials/
             ├── Kimokcheon_2021_94
         ├── （选修）计算机导论
             ├── Orderheart_2022_xx
+        ├── （选修）中共党史
+            ├── assumeengage_2024_xx
         └── README.md 
     └── 下学期
         ├── （必修）中国特色社会主义政治经济学_中特政经
@@ -97,6 +101,7 @@ SCU-CS-Class-Materials/
             ├── Karry_2021_91
         ├── （必修）军事理论_军理
             ├── Karry_2021_99
+            ├── assumeengage_2024_93
         ├── （必修）微积分（Ⅰ）-2_微积分下
             ├── Ayin_2023_xx
             ├── Orderheart_2023_xx
@@ -109,6 +114,7 @@ SCU-CS-Class-Materials/
             ├── Orderheart_2023_xx
             ├── Charles_2022_xx
             ├── Zitann_2023_94
+            ├── assumeengage_2024_xx
         ├── （必修）编程实战
             ├── Karry_2021_94# 含项目 "简单音乐播放器" 源码
             ├── Zitann_2023_96
