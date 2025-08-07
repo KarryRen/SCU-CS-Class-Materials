@@ -227,6 +227,7 @@ SCU-CS-Class-Materials/
         ├── （选修）多模态学习导论_多模态
             ├── Kimokcheon_2022_94
             ├── Jesse_2025_xx
+            ├── Hx_2025_97
         ├── （选修）智能决策
             ├── Jesse_2024_93
         ├── （选修）算法设计
@@ -235,6 +236,8 @@ SCU-CS-Class-Materials/
             ├── MountMist_2024_92
         ├──（必修）学术研讨Ⅱ-论文写作
             ├──Kimokcheon_2022_98
+        ├──（选修）机器学习引论
+            ├──Hx_2025_98
         └── README.md 
 ├── 大三 （Grade3）
     ├── 上学期
