@@ -264,7 +264,7 @@ SCU-CS-Class-Materials/
             ├── MountMist_2024_88 #含有“智慧夜市管理系统”系列文档，但不含源码
         ├── （必修）研究与开发实践_研开
             ├── Karry_2022_98 # 含有 "物业管理系统" 源码和系统文档 updating 🔥
-            ├── MountMist_2024_90 # 小游戏“Ark-knights”源码及报告
+            ├── MountMist_2024_90 # 小游戏“Ark-knights”源码（仅地址）及报告
         ├── （必修）计算机网络（双语）_计网
             ├── Karry_2022_91
             ├── Kimokcheon_2023_94
@@ -346,4 +346,5 @@ SCU-CS-Class-Materials/
 ## 🌟 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=KarryRen/SCU-CS-Class-Materials&type=Date)](https://star-history.com/#KarryRen/SCU-CS-Class-Materials&Date)
+
 
