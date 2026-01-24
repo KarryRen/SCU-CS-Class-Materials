@@ -323,6 +323,7 @@ SCU-CS-Class-Materials/
 12. [Frank Fu]()
 13. [J.W. Zhang]()
 14. [**Jesse**](https://github.com/Jiaxi-Huang)
+15. [**assumeengage**](https://github.com/assumeengagetry)
 
 
 
@@ -349,6 +350,7 @@ SCU-CS-Class-Materials/
 ## 🌟 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=KarryRen/SCU-CS-Class-Materials&type=Date)](https://star-history.com/#KarryRen/SCU-CS-Class-Materials&Date)
+
 
 
 
