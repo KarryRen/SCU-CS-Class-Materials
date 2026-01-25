@@ -67,6 +67,7 @@ SCU-CS-Class-Materials/
         ├── （必修）微积分（Ⅰ）-1_微积分上
             ├── Zitann_2022_xx
             ├── Orderheart_2022_xx
+            ├── Tangerin_2024_95
         ├── （必修）思想道德修养与法律基础_思修
             ├── Zitann_2022_95
             ├── Orderheart_2022_xx
@@ -76,10 +77,12 @@ SCU-CS-Class-Materials/
             ├── Zitann_2022_91
             ├── Orderheart_2022_xx
             ├── Kimokcheon_2021_xx
+            ├── Tangerin_2025_89
         ├── （必修）数字逻辑实验_数逻实验
             ├── MountMist_2022_94
             ├── Kimokcheon_2021_xx
             ├── assumeengage_2024_xx
+            ├── Tangerin_2025_89
         ├── （必修）高级程序语言设计-Ⅰ_C语言
             ├── MountMist_2022_90
             ├── Orderheart_2022_xx
@@ -90,6 +93,7 @@ SCU-CS-Class-Materials/
             ├── Orderheart_2022_xx
         ├── （选修）中共党史
             ├── assumeengage_2024_xx
+            ├── Tangerin_2024_95
         └── README.md 
     └── 下学期
         ├── （必修）中国特色社会主义政治经济学_中特政经
@@ -105,10 +109,12 @@ SCU-CS-Class-Materials/
         ├── （必修）微积分（Ⅰ）-2_微积分下
             ├── Ayin_2023_xx
             ├── Orderheart_2023_xx
+            ├── Tangerin_2025_xx
         ├── （必修）汇编语言程序设计_汇编
             ├── Karry_2021_92
             ├── Orderheart_2023_xx
             ├── 57UU_2024_92 # 含"3 次实验报告"
+            ├── Tangerin_2026_xx
         ├── （必修）线性代数（理工）_线代
             ├── Ayin_2023_xx
             ├── Orderheart_2023_xx
@@ -127,6 +133,8 @@ SCU-CS-Class-Materials/
         └── README.md 
 ├── 大二 （Grade2）
     ├── 上学期
+        ├── （必修）人工智能概论
+            ├── Tangerin_2026_xx
         ├── （必修）大学物理（理工）Ⅲ-2_大物
             ├── Karry_2021_94
             ├── Zitann_2023_94
@@ -140,6 +148,7 @@ SCU-CS-Class-Materials/
             ├── MountMist_2023_89  
             ├── Zitann_2023_93
             ├── Gother_2024_99
+            ├── Tangrin_2026_xx
         ├── （必修）数据结构与算法分析(全英文)_数据结构算法(全英文)
             ├── Kimokcheon_2022_90
         ├── （必修）数据结构与算法分析课程设计_数据结构算法实验
@@ -150,11 +159,13 @@ SCU-CS-Class-Materials/
             ├── Karry_2021_97
             ├── Zitann_2023_94
             ├── Hannah_2024
+            ├── Tangerin_2026_92
         ├── （必修）离散数学_离散
             ├── Karry_2021_96
             ├── Kimokcheon_2022_96
             ├── Zitann_2023_97
             ├── Hannah_2024
+            ├── Tangerin_2026_xx
         ├── （必修）统计学
             ├── Karry_2021_98
         ├── （必修）计算机组成原理_计组
@@ -320,6 +331,7 @@ SCU-CS-Class-Materials/
 12. [Frank Fu]()
 13. [J.W. Zhang]()
 14. [**Jesse**](https://github.com/Jiaxi-Huang)
+15. [**Tangerin**](https://github.com/Tangerin65)
 
 
 
@@ -346,5 +358,6 @@ SCU-CS-Class-Materials/
 ## 🌟 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=KarryRen/SCU-CS-Class-Materials&type=Date)](https://star-history.com/#KarryRen/SCU-CS-Class-Materials&Date)
+
 
 
