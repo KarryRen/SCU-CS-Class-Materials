@@ -140,6 +140,7 @@ SCU-CS-Class-Materials/
             ├── MountMist_2023_89  
             ├── Zitann_2023_93
             ├── Gother_2024_99
+            ├── assumeengage_2024_91
         ├── （必修）数据结构与算法分析(全英文)_数据结构算法(全英文)
             ├── Kimokcheon_2022_90
         ├── （必修）数据结构与算法分析课程设计_数据结构算法实验
@@ -150,11 +151,13 @@ SCU-CS-Class-Materials/
             ├── Karry_2021_97
             ├── Zitann_2023_94
             ├── Hannah_2024
+            ├── assumeengage_2024_88
         ├── （必修）离散数学_离散
             ├── Karry_2021_96
             ├── Kimokcheon_2022_96
             ├── Zitann_2023_97
             ├── Hannah_2024
+            ├── assumeengage_2024_xx
         ├── （必修）统计学
             ├── Karry_2021_98
         ├── （必修）计算机组成原理_计组
@@ -320,6 +323,7 @@ SCU-CS-Class-Materials/
 12. [Frank Fu]()
 13. [J.W. Zhang]()
 14. [**Jesse**](https://github.com/Jiaxi-Huang)
+15. [**assumeengage**](https://github.com/assumeengagetry)
 
 
 
@@ -346,5 +350,7 @@ SCU-CS-Class-Materials/
 ## 🌟 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=KarryRen/SCU-CS-Class-Materials&type=Date)](https://star-history.com/#KarryRen/SCU-CS-Class-Materials&Date)
+
+
 
 
