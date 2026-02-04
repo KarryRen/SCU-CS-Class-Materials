@@ -150,6 +150,7 @@ SCU-CS-Class-Materials/
             ├── Gother_2024_99
             ├── Tangrin_2026_xx
             ├── assumeengage_2024_91
+            ├── AlanRosston_2024_xx
         ├── （必修）数据结构与算法分析(全英文)_数据结构算法(全英文)
             ├── Kimokcheon_2022_90
         ├── （必修）数据结构与算法分析课程设计_数据结构算法实验
@@ -162,6 +163,7 @@ SCU-CS-Class-Materials/
             ├── Hannah_2024
             ├── Tangerin_2026_92
             ├── assumeengage_2024_88
+            ├── AlanRosston_2024_xx
         ├── （必修）离散数学_离散
             ├── Karry_2021_96
             ├── Kimokcheon_2022_96
