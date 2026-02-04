@@ -78,7 +78,7 @@ SCU-CS-Class-Materials/
             ├── Orderheart_2022_xx
             ├── Kimokcheon_2021_xx
             ├── Tangerin_2025_89
-            ├── AlanRosston_2024_xx
+            ├── AlanRosston_2025_xx
         ├── （必修）数字逻辑实验_数逻实验
             ├── MountMist_2022_94
             ├── Kimokcheon_2021_xx
@@ -129,6 +129,7 @@ SCU-CS-Class-Materials/
             ├── Karry_2021_99# 含课程大作业 "简略版 Steam 游戏 TripleTown" 源码
             ├── MountMist_2023_95 # 含课程大作业 "深度搜索寻路"
             ├── jeanhua_2024_95 # 含课程大作业 "JHMG 游戏引擎"
+            ├── AlanRosston_2025_xx
         ├── （选修）大学物理实验（理工）Ⅲ-1_大物实验
             ├── Karry_2021_95 # 含扫描版 "7 次实验报告合集"
         └── README.md 
