@@ -78,6 +78,7 @@ SCU-CS-Class-Materials/
             ├── Orderheart_2022_xx
             ├── Kimokcheon_2021_xx
             ├── Tangerin_2025_89
+            ├── AlanRosston_2024_xx
         ├── （必修）数字逻辑实验_数逻实验
             ├── MountMist_2022_94
             ├── Kimokcheon_2021_xx
