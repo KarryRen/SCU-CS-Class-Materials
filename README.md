@@ -169,6 +169,7 @@ SCU-CS-Class-Materials/
             ├── Hannah_2024
             ├── Tangerin_2026_xx
             ├── assumeengage_2024_xx
+            ├── AlanRosston_2025_xx
         ├── （必修）统计学
             ├── Karry_2021_98
         ├── （必修）计算机组成原理_计组
