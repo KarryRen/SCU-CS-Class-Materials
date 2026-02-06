@@ -78,6 +78,7 @@ SCU-CS-Class-Materials/
             ├── Orderheart_2022_xx
             ├── Kimokcheon_2021_xx
             ├── Tangerin_2025_89
+            ├── AlanRosston_2025_xx
         ├── （必修）数字逻辑实验_数逻实验
             ├── MountMist_2022_94
             ├── Kimokcheon_2021_xx
@@ -110,6 +111,7 @@ SCU-CS-Class-Materials/
             ├── Ayin_2023_xx
             ├── Orderheart_2023_xx
             ├── Tangerin_2025_xx
+            ├── AlanRosston_2025_xx
         ├── （必修）汇编语言程序设计_汇编
             ├── Karry_2021_92
             ├── Orderheart_2023_xx
@@ -128,6 +130,9 @@ SCU-CS-Class-Materials/
             ├── Karry_2021_99# 含课程大作业 "简略版 Steam 游戏 TripleTown" 源码
             ├── MountMist_2023_95 # 含课程大作业 "深度搜索寻路"
             ├── jeanhua_2024_95 # 含课程大作业 "JHMG 游戏引擎"
+            ├── AlanRosston_2025_xx
+        ├── （必修）大学物理（理工）Ⅲ-1_大物
+            ├── AlanRosston_2025_xx
         ├── （选修）大学物理实验（理工）Ⅲ-1_大物实验
             ├── Karry_2021_95 # 含扫描版 "7 次实验报告合集"
         └── README.md 
@@ -150,6 +155,7 @@ SCU-CS-Class-Materials/
             ├── Gother_2024_99
             ├── Tangrin_2026_xx
             ├── assumeengage_2024_91
+            ├── AlanRosston_2024_xx
         ├── （必修）数据结构与算法分析(全英文)_数据结构算法(全英文)
             ├── Kimokcheon_2022_90
         ├── （必修）数据结构与算法分析课程设计_数据结构算法实验
@@ -162,6 +168,7 @@ SCU-CS-Class-Materials/
             ├── Hannah_2024
             ├── Tangerin_2026_92
             ├── assumeengage_2024_88
+            ├── AlanRosston_2024_xx
         ├── （必修）离散数学_离散
             ├── Karry_2021_96
             ├── Kimokcheon_2022_96
@@ -169,6 +176,7 @@ SCU-CS-Class-Materials/
             ├── Hannah_2024
             ├── Tangerin_2026_xx
             ├── assumeengage_2024_xx
+            ├── AlanRosston_2025_xx
         ├── （必修）统计学
             ├── Karry_2021_98
         ├── （必修）计算机组成原理_计组
@@ -336,6 +344,7 @@ SCU-CS-Class-Materials/
 14. [**Jesse**](https://github.com/Jiaxi-Huang)
 15. [**Tangerin**](https://github.com/Tangerin65)
 16. [**assumeengage**](https://github.com/assumeengagetry)
+17. [**AlanRosston**](https://github.com/AlanRosston)
 
 
 
