@@ -303,12 +303,13 @@ SCU-CS-Class-Materials/
         ├── （选修）智能边缘计算
             ├── MountMist_2024_92
         └── README.md 
-    └── 下学期 （Grade4）
+    └── 下学期
         ├── （必修）编译原理
             ├── Karry_2023_91
             ├── MountMist_2025_84
         ├── （必修）编译原理课程设计
             ├── Karry_2023_98 # 含所有 "实验报告" 及 C++ 源码 updating 🔥
+            ├── Jesse_2025_90
         ├── （必修）计算机系统结构
             ├── Karry_2023_97
             ├── Kimokcheon_2024_90
