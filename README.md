@@ -185,6 +185,7 @@ SCU-CS-Class-Materials/
         ├── （必修）计算机组成原理实验_计组实验
             ├── Kimokcheon_2022_100
             ├── MountMist_2023_95
+            ├── leafevans_2025_94 # 含 Xilinx ISE 工程源码，详见原仓库
         ├── （必修） 财政学
             ├── Karry_2021_92
         ├── （必修）金融学
@@ -346,6 +347,7 @@ SCU-CS-Class-Materials/
 15. [**Tangerin**](https://github.com/Tangerin65)
 16. [**assumeengage**](https://github.com/assumeengagetry)
 17. [**AlanRosston**](https://github.com/AlanRosston)
+18. [**leafevans**](https://github.com/leafevans)
 
 
 
