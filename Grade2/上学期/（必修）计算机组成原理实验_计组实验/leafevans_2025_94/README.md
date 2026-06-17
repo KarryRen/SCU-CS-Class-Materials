@@ -1,18 +1,18 @@
 # 计算机组成原理实验 — Xilinx 工程源码
 
-> 贡献者：橘星奏 | 修读年份：2025 | 分数：94
+> 贡献者：leafevans | 修读年份：2025 | 分数：94
 
 本资料包含四川大学计算机组成原理课程 **5 个实验**的完整 Xilinx ISE 工程源码（Verilog HDL），使用 **Xilinx ISE Design Suite 14.7** 开发。
 
 ## 实验列表
 
-| 序号 | 实验名称 | 工程文件夹 | 说明 |
-|:---:|---------|-----------|------|
-| 1 | 4 位加法器设计 | `adder_4bits` | 1 位全加器 + 4 位加法器顶层模块 |
-| 2 | 多路选择器（MUX）设计 | `mux` | 2 选 1（32 位 / 5 位）+ 8 选 1（32 位） |
-| 3 | 七段数码管显示驱动 | `Sseg7` | 段码映射、并串转换、16 进制转 8 段码 |
-| 4 | 基于 IP 核的系统设计（IP2SOC） | `OExp03-IP2SOC` | 含 CPU、控制器、GPIO、RAM/ROM IP 核 |
-| 5 | 数据路径设计（DataPath） | `OExp05-DataPath` | 32 位寄存器组、ALU 运算模块、IO 接口 |
+| 序号 | 实验名称                       | 工程文件夹        | 说明                                    |
+| :--: | ------------------------------ | ----------------- | --------------------------------------- |
+|  1   | 4 位加法器设计                 | `adder_4bits`     | 1 位全加器 + 4 位加法器顶层模块         |
+|  2   | 多路选择器（MUX）设计          | `mux`             | 2 选 1（32 位 / 5 位）+ 8 选 1（32 位） |
+|  3   | 七段数码管显示驱动             | `Sseg7`           | 段码映射、并串转换、16 进制转 8 段码    |
+|  4   | 基于 IP 核的系统设计（IP2SOC） | `OExp03-IP2SOC`   | 含 CPU、控制器、GPIO、RAM/ROM IP 核     |
+|  5   | 数据路径设计（DataPath）       | `OExp05-DataPath` | 32 位寄存器组、ALU 运算模块、IO 接口    |
 
 ## 获取源码
 
@@ -21,6 +21,7 @@
 **GitHub 仓库：[leafevans/scu-xilink_projects](https://github.com/leafevans/scu-xilink_projects)**
 
 下载方式：
+
 - 直接下载：点击仓库页面右上角 `Code` → `Download ZIP`
 - Git 克隆：`git clone https://github.com/leafevans/scu-xilink_projects.git`
 
