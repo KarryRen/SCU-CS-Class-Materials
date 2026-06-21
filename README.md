@@ -185,6 +185,7 @@ SCU-CS-Class-Materials/
         ├── （必修）计算机组成原理实验_计组实验
             ├── Kimokcheon_2022_100
             ├── MountMist_2023_95
+            ├── leafevans_2025_94 # 含 Xilinx ISE 工程源码，详见原仓库
         ├── （必修） 财政学
             ├── Karry_2021_92
         ├── （必修）金融学
@@ -284,6 +285,7 @@ SCU-CS-Class-Materials/
             ├── Kimokcheon_2023_98 #含有 "实验室人员管理系统" 一系列配套文档和源码
             ├── Karry_2022_95 # 含有 "图书管理系统" 源码和汇报 updating 🔥
             ├── MountMist_2024_88 #含有“智慧夜市管理系统”系列文档，但不含源码
+            ├── leafevans_2026_xx # 含课程设计报告
         ├── （必修）研究与开发实践_研开
             ├── Karry_2022_98 # 含有 "物业管理系统" 源码和系统文档 updating 🔥
             ├── MountMist_2024_90 # 小游戏“Ark-knights”源码（仅地址）及报告
@@ -346,6 +348,7 @@ SCU-CS-Class-Materials/
 15. [**Tangerin**](https://github.com/Tangerin65)
 16. [**assumeengage**](https://github.com/assumeengagetry)
 17. [**AlanRosston**](https://github.com/AlanRosston)
+18. [**leafevans**](https://github.com/leafevans)
 
 
 
