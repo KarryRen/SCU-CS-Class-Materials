@@ -278,11 +278,13 @@ SCU-CS-Class-Materials/
             ├── Kimokcheon_2023_93
             ├── Zitann_2024_95
             ├── MountMist_2024_93
+            ├── Luka_2025_89
         ├── （必修）现代软件工程（双语）
             ├── Karry_2022_96
             ├── Kimokcheon_2023_90
             ├── Zitann_2024_xx
             ├── MountMist_2024_89
+            ├── Luka_2025_91
         ├── （必修）现代软件工程课程设计_软工实验
             ├── Kimokcheon_2023_98 #含有 "实验室人员管理系统" 一系列配套文档和源码
             ├── Karry_2022_95 # 含有 "图书管理系统" 源码和汇报 updating 🔥
@@ -295,17 +297,21 @@ SCU-CS-Class-Materials/
             ├── Karry_2022_91
             ├── Kimokcheon_2023_94
             ├── Zitann_2024_xx
+            ├── Luka_2025_xx
         ├── （必修）计算机网络课程设计_计网实验
             ├── Kimokcheon_2023_99
             ├── Zitann_2024_xx
             ├── novelyear_2024_95
             ├── MountMist_2024_93
+            ├── Luka_2025_99
         ├── （必修）金融计量学
             ├── Karry_2022_94 # 含 "课堂作业" updating 🔥
         ├── （选修）类脑计算基础
             ├── MountMist_2024_92
         ├── （选修）智能边缘计算
             ├── MountMist_2024_92
+        ├── （选修）信号系统导论
+            ├── Luka_2025_91
         └── README.md 
     └── 下学期
         ├── （必修）编译原理
@@ -351,6 +357,7 @@ SCU-CS-Class-Materials/
 16. [**assumeengage**](https://github.com/assumeengagetry)
 17. [**AlanRosston**](https://github.com/AlanRosston)
 18. [**leafevans**](https://github.com/leafevans)
+19. [**L77Doncic**](https://github.com/L77Doncic)
 
 
 
