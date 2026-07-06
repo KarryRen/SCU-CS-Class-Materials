@@ -1,0 +1,104 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -sd Code/CPU -sd Code/IO -sd ipcore_dir -nt timestamp -uc
+Code/SWORD-V4.ucf -p xc7k325t-ffg676-2L OExp05_DataPath.ngc OExp05_DataPath.ngd
+
+Reading NGO file "/home/ise/ISEsharefolder/EXP5
+revise/OExp05-DataPath/OExp05_DataPath.ngc" ...
+Loading design module "Code/IO/SAnti_jitter.ngc"...
+Loading design module "Code/IO/SEnter_2_32.ngc"...
+Loading design module "Code/IO/MIO_BUS.ngc"...
+Loading design module "Code/IO/Multi_8CH32.ngc"...
+Loading design module "Code/IO/Display.ngc"...
+Loading design module "Code/IO/PIO.ngc"...
+Loading design module "ipcore_dir/RAM_B.ngc"...
+Loading design module "Code/IO/Seg7_Dev.ngc"...
+Loading design module "ipcore_dir/ROM_D.ngc"...
+Loading design module "Code/IO/LEDP2S.ngc"...
+Loading design module "Code/CPU/SCtrl.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "Code/SWORD-V4.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<8>" LOC = F12>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<9>" LOC = G12>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<10>" LOC = H14>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<11>" LOC = H13>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<12>" LOC = J14>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<13>" LOC = J13>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<14>" LOC = K14>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<15>" LOC = K13>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:NgdBuild:1012 - The constraint <NET "SW<8>" LOC = F12> is overridden on
+   the design object SW<8> by the constraint <NET "SW[8]"				LOC = AE10  |>
+   [Code/SWORD-V4.ucf(47)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<9>" LOC = G12> is overridden on
+   the design object SW<9> by the constraint <NET "SW[9]"				LOC = AE12  |>
+   [Code/SWORD-V4.ucf(48)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<10>" LOC = H14> is overridden on
+   the design object SW<10> by the constraint <NET "SW[10]"			LOC = AF12  |>
+   [Code/SWORD-V4.ucf(49)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<11>" LOC = H13> is overridden on
+   the design object SW<11> by the constraint <NET "SW[11]"			LOC = AE8   |>
+   [Code/SWORD-V4.ucf(50)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<12>" LOC = J14> is overridden on
+   the design object SW<12> by the constraint <NET "SW[12]"			LOC = AF8   |>
+   [Code/SWORD-V4.ucf(51)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<13>" LOC = J13> is overridden on
+   the design object SW<13> by the constraint <NET "SW[13]"			LOC = AE13  |>
+   [Code/SWORD-V4.ucf(52)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<14>" LOC = K14> is overridden on
+   the design object SW<14> by the constraint <NET "SW[14]"			LOC = AF13  |>
+   [Code/SWORD-V4.ucf(53)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<15>" LOC = K13> is overridden on
+   the design object SW<15> by the constraint <NET "SW[15]"			LOC = AF10  |>
+   [Code/SWORD-V4.ucf(54)].
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  16
+
+Total memory usage is 569424 kilobytes
+
+Writing NGD file "OExp05_DataPath.ngd" ...
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   4 sec
+
+Writing NGDBUILD log file "OExp05_DataPath.bld"...

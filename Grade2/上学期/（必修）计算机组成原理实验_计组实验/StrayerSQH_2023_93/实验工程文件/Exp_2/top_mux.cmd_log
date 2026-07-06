@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Documents and Settings/muxSQH/top_mux.xst" -ofn "C:/Documents and Settings/muxSQH/top_mux.syr" 

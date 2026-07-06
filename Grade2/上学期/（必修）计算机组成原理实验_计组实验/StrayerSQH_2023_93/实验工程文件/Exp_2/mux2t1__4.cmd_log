@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family kintex7 -refsym mux2t1__4 {C:/Documents and Settings/muxSQH/mux2t1__4.sch} {C:/Documents and Settings/muxSQH/mux2t1__4.sym} 
+xst -intstyle ise -ifn "C:/Documents and Settings/muxSQH/mux2t1__4.xst" -ofn "C:/Documents and Settings/muxSQH/mux2t1__4.syr" 

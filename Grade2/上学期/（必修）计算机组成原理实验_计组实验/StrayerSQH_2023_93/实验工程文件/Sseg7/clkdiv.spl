@@ -1,0 +1,11 @@
+[Inputs]
+clk200P
+clk200N
+rst
+[Outputs]
+clk100MHz
+=clkdiv[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel clkdiv
+

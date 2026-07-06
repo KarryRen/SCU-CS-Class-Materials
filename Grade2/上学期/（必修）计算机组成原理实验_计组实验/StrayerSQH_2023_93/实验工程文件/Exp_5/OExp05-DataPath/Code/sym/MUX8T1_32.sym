@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="MUX8T1_32">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-12-29T14:54:6</timestamp>
+    <attr value="MUX8T1_32" name="VeriModel" />
+    <pin polarity="Input" x="48" y="-272" name="s(2:0)" />
+    <pin polarity="Input" x="0" y="-16" name="I7(31:0)" />
+    <pin polarity="Input" x="0" y="-48" name="I6(31:0)" />
+    <pin polarity="Input" x="0" y="-80" name="I5(31:0)" />
+    <pin polarity="Input" x="0" y="-112" name="I4(31:0)" />
+    <pin polarity="Input" x="0" y="-144" name="I3(31:0)" />
+    <pin polarity="Input" x="0" y="-176" name="I2(31:0)" />
+    <pin polarity="Input" x="0" y="-208" name="I1(31:0)" />
+    <pin polarity="Input" x="0" y="-240" name="I0(31:0)" />
+    <pin polarity="Output" x="96" y="-160" name="o(31:0)" />
+    <graph>
+        <rect width="68" x="12" y="-264" height="264" />
+        <line x2="48" y1="-264" y2="-272" style="linewidth:W" x1="48" />
+        <line x2="0" y1="-16" y2="-16" style="linewidth:W" x1="12" />
+        <attrtext style="fontsize:10;fontname:Arial" attrname="PinName" x="16" y="-16" type="pin I7(31:0)" />
+        <line x2="0" y1="-48" y2="-48" style="linewidth:W" x1="12" />
+        <attrtext style="fontsize:10;fontname:Arial" attrname="PinName" x="16" y="-48" type="pin I6(31:0)" />
+        <line x2="0" y1="-80" y2="-80" style="linewidth:W" x1="12" />
+        <attrtext style="fontsize:10;fontname:Arial" attrname="PinName" x="16" y="-80" type="pin I5(31:0)" />
+        <line x2="0" y1="-112" y2="-112" style="linewidth:W" x1="12" />
+        <attrtext style="fontsize:10;fontname:Arial" attrname="PinName" x="16" y="-112" type="pin I4(31:0)" />
+        <line x2="0" y1="-144" y2="-144" style="linewidth:W" x1="12" />
+        <attrtext style="fontsize:10;fontname:Arial" attrname="PinName" x="16" y="-144" type="pin I3(31:0)" />
+        <line x2="0" y1="-176" y2="-176" style="linewidth:W" x1="12" />
+        <attrtext style="fontsize:10;fontname:Arial" attrname="PinName" x="16" y="-176" type="pin I2(31:0)" />
+        <line x2="0" y1="-208" y2="-208" style="linewidth:W" x1="12" />
+        <attrtext style="fontsize:10;fontname:Arial" attrname="PinName" x="16" y="-208" type="pin I1(31:0)" />
+        <line x2="0" y1="-240" y2="-240" style="linewidth:W" x1="12" />
+        <attrtext style="fontsize:10;fontname:Arial" attrname="PinName" x="16" y="-240" type="pin I0(31:0)" />
+        <attrtext style="alignment:VLEFT;fontsize:20;fontname:Arial;textcolor:rgb(255,0,0)" attrname="SymbolName" x="68" y="-8" type="symbol" />
+        <line x2="96" y1="-160" y2="-160" style="linewidth:W" x1="80" />
+        <attrtext style="alignment:RIGHT;fontsize:12;fontname:Arial" attrname="PinName" x="76" y="-160" type="pin o(31:0)" />
+        <attrtext style="fontsize:10;fontname:Arial" attrname="PinName" x="36" y="-256" type="pin s(2:0)" />
+    </graph>
+</symbol>

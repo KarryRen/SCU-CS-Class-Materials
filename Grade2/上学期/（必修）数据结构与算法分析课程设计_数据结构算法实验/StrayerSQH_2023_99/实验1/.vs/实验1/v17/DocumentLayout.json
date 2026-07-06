@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\s\\Desktop\\\u8BA1\u7B97\u673A\u5B66\u9662\\\u8D44\u6599\\\u6570\u636E\u7ED3\u6784\u4E0E\u7B97\u6CD5\u5206\u6790\\\u5B9E\u9A8C\u8BFE\\\u5B9E\u9A8C1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E90729-7EB6-4984-90BE-C66C0E49C06A}|\u5B9E\u9A8C1.vcxproj|C:\\Users\\s\\Desktop\\\u8BA1\u7B97\u673A\u5B66\u9662\\\u8D44\u6599\\\u6570\u636E\u7ED3\u6784\u4E0E\u7B97\u6CD5\u5206\u6790\\\u5B9E\u9A8C\u8BFE\\\u5B9E\u9A8C1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8E90729-7EB6-4984-90BE-C66C0E49C06A}|\u5B9E\u9A8C1.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E90729-7EB6-4984-90BE-C66C0E49C06A}|\u5B9E\u9A8C1.vcxproj|C:\\Users\\s\\Desktop\\\u8BA1\u7B97\u673A\u5B66\u9662\\\u8D44\u6599\\\u6570\u636E\u7ED3\u6784\u4E0E\u7B97\u6CD5\u5206\u6790\\\u5B9E\u9A8C\u8BFE\\\u5B9E\u9A8C1\\Calculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8E90729-7EB6-4984-90BE-C66C0E49C06A}|\u5B9E\u9A8C1.vcxproj|solutionrelative:Calculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E90729-7EB6-4984-90BE-C66C0E49C06A}|\u5B9E\u9A8C1.vcxproj|C:\\Users\\s\\Desktop\\\u8BA1\u7B97\u673A\u5B66\u9662\\\u8D44\u6599\\\u6570\u636E\u7ED3\u6784\u4E0E\u7B97\u6CD5\u5206\u6790\\\u5B9E\u9A8C\u8BFE\\\u5B9E\u9A8C1\\Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8E90729-7EB6-4984-90BE-C66C0E49C06A}|\u5B9E\u9A8C1.vcxproj|solutionrelative:Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator.h",
+              "DocumentMoniker": "C:\\Users\\s\\Desktop\\\u8BA1\u7B97\u673A\u5B66\u9662\\\u8D44\u6599\\\u6570\u636E\u7ED3\u6784\u4E0E\u7B97\u6CD5\u5206\u6790\\\u5B9E\u9A8C\u8BFE\\\u5B9E\u9A8C1\\Calculator.h",
+              "RelativeDocumentMoniker": "Calculator.h",
+              "ToolTip": "C:\\Users\\s\\Desktop\\\u8BA1\u7B97\u673A\u5B66\u9662\\\u8D44\u6599\\\u6570\u636E\u7ED3\u6784\u4E0E\u7B97\u6CD5\u5206\u6790\\\u5B9E\u9A8C\u8BFE\\\u5B9E\u9A8C1\\Calculator.h",
+              "RelativeToolTip": "Calculator.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-20T01:36:31.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stack.h",
+              "DocumentMoniker": "C:\\Users\\s\\Desktop\\\u8BA1\u7B97\u673A\u5B66\u9662\\\u8D44\u6599\\\u6570\u636E\u7ED3\u6784\u4E0E\u7B97\u6CD5\u5206\u6790\\\u5B9E\u9A8C\u8BFE\\\u5B9E\u9A8C1\\Stack.h",
+              "RelativeDocumentMoniker": "Stack.h",
+              "ToolTip": "C:\\Users\\s\\Desktop\\\u8BA1\u7B97\u673A\u5B66\u9662\\\u8D44\u6599\\\u6570\u636E\u7ED3\u6784\u4E0E\u7B97\u6CD5\u5206\u6790\\\u5B9E\u9A8C\u8BFE\\\u5B9E\u9A8C1\\Stack.h",
+              "RelativeToolTip": "Stack.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-20T01:33:29.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\s\\Desktop\\\u8BA1\u7B97\u673A\u5B66\u9662\\\u8D44\u6599\\\u6570\u636E\u7ED3\u6784\u4E0E\u7B97\u6CD5\u5206\u6790\\\u5B9E\u9A8C\u8BFE\\\u5B9E\u9A8C1\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\s\\Desktop\\\u8BA1\u7B97\u673A\u5B66\u9662\\\u8D44\u6599\\\u6570\u636E\u7ED3\u6784\u4E0E\u7B97\u6CD5\u5206\u6790\\\u5B9E\u9A8C\u8BFE\\\u5B9E\u9A8C1\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-14T11:50:09.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

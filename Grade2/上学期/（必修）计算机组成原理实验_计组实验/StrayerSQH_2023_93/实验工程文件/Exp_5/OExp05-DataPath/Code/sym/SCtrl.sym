@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="SCtrl">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-4-26T7:1:17</timestamp>
+    <attr value="SCtrl" name="VeriModel" />
+    <pin polarity="Output" x="464" y="-544" name="RegDst" />
+    <pin polarity="Output" x="464" y="-480" name="ALUSrc_B" />
+    <pin polarity="Output" x="464" y="-416" name="MemtoReg" />
+    <pin polarity="Output" x="464" y="-352" name="Jump" />
+    <pin polarity="Output" x="464" y="-288" name="Branch" />
+    <pin polarity="Output" x="464" y="-224" name="RegWrite" />
+    <pin polarity="Output" x="464" y="-160" name="ALU_Control(2:0)" />
+    <pin polarity="Output" x="464" y="-32" name="CPU_MIO" />
+    <pin polarity="Output" x="464" y="-96" name="mem_w" />
+    <pin polarity="Input" x="0" y="-352" name="Fun(5:0)" />
+    <pin polarity="Input" x="0" y="-64" name="MIO_ready" />
+    <pin polarity="Input" x="0" y="-432" name="OPcode(5:0)" />
+    <graph>
+        <rect style="linewidth:W;linecolor:rgb(255,0,0);fillcolor:rgb(255,170,255);fillstyle:Solid" width="336" x="64" y="-576" height="576" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-544" type="pin RegDst" />
+        <line x2="464" y1="-544" y2="-544" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-480" type="pin ALUSrc_B" />
+        <line x2="464" y1="-480" y2="-480" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-416" type="pin MemtoReg" />
+        <line x2="464" y1="-416" y2="-416" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-352" type="pin Jump" />
+        <line x2="464" y1="-352" y2="-352" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-288" type="pin Branch" />
+        <line x2="464" y1="-288" y2="-288" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-224" type="pin RegWrite" />
+        <line x2="464" y1="-224" y2="-224" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-160" type="pin ALU_Control(2:0)" />
+        <line x2="464" y1="-160" y2="-160" style="linewidth:W" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-32" type="pin CPU_MIO" />
+        <line x2="464" y1="-32" y2="-32" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-96" type="pin mem_w" />
+        <line x2="464" y1="-96" y2="-96" x1="400" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin Fun(5:0)" />
+        <line x2="0" y1="-352" y2="-352" style="linewidth:W" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-64" type="pin MIO_ready" />
+        <line x2="0" y1="-64" y2="-64" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-432" type="pin OPcode(5:0)" />
+        <line x2="0" y1="-432" y2="-432" style="linewidth:W" x1="64" />
+        <attrtext style="alignment:BCENTER;fontsize:46;fontname:Arial;textcolor:rgb(255,0,0)" attrname="SymbolName" x="204" y="-228" type="symbol" />
+    </graph>
+</symbol>

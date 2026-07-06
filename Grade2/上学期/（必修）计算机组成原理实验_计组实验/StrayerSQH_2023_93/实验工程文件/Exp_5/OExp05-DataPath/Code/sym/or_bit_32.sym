@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="or_bit_32">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2014-3-19T14:52:25</timestamp>
+    <attr value="or_bit_32" name="VeriModel" />
+    <pin polarity="Output" x="304" y="-48" name="o" />
+    <pin polarity="Input" x="32" y="-48" name="A(31:0)" />
+    <graph>
+        <rect width="220" x="64" y="-104" height="112" />
+        <attrtext style="fontsize:10;fontname:Arial" attrname="PinName" x="72" y="-48" type="pin A(31:0)" />
+        <line x2="32" y1="-48" y2="-48" style="linewidth:W" x1="64" />
+        <arc ex="260" ey="-48" sx="180" sy="0" r="88" cx="184" cy="-88" />
+        <line x2="116" y1="0" y2="0" x1="180" />
+        <line x2="116" y1="-96" y2="-96" x1="180" />
+        <arc ex="116" ey="-96" sx="116" sy="0" r="56" cx="84" cy="-48" />
+        <arc ex="180" ey="-96" sx="260" sy="-48" r="88" cx="184" cy="-8" />
+        <line x2="120" y1="-96" y2="-96" x1="184" />
+        <line x2="88" y1="-80" y2="-80" x1="128" />
+        <line x2="92" y1="-16" y2="-16" x1="132" />
+        <text style="alignment:VRIGHT;fontsize:38;fontname:Arial" x="104" y="-64">...</text>
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="280" y="-48" type="pin o" />
+        <line x2="304" y1="-48" y2="-48" x1="284" />
+        <attrtext style="alignment:BCENTER;fontsize:20;fontname:Arial" attrname="SymbolName" x="204" y="-36" type="symbol" />
+    </graph>
+</symbol>

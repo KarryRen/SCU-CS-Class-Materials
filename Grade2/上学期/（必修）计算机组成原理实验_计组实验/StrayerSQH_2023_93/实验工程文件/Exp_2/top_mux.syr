@@ -1,0 +1,371 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: top_mux.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top_mux.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top_mux"
+Output Format                      : NGC
+Target Device                      : xc7k325t-1-ffg676
+
+---- Source Options
+Top Module Name                    : top_mux
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Documents and Settings\muxSQH\mux2t1.vf" into library work
+Parsing module <mux2t1>.
+Analyzing Verilog file "C:\Documents and Settings\muxSQH\mux2t1__4.vf" into library work
+Parsing module <mux2t1_MUSER_mux2t1__4>.
+Parsing module <mux2t1__4>.
+Analyzing Verilog file "C:\Documents and Settings\muxSQH\mux8t1__4.vf" into library work
+Parsing module <mux2t1_MUSER_mux8t1__4>.
+Parsing module <mux2t1__4_MUSER_mux8t1__4>.
+Parsing module <mux8t1__4>.
+Analyzing Verilog file "C:\Documents and Settings\muxSQH\rom.v" into library work
+Parsing module <rom>.
+Analyzing Verilog file "C:\Documents and Settings\muxSQH\mux8t1_8.vf" into library work
+Parsing module <mux2t1_MUSER_mux8t1_8>.
+Parsing module <mux2t1__4_MUSER_mux8t1_8>.
+Parsing module <mux8t1__4_MUSER_mux8t1_8>.
+Parsing module <mux8t1_8>.
+Analyzing Verilog file "C:\Documents and Settings\muxSQH\buf8.v" into library work
+Parsing module <buf8>.
+Analyzing Verilog file "C:\Documents and Settings\muxSQH\top_mux.vf" into library work
+Parsing module <mux2t1_MUSER_top_mux>.
+Parsing module <mux2t1__4_MUSER_top_mux>.
+Parsing module <mux8t1__4_MUSER_top_mux>.
+Parsing module <mux8t1_8_MUSER_top_mux>.
+Parsing module <top_mux>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <top_mux>.
+
+Elaborating module <mux8t1_8_MUSER_top_mux>.
+
+Elaborating module <mux8t1__4_MUSER_top_mux>.
+
+Elaborating module <mux2t1__4_MUSER_top_mux>.
+
+Elaborating module <mux2t1_MUSER_top_mux>.
+
+Elaborating module <AND2>.
+
+Elaborating module <OR2>.
+
+Elaborating module <INV>.
+
+Elaborating module <rom>.
+
+Elaborating module <buf8>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <top_mux>.
+    Related source file is "C:\Documents and Settings\muxSQH\top_mux.vf".
+    Summary:
+	no macro.
+Unit <top_mux> synthesized.
+
+Synthesizing Unit <mux8t1_8_MUSER_top_mux>.
+    Related source file is "C:\Documents and Settings\muxSQH\top_mux.vf".
+    Summary:
+	no macro.
+Unit <mux8t1_8_MUSER_top_mux> synthesized.
+
+Synthesizing Unit <mux8t1__4_MUSER_top_mux>.
+    Related source file is "C:\Documents and Settings\muxSQH\top_mux.vf".
+    Summary:
+	no macro.
+Unit <mux8t1__4_MUSER_top_mux> synthesized.
+
+Synthesizing Unit <mux2t1__4_MUSER_top_mux>.
+    Related source file is "C:\Documents and Settings\muxSQH\top_mux.vf".
+    Summary:
+	no macro.
+Unit <mux2t1__4_MUSER_top_mux> synthesized.
+
+Synthesizing Unit <mux2t1_MUSER_top_mux>.
+    Related source file is "C:\Documents and Settings\muxSQH\top_mux.vf".
+    Summary:
+	no macro.
+Unit <mux2t1_MUSER_top_mux> synthesized.
+
+Synthesizing Unit <rom>.
+    Related source file is "C:\Documents and Settings\muxSQH\rom.v".
+WARNING:Xst:2999 - Signal 'data', unconnected in block 'rom', is tied to its initial value.
+    Summary:
+	no macro.
+Unit <rom> synthesized.
+
+Synthesizing Unit <buf8>.
+    Related source file is "C:\Documents and Settings\muxSQH\buf8.v".
+    Summary:
+	no macro.
+Unit <buf8> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <top_mux> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top_mux, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : top_mux.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 227
+#      AND2                        : 112
+#      GND                         : 1
+#      INV                         : 57
+#      OR2                         : 56
+#      VCC                         : 1
+# IO Buffers                       : 12
+#      IBUF                        : 4
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7k325tffg676-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   57  out of  203800     0%  
+    Number used as Logic:                57  out of  203800     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     57
+   Number with an unused Flip Flop:      57  out of     57   100%  
+   Number with an unused LUT:             0  out of     57     0%  
+   Number of fully used LUT-FF pairs:     0  out of     57     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    400     3%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 6.103ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 140 / 8
+-------------------------------------------------------------------------
+Delay:               6.103ns (Levels of Logic = 9)
+  Source:            sw<0> (PAD)
+  Destination:       led<7> (PAD)
+
+  Data Path: sw<0> to led<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            64   0.000   0.559  sw_0_IBUF (sw_0_IBUF)
+     INV:I->O              1   0.393   0.725  XLXI_1/XLXI_2/XLXI_1/XLXI_4/XLXI_4 (XLXI_1/XLXI_2/XLXI_1/XLXI_4/XLXN_1)
+     AND2:I1->O            1   0.067   0.739  XLXI_1/XLXI_2/XLXI_1/XLXI_4/XLXI_2 (XLXI_1/XLXI_2/XLXI_1/XLXI_4/XLXN_11)
+     OR2:I0->O             1   0.053   0.739  XLXI_1/XLXI_2/XLXI_1/XLXI_4/XLXI_3 (XLXI_1/XLXI_2/XLXN_2<3>)
+     AND2:I0->O            1   0.053   0.739  XLXI_1/XLXI_2/XLXI_5/XLXI_4/XLXI_2 (XLXI_1/XLXI_2/XLXI_5/XLXI_4/XLXN_11)
+     OR2:I0->O             1   0.053   0.739  XLXI_1/XLXI_2/XLXI_5/XLXI_4/XLXI_3 (XLXI_1/XLXI_2/XLXN_6<3>)
+     AND2:I0->O            1   0.053   0.739  XLXI_1/XLXI_2/XLXI_7/XLXI_4/XLXI_2 (XLXI_1/XLXI_2/XLXI_7/XLXI_4/XLXN_11)
+     OR2:I0->O             1   0.053   0.399  XLXI_1/XLXI_2/XLXI_7/XLXI_4/XLXI_3 (XLXN_2<3>)
+     OBUF:I->O                 0.000          led_3_OBUF (led<3>)
+    ----------------------------------------
+    Total                      6.103ns (0.725ns logic, 5.378ns route)
+                                       (11.9% logic, 88.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.97 secs
+ 
+--> 
+
+Total memory usage is 267656 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW&lt;8&gt;&quot; LOC = F12&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW&lt;9&gt;&quot; LOC = G12&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW&lt;10&gt;&quot; LOC = H14&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW&lt;11&gt;&quot; LOC = H13&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW&lt;12&gt;&quot; LOC = J14&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW&lt;13&gt;&quot; LOC = J13&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW&lt;14&gt;&quot; LOC = K14&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;SW&lt;15&gt;&quot; LOC = K13&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;SW&lt;8&gt;&quot; LOC = F12&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">SW&lt;8&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;SW[8]&quot;				LOC = AE10  |&gt; [Code/SWORD-V4.ucf(47)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;SW&lt;9&gt;&quot; LOC = G12&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">SW&lt;9&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;SW[9]&quot;				LOC = AE12  |&gt; [Code/SWORD-V4.ucf(48)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;SW&lt;10&gt;&quot; LOC = H14&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">SW&lt;10&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;SW[10]&quot;			LOC = AF12  |&gt; [Code/SWORD-V4.ucf(49)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;SW&lt;11&gt;&quot; LOC = H13&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">SW&lt;11&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;SW[11]&quot;			LOC = AE8   |&gt; [Code/SWORD-V4.ucf(50)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;SW&lt;12&gt;&quot; LOC = J14&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">SW&lt;12&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;SW[12]&quot;			LOC = AF8   |&gt; [Code/SWORD-V4.ucf(51)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;SW&lt;13&gt;&quot; LOC = J13&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">SW&lt;13&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;SW[13]&quot;			LOC = AE13  |&gt; [Code/SWORD-V4.ucf(52)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;SW&lt;14&gt;&quot; LOC = K14&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">SW&lt;14&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;SW[14]&quot;			LOC = AF13  |&gt; [Code/SWORD-V4.ucf(53)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;SW&lt;15&gt;&quot; LOC = K13&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">SW&lt;15&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;SW[15]&quot;			LOC = AF10  |&gt; [Code/SWORD-V4.ucf(54)]</arg>.
+</msg>
+
+</messages>
+

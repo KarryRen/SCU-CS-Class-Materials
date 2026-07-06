@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="REG32">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2016-1-9T14:9:0</timestamp>
+    <attr value="REG32" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-32" name="D(31:0)" />
+    <pin polarity="Input" x="0" y="-96" name="CE" />
+    <pin polarity="Input" x="0" y="-160" name="rst" />
+    <pin polarity="Input" x="0" y="-224" name="clk" />
+    <pin polarity="Output" x="144" y="-128" name="Q(31:0)" />
+    <graph>
+        <rect style="fillcolor:rgb(0,255,255);fillstyle:Solid" width="88" x="32" y="-256" height="256" />
+        <line x2="0" y1="-224" y2="-224" x1="32" />
+        <line x2="0" y1="-160" y2="-160" x1="32" />
+        <line x2="0" y1="-96" y2="-96" x1="32" />
+        <line x2="0" y1="-32" y2="-32" style="linewidth:W" x1="32" />
+        <attrtext attrname="PinName" x="36" y="-224" type="pin clk" />
+        <attrtext attrname="PinName" x="36" y="-160" type="pin rst" />
+        <attrtext attrname="PinName" x="36" y="-96" type="pin CE" />
+        <attrtext attrname="PinName" x="36" y="-32" type="pin D(31:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="120" y="-128" type="pin Q(31:0)" />
+        <line x2="120" y1="-128" y2="-128" style="linewidth:W" x1="144" />
+        <attrtext style="alignment:VCENTER;fontsize:30;fontname:Arial;textcolor:rgb(255,0,0)" attrname="SymbolName" x="108" y="-56" type="symbol" />
+    </graph>
+</symbol>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="clk_div">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-11-3T9:0:57</timestamp>
+    <attr value="clk_div" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-16" name="clk200N" />
+    <pin polarity="Output" x="288" y="-16" name="Clk_CPU" />
+    <pin polarity="Input" x="0" y="-128" name="rst" />
+    <pin polarity="Output" x="288" y="-128" name="clkdiv(31:0)" />
+    <pin polarity="Output" x="288" y="-64" name="clk100MHz" />
+    <pin polarity="Input" x="0" y="-48" name="clk200P" />
+    <pin polarity="Input" x="0" y="-80" name="STEP" />
+    <graph>
+        <rect style="linewidth:W;linecolor:rgb(0,0,255);fillcolor:rgb(142,240,255);fillstyle:Solid" width="256" x="16" y="-148" height="152" />
+        <attrtext style="fontsize:20;fontname:Arial" attrname="PinName" x="24" y="-16" type="pin clk200N" />
+        <attrtext style="alignment:RIGHT;fontsize:20;fontname:Arial" attrname="PinName" x="264" y="-16" type="pin Clk_CPU" />
+        <line x2="288" y1="-16" y2="-16" x1="272" />
+        <line x2="0" y1="-16" y2="-16" x1="16" />
+        <attrtext style="alignment:RIGHT;fontsize:20;fontname:Arial" attrname="PinName" x="264" y="-128" type="pin clkdiv(31:0)" />
+        <line x2="288" y1="-128" y2="-128" style="linewidth:W" x1="272" />
+        <attrtext style="fontsize:20;fontname:Arial" attrname="PinName" x="24" y="-128" type="pin rst" />
+        <line x2="0" y1="-128" y2="-128" x1="16" />
+        <attrtext style="alignment:BCENTER;fontsize:36;fontname:Arial;textcolor:rgb(255,0,0)" attrname="SymbolName" x="152" y="-72" type="symbol" />
+        <attrtext style="alignment:RIGHT;fontsize:20;fontname:Arial" attrname="PinName" x="268" y="-64" type="pin clk100MHz" />
+        <line x2="288" y1="-64" y2="-64" x1="272" />
+        <attrtext style="fontsize:20;fontname:Arial" attrname="PinName" x="24" y="-48" type="pin clk200P" />
+        <line x2="0" y1="-48" y2="-48" x1="16" />
+        <attrtext style="fontsize:20;fontname:Arial" attrname="PinName" x="24" y="-80" type="pin STEP" />
+        <line x2="0" y1="-80" y2="-80" x1="16" />
+    </graph>
+</symbol>

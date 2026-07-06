@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/OExp05_DataPath.ncd
+OUTFILE=/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/OExp05_DataPath.bit
+FAMILY=Kintex7
+PART=xc7k325t-2lffg676
+WORKINGDIR=/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

@@ -1,0 +1,2 @@
+select figure at 64 469 8 -branches -sn=1
+select all in 64 469 2184 2171 -branches -enclosed -sn=1

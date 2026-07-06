@@ -1,0 +1,8 @@
+[Inputs]
+addr
+[Outputs]
+=dout[63:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel rom
+

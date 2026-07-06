@@ -1,0 +1,7 @@
+verilog work "mux2t1.vf"
+verilog work "mux2t1__4.vf"
+verilog work "mux8t1__4.vf"
+verilog work "rom.v"
+verilog work "mux8t1_8.vf"
+verilog work "buf8.v"
+verilog work "top_mux.vf"

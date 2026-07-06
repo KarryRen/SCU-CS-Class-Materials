@@ -1,0 +1,157 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: mux8t1_4.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mux8t1_4.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mux8t1_4"
+Output Format                      : NGC
+Target Device                      : xc7k325t-1-ffg676
+
+---- Source Options
+Top Module Name                    : mux8t1_4
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Documents and Settings\muxSQH\mux2t1.vf" into library work
+Parsing module <mux2t1>.
+Analyzing Verilog file "C:\Documents and Settings\muxSQH\mux2t1_4.vf" into library work
+Parsing module <mux2t1_MUSER_mux2t1_4>.
+Parsing module <mux2t1_4>.
+Analyzing Verilog file "C:\Documents and Settings\muxSQH\mux8t1_4.vf" into library work
+Parsing module <mux2t1_MUSER_mux8t1_4>.
+Parsing module <mux2t1_4_MUSER_mux8t1_4>.
+Parsing module <mux8t1_4>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 112: Module <mux2t1_4_MUSER_mux8t1_4> does not have a port named <XLXN_3>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 110: Port sel is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 116: Module <mux2t1_4_MUSER_mux8t1_4> does not have a port named <XLXN_3>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 114: Port sel is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 120: Module <mux2t1_4_MUSER_mux8t1_4> does not have a port named <XLXN_3>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 118: Port sel is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 124: Module <mux2t1_4_MUSER_mux8t1_4> does not have a port named <XLXN_3>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 122: Port sel is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 128: Module <mux2t1_4_MUSER_mux8t1_4> does not have a port named <XLXN_3>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 126: Port sel is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 132: Module <mux2t1_4_MUSER_mux8t1_4> does not have a port named <XLXN_3>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 130: Port sel is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 136: Module <mux2t1_4_MUSER_mux8t1_4> does not have a port named <XLXN_3>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 134: Port sel is not connected to this instance
+
+Elaborating module <mux8t1_4>.
+
+Elaborating module <mux2t1_4_MUSER_mux8t1_4>.
+
+Elaborating module <mux2t1_MUSER_mux8t1_4>.
+
+Elaborating module <AND2>.
+
+Elaborating module <OR2>.
+
+Elaborating module <INV>.
+ERROR:HDLCompiler:267 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 112: Cannot find port XLXN_3 on this module
+Module mux8t1_4 remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "C:\Documents and Settings\muxSQH\mux8t1_4.vf" Line 81: Empty module <mux8t1_4> remains a black box.
+--> 
+
+Total memory usage is 130500 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :   15 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

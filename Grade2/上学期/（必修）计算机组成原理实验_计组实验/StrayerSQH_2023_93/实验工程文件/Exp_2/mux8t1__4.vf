@@ -1,0 +1,138 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : mux8t1__4.vf
+// /___/   /\     Timestamp : 11/21/2024 10:44:40
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog "C:/Documents and Settings/muxSQH/mux8t1__4.vf" -w "C:/Documents and Settings/muxSQH/mux8t1__4.sch"
+//Design Name: mux8t1__4
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module mux2t1_MUSER_mux8t1__4(a, 
+                              b, 
+                              sel, 
+                              o);
+
+    input a;
+    input b;
+    input sel;
+   output o;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_11;
+   
+   AND2  XLXI_1 (.I0(a), 
+                .I1(sel), 
+                .O(XLXN_2));
+   AND2  XLXI_2 (.I0(b), 
+                .I1(XLXN_1), 
+                .O(XLXN_11));
+   OR2  XLXI_3 (.I0(XLXN_11), 
+               .I1(XLXN_2), 
+               .O(o));
+   INV  XLXI_4 (.I(sel), 
+               .O(XLXN_1));
+endmodule
+`timescale 1ns / 1ps
+
+module mux2t1__4_MUSER_mux8t1__4(a, 
+                                 b, 
+                                 sel, 
+                                 o);
+
+    input [3:0] a;
+    input [3:0] b;
+    input sel;
+   output [3:0] o;
+   
+   
+   mux2t1_MUSER_mux8t1__4  XLXI_1 (.a(a[0]), 
+                                  .b(b[0]), 
+                                  .sel(sel), 
+                                  .o(o[0]));
+   mux2t1_MUSER_mux8t1__4  XLXI_2 (.a(a[1]), 
+                                  .b(b[1]), 
+                                  .sel(sel), 
+                                  .o(o[1]));
+   mux2t1_MUSER_mux8t1__4  XLXI_3 (.a(a[2]), 
+                                  .b(b[2]), 
+                                  .sel(sel), 
+                                  .o(o[2]));
+   mux2t1_MUSER_mux8t1__4  XLXI_4 (.a(a[3]), 
+                                  .b(b[3]), 
+                                  .sel(sel), 
+                                  .o(o[3]));
+endmodule
+`timescale 1ns / 1ps
+
+module mux8t1__4(sel, 
+                 x0, 
+                 x1, 
+                 x2, 
+                 x3, 
+                 x4, 
+                 x5, 
+                 x6, 
+                 x7, 
+                 o);
+
+    input [2:0] sel;
+    input [3:0] x0;
+    input [3:0] x1;
+    input [3:0] x2;
+    input [3:0] x3;
+    input [3:0] x4;
+    input [3:0] x5;
+    input [3:0] x6;
+    input [3:0] x7;
+   output [3:0] o;
+   
+   wire [3:0] XLXN_2;
+   wire [3:0] XLXN_3;
+   wire [3:0] XLXN_4;
+   wire [3:0] XLXN_5;
+   wire [3:0] XLXN_6;
+   wire [3:0] XLXN_7;
+   
+   mux2t1__4_MUSER_mux8t1__4  XLXI_1 (.a(x1[3:0]), 
+                                     .b(x0[3:0]), 
+                                     .sel(sel[0]), 
+                                     .o(XLXN_2[3:0]));
+   mux2t1__4_MUSER_mux8t1__4  XLXI_2 (.a(x3[3:0]), 
+                                     .b(x2[3:0]), 
+                                     .sel(sel[0]), 
+                                     .o(XLXN_3[3:0]));
+   mux2t1__4_MUSER_mux8t1__4  XLXI_3 (.a(x5[3:0]), 
+                                     .b(x4[3:0]), 
+                                     .sel(sel[0]), 
+                                     .o(XLXN_4[3:0]));
+   mux2t1__4_MUSER_mux8t1__4  XLXI_4 (.a(x7[3:0]), 
+                                     .b(x6[3:0]), 
+                                     .sel(sel[0]), 
+                                     .o(XLXN_5[3:0]));
+   mux2t1__4_MUSER_mux8t1__4  XLXI_5 (.a(XLXN_3[3:0]), 
+                                     .b(XLXN_2[3:0]), 
+                                     .sel(sel[1]), 
+                                     .o(XLXN_6[3:0]));
+   mux2t1__4_MUSER_mux8t1__4  XLXI_6 (.a(XLXN_5[3:0]), 
+                                     .b(XLXN_4[3:0]), 
+                                     .sel(sel[1]), 
+                                     .o(XLXN_7[3:0]));
+   mux2t1__4_MUSER_mux8t1__4  XLXI_7 (.a(XLXN_7[3:0]), 
+                                     .b(XLXN_6[3:0]), 
+                                     .sel(sel[2]), 
+                                     .o(o[3:0]));
+endmodule

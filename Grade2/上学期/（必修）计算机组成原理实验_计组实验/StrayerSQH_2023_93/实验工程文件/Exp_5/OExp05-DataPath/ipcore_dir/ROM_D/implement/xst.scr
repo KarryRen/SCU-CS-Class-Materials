@@ -1,0 +1,14 @@
+
+run
+-ifmt VHDL
+-ent ROM_D_exdes 
+-p xc7k160t-ffg676-2l
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn ROM_D_exdes 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Nov 14 09:27:48 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "RSTN" LOCATE = SITE "W13" LEVEL 1;
+COMP "LEDCLK" LOCATE = SITE "N26" LEVEL 1;
+COMP "LEDCLR" LOCATE = SITE "N24" LEVEL 1;
+COMP "LEDDT" LOCATE = SITE "M26" LEVEL 1;
+COMP "clk200N" LOCATE = SITE "AD18" LEVEL 1;
+COMP "clk200P" LOCATE = SITE "AC18" LEVEL 1;
+COMP "a<0>" LOCATE = SITE "AA10" LEVEL 1;
+COMP "a<1>" LOCATE = SITE "AB10" LEVEL 1;
+COMP "a<2>" LOCATE = SITE "AA13" LEVEL 1;
+COMP "a<3>" LOCATE = SITE "AA12" LEVEL 1;
+COMP "b<0>" LOCATE = SITE "Y13" LEVEL 1;
+COMP "b<1>" LOCATE = SITE "Y12" LEVEL 1;
+COMP "b<2>" LOCATE = SITE "AD11" LEVEL 1;
+COMP "b<3>" LOCATE = SITE "AD10" LEVEL 1;
+SCHEMATIC END;
+

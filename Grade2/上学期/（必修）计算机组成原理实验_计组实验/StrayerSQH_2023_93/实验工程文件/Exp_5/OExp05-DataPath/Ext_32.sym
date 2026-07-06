@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Ext_32">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2014-6-26T5:42:38</timestamp>
+    <pin polarity="Input" x="96" y="0" name="imm_16(15:0)" />
+    <pin polarity="Output" x="272" y="-64" name="Imm_32(31:0)" />
+    <graph>
+        <circle style="linewidth:W;linecolor:rgb(255,0,0);linestyle:Dash" r="69" cx="185" cy="-33" />
+        <attrtext style="alignment:BCENTER;fontsize:40;fontname:Arial;textcolor:rgb(255,0,0)" attrname="SymbolName" x="188" y="-8" type="symbol" />
+        <attrtext style="fontsize:10;fontname:Arial" attrname="PinName" x="124" y="-4" type="pin imm_16(15:0)" />
+        <line x2="124" y1="0" y2="0" style="linewidth:W" x1="96" />
+        <line x2="272" y1="-64" y2="-64" style="linewidth:W" x1="248" />
+        <attrtext style="alignment:RIGHT;fontsize:10;fontname:Arial" attrname="PinName" x="244" y="-64" type="pin Imm_32(31:0)" />
+        <rect style="linecolor:rgb(255,255,255)" width="128" x="120" y="-80" height="88" />
+    </graph>
+</symbol>

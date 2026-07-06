@@ -1,0 +1,8 @@
+[Inputs]
+=din[7:0]=
+[Outputs]
+=dout[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel buf8
+

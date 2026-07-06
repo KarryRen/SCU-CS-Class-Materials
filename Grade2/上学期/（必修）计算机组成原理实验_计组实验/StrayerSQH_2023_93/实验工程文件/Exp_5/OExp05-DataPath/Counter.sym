@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Counter">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-3-6T15:29:14</timestamp>
+    <attr value="Counter" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-480" name="clk" />
+    <pin polarity="Input" x="0" y="-416" name="rst" />
+    <pin polarity="Input" x="0" y="-352" name="clk0" />
+    <pin polarity="Input" x="0" y="-288" name="clk1" />
+    <pin polarity="Input" x="0" y="-224" name="clk2" />
+    <pin polarity="Input" x="0" y="-160" name="counter_we" />
+    <pin polarity="Input" x="0" y="-96" name="counter_val(31:0)" />
+    <pin polarity="Input" x="0" y="-32" name="counter_ch(1:0)" />
+    <pin polarity="Output" x="512" y="-480" name="counter0_OUT" />
+    <pin polarity="Output" x="512" y="-336" name="counter1_OUT" />
+    <pin polarity="Output" x="512" y="-192" name="counter2_OUT" />
+    <pin polarity="Output" x="512" y="-48" name="counter_out(31:0)" />
+    <graph>
+        <rect style="fillcolor:rgb(180,180,180);fillstyle:Solid" width="384" x="64" y="-512" height="512" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-480" type="pin clk" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin rst" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin clk0" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin clk1" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin clk2" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin counter_we" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin counter_val(31:0)" />
+        <rect width="64" x="0" y="-108" height="24" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin counter_ch(1:0)" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-480" type="pin counter0_OUT" />
+        <line x2="512" y1="-480" y2="-480" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-336" type="pin counter1_OUT" />
+        <line x2="512" y1="-336" y2="-336" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-192" type="pin counter2_OUT" />
+        <line x2="512" y1="-192" y2="-192" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-48" type="pin counter_out(31:0)" />
+        <rect width="64" x="448" y="-60" height="24" />
+        <line x2="512" y1="-48" y2="-48" x1="448" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="268" y="-356" type="symbol" />
+    </graph>
+</symbol>

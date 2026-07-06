@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Multi_8CH32">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-11-8T11:47:47</timestamp>
+    <attr value="Multi_8CH32" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-528" name="Test(2:0)" />
+    <pin polarity="Input" x="0" y="-464" name="point_in(63:0)" />
+    <pin polarity="Input" x="0" y="-576" name="EN" />
+    <pin polarity="Input" x="0" y="-672" name="clk" />
+    <pin polarity="Input" x="0" y="-624" name="rst" />
+    <pin polarity="Input" x="0" y="-416" name="LES(63:0)" />
+    <pin polarity="Input" x="0" y="-368" name="Data0(31:0)" />
+    <pin polarity="Input" x="0" y="-320" name="data1(31:0)" />
+    <pin polarity="Input" x="0" y="-272" name="data2(31:0)" />
+    <pin polarity="Input" x="0" y="-224" name="data3(31:0)" />
+    <pin polarity="Input" x="0" y="-176" name="data4(31:0)" />
+    <pin polarity="Input" x="0" y="-128" name="data5(31:0)" />
+    <pin polarity="Input" x="0" y="-80" name="data6(31:0)" />
+    <pin polarity="Input" x="0" y="-32" name="data7(31:0)" />
+    <pin polarity="Output" x="384" y="-576" name="point_out(7:0)" />
+    <pin polarity="Output" x="384" y="-528" name="LE_out(7:0)" />
+    <pin polarity="Output" x="384" y="-624" name="Disp_num(31:0)" />
+    <graph>
+        <line x2="0" y1="-528" y2="-528" style="linewidth:W" x1="32" />
+        <line x2="0" y1="-464" y2="-464" style="linewidth:W" x1="32" />
+        <line x2="0" y1="-672" y2="-672" x1="32" />
+        <line x2="0" y1="-624" y2="-624" x1="32" />
+        <line x2="0" y1="-576" y2="-576" x1="32" />
+        <line x2="0" y1="-416" y2="-416" style="linewidth:W" x1="32" />
+        <line x2="0" y1="-368" y2="-368" style="linewidth:W" x1="32" />
+        <line x2="0" y1="-320" y2="-320" style="linewidth:W" x1="32" />
+        <line x2="0" y1="-272" y2="-272" style="linewidth:W" x1="32" />
+        <line x2="0" y1="-224" y2="-224" style="linewidth:W" x1="32" />
+        <line x2="0" y1="-176" y2="-176" style="linewidth:W" x1="32" />
+        <line x2="0" y1="-128" y2="-128" style="linewidth:W" x1="32" />
+        <line x2="0" y1="-80" y2="-80" style="linewidth:W" x1="32" />
+        <line x2="0" y1="-32" y2="-32" style="linewidth:W" x1="32" />
+        <line x2="352" y1="-576" y2="-576" style="linewidth:W" x1="384" />
+        <line x2="352" y1="-528" y2="-528" style="linewidth:W" x1="384" />
+        <line x2="352" y1="-624" y2="-624" style="linewidth:W" x1="384" />
+        <rect style="fillcolor:rgb(179,164,255);fillstyle:Solid" width="320" x="32" y="-696" height="696" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-528" type="pin Test(2:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-464" type="pin point_in(63:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-672" type="pin clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-624" type="pin rst" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-576" type="pin EN" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-416" type="pin LES(63:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-368" type="pin Data0(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-320" type="pin data1(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-272" type="pin data2(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-224" type="pin data3(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-176" type="pin data4(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-128" type="pin data5(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-80" type="pin data6(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-32" type="pin data7(31:0)" />
+        <attrtext style="alignment:VLEFT;fontsize:48;fontname:Arial;textcolor:rgb(255,0,0)" attrname="SymbolName" x="312" y="-12" type="symbol" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="344" y="-576" type="pin point_out(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="344" y="-528" type="pin LE_out(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="344" y="-624" type="pin Disp_num(31:0)" />
+    </graph>
+</symbol>

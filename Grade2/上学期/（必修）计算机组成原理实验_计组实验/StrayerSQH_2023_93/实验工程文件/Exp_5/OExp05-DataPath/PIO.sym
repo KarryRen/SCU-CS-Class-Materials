@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="PIO">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-12-27T10:49:21</timestamp>
+    <attr value="PIO" name="VeriModel" />
+    <pin polarity="Input" x="32" y="-224" name="clk" />
+    <pin polarity="Input" x="32" y="-160" name="rst" />
+    <pin polarity="Input" x="32" y="-96" name="EN" />
+    <pin polarity="Input" x="32" y="-32" name="PData_in(31:0)" />
+    <pin polarity="Output" x="480" y="-32" name="GPIOf0(21:0)" />
+    <pin polarity="Output" x="480" y="-128" name="LED_out(7:0)" />
+    <pin polarity="Output" x="480" y="-224" name="counter_set(1:0)" />
+    <graph>
+        <rect style="fillcolor:rgb(149,160,255);fillstyle:Solid" width="384" x="64" y="-256" height="256" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin clk" />
+        <line x2="32" y1="-224" y2="-224" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin rst" />
+        <line x2="32" y1="-160" y2="-160" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin EN" />
+        <line x2="32" y1="-96" y2="-96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin PData_in(31:0)" />
+        <line x2="32" y1="-32" y2="-32" style="linewidth:W" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-224" type="pin counter_set(1:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-128" type="pin LED_out(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-32" type="pin GPIOf0(21:0)" />
+        <line x2="480" y1="-32" y2="-32" style="linewidth:W" x1="448" />
+        <line x2="480" y1="-128" y2="-128" style="linewidth:W" x1="448" />
+        <line x2="480" y1="-224" y2="-224" style="linewidth:W" x1="448" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial;textcolor:rgb(255,0,0)" attrname="SymbolName" x="208" y="-88" type="symbol" />
+    </graph>
+</symbol>

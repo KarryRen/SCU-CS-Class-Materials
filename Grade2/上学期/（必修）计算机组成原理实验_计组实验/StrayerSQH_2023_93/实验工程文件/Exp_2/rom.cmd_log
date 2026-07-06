@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {C:/Documents and Settings/muxSQH/rom.v} -lang verilog -prj muxSQH -o rom.spl -module rom -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 rom.spl {C:/Documents and Settings/muxSQH/rom.sym} 

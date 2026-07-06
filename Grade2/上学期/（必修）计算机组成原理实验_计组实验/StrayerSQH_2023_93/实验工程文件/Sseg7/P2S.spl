@@ -1,0 +1,14 @@
+[Inputs]
+clk
+rst
+Serial
+=P_Data[63:0]=
+[Outputs]
+s_clk
+s_clrn
+sout
+EN
+[BiDir]
+[ATTRIBUTES]
+VeriModel P2S
+

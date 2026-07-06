@@ -1,0 +1,48 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : mux2t1.vf
+// /___/   /\     Timestamp : 01/01/2006 01:42:19
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog "C:/Documents and Settings/muxSQH/mux2t1.vf" -w "C:/Documents and Settings/muxSQH/mux2t1.sch"
+//Design Name: mux2t1
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module mux2t1(a, 
+              b, 
+              sel, 
+              o);
+
+    input a;
+    input b;
+    input sel;
+   output o;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_11;
+   
+   AND2  XLXI_1 (.I0(a), 
+                .I1(sel), 
+                .O(XLXN_2));
+   AND2  XLXI_2 (.I0(b), 
+                .I1(XLXN_1), 
+                .O(XLXN_11));
+   OR2  XLXI_3 (.I0(XLXN_11), 
+               .I1(XLXN_2), 
+               .O(o));
+   INV  XLXI_4 (.I(sel), 
+               .O(XLXN_1));
+endmodule

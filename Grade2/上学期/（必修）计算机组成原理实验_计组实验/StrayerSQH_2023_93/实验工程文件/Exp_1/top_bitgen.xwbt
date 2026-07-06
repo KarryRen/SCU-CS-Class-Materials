@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Documents and Settings\adder_4bit\top.ncd
+OUTFILE=C:\Documents and Settings\adder_4bit\top.bit
+FAMILY=Kintex7
+PART=xc7k325t-1ffg676
+WORKINGDIR=C:\Documents and Settings\adder_4bit
+LICENSE=ISE
+USER_INFO=_

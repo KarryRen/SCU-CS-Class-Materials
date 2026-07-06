@@ -1,0 +1,47 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ABC32.vf
+// /___/   /\     Timestamp : 12/12/2024 01:13:06
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath "/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/Code/CPU" -sympath "/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/Code/IO" -sympath "/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/ipcore_dir" -intstyle ise -family kintex7 -verilog "/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/ABC32.vf" -w "/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/Code/common/ABC32.sch"
+//Design Name: ABC32
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ABC32(A, 
+             B, 
+             sub, 
+             Co, 
+             S);
+
+    input [31:0] A;
+    input [31:0] B;
+    input sub;
+   output Co;
+   output [31:0] S;
+   
+   wire [31:0] XLXN_1;
+   
+   ADC32  MADC32 (.A(A[31:0]), 
+                 .B(XLXN_1[31:0]), 
+                 .C0(sub), 
+                 .Co(Co), 
+                 .S(S[31:0]));
+   xor32  MXOR (.A({sub, sub, sub, sub, sub, sub, sub, sub, sub, sub, sub, sub, 
+         sub, sub, sub, sub, sub, sub, sub, sub, sub, sub, sub, sub, sub, sub, 
+         sub, sub, sub, sub, sub, sub}), 
+               .B(B[31:0]), 
+               .res(XLXN_1[31:0]));
+endmodule

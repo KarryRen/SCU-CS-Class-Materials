@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {C:/Documents and Settings/muxSQH/buf8.v} -lang verilog -prj muxSQH -o buf8.spl -module buf8 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 buf8.spl {C:/Documents and Settings/muxSQH/buf8.sym} 

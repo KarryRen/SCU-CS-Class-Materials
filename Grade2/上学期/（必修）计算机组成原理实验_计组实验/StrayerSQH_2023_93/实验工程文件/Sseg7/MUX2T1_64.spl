@@ -1,0 +1,10 @@
+[Inputs]
+sel
+=a[63:0]=
+=b[63:0]=
+[Outputs]
+=o[63:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel MUX2T1_64
+

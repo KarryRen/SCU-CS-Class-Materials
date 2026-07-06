@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="impact" timeStamp="Wed Dec 11 15:26:19 2024">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="cabda520ea414111be8ee561d7a068bb"/>
+<property name="ProjectIteration" value="1"/>
+</section>
+<section name="iMPACT Project Info" visible="true">
+<property name="Use Project File" value="No"/>
+<property name="Project Entry" value="ise"/>
+<property name="OS Name" value="Microsoft Windows NT (64 Bit)"/>
+<property name="User Lic. Info" value="__0_0_0"/>
+</section>
+<section name="iMPACT One Step SVF File Mode" visible="true">
+<item name="Chain Summary">
+<property name="Number of device" value="1"/>
+<property name="Number of Xilinx device" value="1"/>
+<property name="Number of Non-Xilinx device" value="0"/>
+</item>
+<item name="Chain Description">
+<property name="Device1" value="kintex7"/>
+<property name="Part1" value="xc7k325t"/>
+</item>
+<item name="Boundary Scan Operations Statistics">
+<property name="BSCAN Operation" value="Program -p 0
+"/>
+</item>
+<item name="Cable Summary">
+<property name="Cable Type" value="Digilent JTAG-HS2"/>
+<property name="Cable Speed" value="10000000"/>
+<property name="Port" value="Plugin Cable"/>
+<property name="Local_Server_Mode" value="Local"/>
+</item>
+</section>
+</application>
+</document>

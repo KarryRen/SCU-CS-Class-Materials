@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pn" timeStamp="Thu Dec 12 01:14:41 2024">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="97A81B9BC37B42B8A6CDD2BB450BADE3" type="project"/>
+<property name="ProjectIteration" value="6" type="project"/>
+<property name="ProjectFile" value="/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/OExp05-DataPath.xise" type="project"/>
+<property name="ProjectCreationTimestamp" value="2017-04-26T15:36:42" type="project"/>
+</section>
+<section name="Project Statistics" visible="true">
+<property name="PROP_Enable_Message_Filtering" value="false" type="design"/>
+<property name="PROP_FitterReportFormat" value="HTML" type="process"/>
+<property name="PROP_LastAppliedGoal" value="Balanced" type="design"/>
+<property name="PROP_LastAppliedStrategy" value="Xilinx Default (unlocked)" type="design"/>
+<property name="PROP_ManualCompileOrderImp" value="false" type="design"/>
+<property name="PROP_OverwriteSym" value="true" type="process"/>
+<property name="PROP_PropSpecInProjFile" value="Store all values" type="design"/>
+<property name="PROP_Simulator" value="ISim (VHDL/Verilog)" type="design"/>
+<property name="PROP_SynthTopFile" value="changed" type="process"/>
+<property name="PROP_Top_Level_Module_Type" value="Schematic" type="design"/>
+<property name="PROP_UseSmartGuide" value="false" type="design"/>
+<property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
+<property name="PROP_intProjectCreationTimestamp" value="2017-04-26T15:36:42" type="design"/>
+<property name="PROP_intWbtProjectID" value="97A81B9BC37B42B8A6CDD2BB450BADE3" type="design"/>
+<property name="PROP_intWbtProjectIteration" value="6" type="process"/>
+<property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
+<property name="PROP_intWorkingDirUsed" value="No" type="design"/>
+<property name="PROP_AutoTop" value="true" type="design"/>
+<property name="PROP_DevFamily" value="Kintex7" type="design"/>
+<property name="PROP_DevDevice" value="xc7k325t" type="design"/>
+<property name="PROP_DevFamilyPMName" value="kintex7" type="design"/>
+<property name="PROP_DevPackage" value="ffg676" type="design"/>
+<property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
+<property name="PROP_DevSpeed" value="-2L" type="design"/>
+<property name="PROP_PreferredLanguage" value="Verilog" type="design"/>
+<property name="FILE_COREGEN" value="2" type="source"/>
+<property name="FILE_NGC" value="10" type="source"/>
+<property name="FILE_SCHEMATIC" value="5" type="source"/>
+<property name="FILE_UCF" value="1" type="source"/>
+<property name="FILE_VERILOG" value="30" type="source"/>
+</section>
+</application>
+</document>

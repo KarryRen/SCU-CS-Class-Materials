@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Regs">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2014-6-26T7:27:31</timestamp>
+    <attr value="Regs" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-416" name="clk" />
+    <pin polarity="Input" x="240" y="-496" name="L_S" />
+    <pin polarity="Output" x="480" y="-384" name="rdata_A(31:0)" />
+    <pin polarity="Input" x="0" y="-368" name="rst" />
+    <pin polarity="Input" x="0" y="-48" name="Wt_data(31:0)" />
+    <pin polarity="Output" x="480" y="-112" name="rdata_B(31:0)" />
+    <pin polarity="Input" x="0" y="-320" name="R_addr_A(4:0)" />
+    <pin polarity="Input" x="0" y="-272" name="R_addr_B(4:0)" />
+    <pin polarity="Input" x="0" y="-192" name="Wt_addr(4:0)" />
+    <graph>
+        <rect style="linewidth:W;linecolor:rgb(255,0,0);fillcolor:rgb(254,180,229);fillstyle:Solid" width="352" x="64" y="-448" height="448" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin clk" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <line x2="240" y1="-496" y2="-448" x1="240" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-384" type="pin rdata_A(31:0)" />
+        <rect width="64" x="416" y="-396" height="24" />
+        <line x2="480" y1="-384" y2="-384" x1="416" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial;textcolor:rgb(255,0,0)" attrname="SymbolName" x="320" y="-256" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-368" type="pin rst" />
+        <line x2="0" y1="-368" y2="-368" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-48" type="pin Wt_data(31:0)" />
+        <rect width="64" x="0" y="-60" height="24" />
+        <line x2="0" y1="-48" y2="-48" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-112" type="pin rdata_B(31:0)" />
+        <rect width="64" x="416" y="-124" height="24" />
+        <line x2="480" y1="-112" y2="-112" x1="416" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-320" type="pin R_addr_A(4:0)" />
+        <rect width="64" x="0" y="-332" height="24" />
+        <line x2="0" y1="-320" y2="-320" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-272" type="pin R_addr_B(4:0)" />
+        <rect width="64" x="0" y="-284" height="24" />
+        <line x2="0" y1="-272" y2="-272" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-192" type="pin Wt_addr(4:0)" />
+        <rect width="64" x="0" y="-204" height="24" />
+        <line x2="0" y1="-192" y2="-192" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="224" y="-428" type="pin L_S" />
+    </graph>
+</symbol>

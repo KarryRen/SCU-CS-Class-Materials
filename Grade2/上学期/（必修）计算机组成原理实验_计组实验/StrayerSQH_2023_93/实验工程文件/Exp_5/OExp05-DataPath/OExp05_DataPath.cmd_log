@@ -1,0 +1,47 @@
+xst -intstyle ise -ifn "D:/FPGA_work/ORGV40/OExp05-DataPath/OExp05_DataPath.xst" -ofn "D:/FPGA_work/ORGV40/OExp05-DataPath/OExp05_DataPath.syr" 
+xst -intstyle ise -ifn "D:/FPGA_work/ORGV40/OExp05-DataPath/OExp05_DataPath.xst" -ofn "D:/FPGA_work/ORGV40/OExp05-DataPath/OExp05_DataPath.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code/CPU -sd Code/IO -sd ipcore_dir -nt timestamp -uc Code/SWORD-V4.ucf -p xc7k325t-ffg676-2L OExp05_DataPath.ngc OExp05_DataPath.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o OExp05_DataPath_map.ncd OExp05_DataPath.ngd OExp05_DataPath.pcf 
+par -w -intstyle ise -ol high -mt off OExp05_DataPath_map.ncd OExp05_DataPath.ncd OExp05_DataPath.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml OExp05_DataPath.twx OExp05_DataPath.ncd -o OExp05_DataPath.twr OExp05_DataPath.pcf 
+bitgen -intstyle ise -f OExp05_DataPath.ut OExp05_DataPath.ncd 
+xst -intstyle ise -ifn "D:/FPGA_work/ORGV40/OExp05-DataPath/OExp05_DataPath.xst" -ofn "D:/FPGA_work/ORGV40/OExp05-DataPath/OExp05_DataPath.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code/CPU -sd Code/IO -sd ipcore_dir -nt timestamp -uc Code/SWORD-V4.ucf -p xc7k325t-ffg676-2L OExp05_DataPath.ngc OExp05_DataPath.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o OExp05_DataPath_map.ncd OExp05_DataPath.ngd OExp05_DataPath.pcf 
+par -w -intstyle ise -ol high -mt off OExp05_DataPath_map.ncd OExp05_DataPath.ncd OExp05_DataPath.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml OExp05_DataPath.twx OExp05_DataPath.ncd -o OExp05_DataPath.twr OExp05_DataPath.pcf 
+bitgen -intstyle ise -f OExp05_DataPath.ut OExp05_DataPath.ncd 
+xst -intstyle ise -ifn "C:/Xilinx_Rroject/sword4.0/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Xilinx_Rroject/sword4.0/OExp05-DataPath/OExp05_DataPath.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code/CPU -sd Code/IO -sd ipcore_dir -nt timestamp -uc Code/SWORD-V4.ucf -p xc7k325t-ffg676-2L OExp05_DataPath.ngc OExp05_DataPath.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o OExp05_DataPath_map.ncd OExp05_DataPath.ngd OExp05_DataPath.pcf 
+par -w -intstyle ise -ol high -mt off OExp05_DataPath_map.ncd OExp05_DataPath.ncd OExp05_DataPath.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml OExp05_DataPath.twx OExp05_DataPath.ncd -o OExp05_DataPath.twr OExp05_DataPath.pcf 
+bitgen -intstyle ise -f OExp05_DataPath.ut OExp05_DataPath.ncd 
+xst -intstyle ise -ifn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.syr" 
+xst -intstyle ise -ifn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.syr" 
+xst -intstyle ise -ifn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.syr" 
+xst -intstyle ise -ifn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.syr" 
+xst -intstyle ise -ifn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.syr" 
+xst -intstyle ise -ifn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.syr" 
+xst -intstyle ise -ifn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.syr" 
+xst -intstyle ise -ifn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.syr" 
+xst -intstyle ise -ifn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.syr" 
+xst -intstyle ise -ifn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.syr" 
+xst -intstyle ise -ifn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.syr" 
+xst -intstyle ise -ifn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.syr" 
+xst -intstyle ise -ifn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.syr" 
+xst -intstyle ise -ifn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.xst" -ofn "C:/Users/touding/Desktop/Exp5 DataPath/OExp05-DataPath/OExp05_DataPath.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code/CPU -sd Code/IO -sd ipcore_dir -nt timestamp -uc "Code/SWORD-V4.ucf" -p xc7k325t-ffg676-2L "OExp05_DataPath.ngc" OExp05_DataPath.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o OExp05_DataPath_map.ncd OExp05_DataPath.ngd OExp05_DataPath.pcf 
+par -w -intstyle ise -ol high -mt off OExp05_DataPath_map.ncd OExp05_DataPath.ncd OExp05_DataPath.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml OExp05_DataPath.twx OExp05_DataPath.ncd -o OExp05_DataPath.twr OExp05_DataPath.pcf 
+bitgen -intstyle ise -f OExp05_DataPath.ut OExp05_DataPath.ncd 
+sch2hdl -sympath {/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/Code/CPU} -sympath {/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/Code/IO} -sympath {/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/ipcore_dir} -intstyle ise -family kintex7 -verilog OExp05_DataPath_drc.vf -w {/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/Code/OExp05_DataPath.sch} 
+sch2hdl -sympath {/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/Code/CPU} -sympath {/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/Code/IO} -sympath {/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/ipcore_dir} -intstyle ise -family kintex7 -verilog OExp05_DataPath_drc.vf -w {/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/Code/OExp05_DataPath.sch} 
+sch2sym -intstyle ise -family kintex7 -w -refsym OExp05_DataPath {/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/Code/OExp05_DataPath.sch} {/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/OExp05_DataPath.sym} 
+xst -intstyle ise -ifn "/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/OExp05_DataPath.xst" -ofn "/home/ise/ISEsharefolder/EXP5 revise/OExp05-DataPath/OExp05_DataPath.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code/CPU -sd Code/IO -sd ipcore_dir -nt timestamp -uc "Code/SWORD-V4.ucf" -p xc7k325t-ffg676-2L "OExp05_DataPath.ngc" OExp05_DataPath.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o OExp05_DataPath_map.ncd OExp05_DataPath.ngd OExp05_DataPath.pcf 
+par -w -intstyle ise -ol high -mt off OExp05_DataPath_map.ncd OExp05_DataPath.ncd OExp05_DataPath.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml OExp05_DataPath.twx OExp05_DataPath.ncd -o OExp05_DataPath.twr OExp05_DataPath.pcf 
+bitgen -intstyle ise -f OExp05_DataPath.ut OExp05_DataPath.ncd 

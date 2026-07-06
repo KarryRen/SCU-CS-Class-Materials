@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Dec 12 01:16:36 2024
+
+drc -z OExp05_DataPath.ncd OExp05_DataPath.pcf
+
+DRC detected 0 errors and 0 warnings.

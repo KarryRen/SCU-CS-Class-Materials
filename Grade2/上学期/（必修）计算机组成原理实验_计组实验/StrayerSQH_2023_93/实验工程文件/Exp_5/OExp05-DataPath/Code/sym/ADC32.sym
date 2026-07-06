@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="ADC32">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-2-28T5:28:40</timestamp>
+    <pin polarity="Input" x="48" y="-128" name="B(31:0)" />
+    <pin polarity="Input" x="48" y="-256" name="A(31:0)" />
+    <pin polarity="Input" x="128" y="-304" name="C0" />
+    <pin polarity="Output" x="240" y="-192" name="S(31:0)" />
+    <pin polarity="Output" x="240" y="-96" name="Co" />
+    <graph>
+        <line x2="48" y1="-256" y2="-256" style="linewidth:W" x1="64" />
+        <line x2="48" y1="-128" y2="-128" style="linewidth:W" x1="64" />
+        <line x2="64" y1="-224" y2="-300" x1="64" />
+        <line x2="112" y1="-224" y2="-192" x1="64" />
+        <line x2="112" y1="-160" y2="-192" x1="64" />
+        <line x2="64" y1="-160" y2="-76" x1="64" />
+        <line x2="224" y1="-76" y2="-140" x1="64" />
+        <line x2="224" y1="-300" y2="-236" x1="64" />
+        <line x2="224" y1="-140" y2="-236" x1="224" />
+        <line x2="240" y1="-192" y2="-192" style="linewidth:W" x1="224" />
+        <attrtext attrname="PinName" x="68" y="-128" type="pin B(31:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="220" y="-192" type="pin S(31:0)" />
+        <line x2="128" y1="-304" y2="-276" x1="128" />
+        <attrtext style="alignment:RIGHT;fontsize:10;fontname:Arial" attrname="PinName" x="132" y="-264" type="pin C0" />
+        <attrtext attrname="PinName" x="68" y="-252" type="pin A(31:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="168" y="-128" type="pin Co" />
+        <line x2="160" y1="-112" y2="-96" x1="160" />
+        <line x2="240" y1="-96" y2="-96" x1="160" />
+        <attrtext style="alignment:CENTER;fontsize:20;fontname:Arial;textcolor:rgb(255,0,0)" attrname="SymbolName" x="144" y="-164" type="symbol" />
+    </graph>
+</symbol>
