@@ -1,2 +1,0 @@
-vhdtdtfi -lib work {C:/Documents and Settings/Sseg7/code/P2S_IO.v} -lang verilog -prj Sseg7 -o P2S.spl -module P2S -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
-spl2sym -intstyle ise -family kintex7 P2S.spl {C:/Documents and Settings/Sseg7/P2S.sym} 
