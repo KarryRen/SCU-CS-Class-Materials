@@ -116,7 +116,7 @@ SCU-CS-Class-Materials/
             ├── Karry_2021_92
             ├── Orderheart_2023_xx
             ├── 57UU_2024_92 # 含"3 次实验报告"
-            ├── Tangerin_2026_xx
+            ├── Tangerin_2026_90
         ├── （必修）线性代数（理工）_线代
             ├── Ayin_2023_xx
             ├── Orderheart_2023_xx
@@ -139,7 +139,7 @@ SCU-CS-Class-Materials/
 ├── 大二 （Grade2）
     ├── 上学期
         ├── （必修）人工智能概论
-            ├── Tangerin_2026_xx
+            ├── Tangerin_2026_92
         ├── （必修）大学物理（理工）Ⅲ-2_大物
             ├── Karry_2021_94
             ├── Zitann_2023_94
@@ -153,7 +153,7 @@ SCU-CS-Class-Materials/
             ├── MountMist_2023_89
             ├── Zitann_2023_93
             ├── Gother_2024_99
-            ├── Tangrin_2026_xx
+            ├── Tangrin_2026_96
             ├── assumeengage_2024_91
             ├── AlanRosston_2024_xx
         ├── （必修）数据结构与算法分析(全英文)_数据结构算法(全英文)
@@ -174,7 +174,7 @@ SCU-CS-Class-Materials/
             ├── Kimokcheon_2022_96
             ├── Zitann_2023_97
             ├── Hannah_2024
-            ├── Tangerin_2026_xx
+            ├── Tangerin_2026_89
             ├── assumeengage_2024_xx
             ├── AlanRosston_2025_xx
         ├── （必修）统计学
@@ -183,6 +183,7 @@ SCU-CS-Class-Materials/
             ├── Karry_2021_97
             ├── Zitann_2023_100
             ├── assumeengage_2024_xx
+            ├── Tangerin_2026_xx
         ├── （必修）计算机组成原理实验_计组实验
             ├── Kimokcheon_2022_100
             ├── MountMist_2023_95
@@ -271,6 +272,7 @@ SCU-CS-Class-Materials/
             ├── novelyear_2024_93
             ├── MountMist_2024_90
             ├── Zitann_2024_94
+            ├── Tangerin_2026_xx
         ├── （必修）政治经济学
             ├── Karry_2022_95
         ├── （必修）数据库系统原理_数据库
@@ -278,11 +280,13 @@ SCU-CS-Class-Materials/
             ├── Kimokcheon_2023_93
             ├── Zitann_2024_95
             ├── MountMist_2024_93
+            ├── Luka_2025_89
         ├── （必修）现代软件工程（双语）
             ├── Karry_2022_96
             ├── Kimokcheon_2023_90
             ├── Zitann_2024_xx
             ├── MountMist_2024_89
+            ├── Luka_2025_91
         ├── （必修）现代软件工程课程设计_软工实验
             ├── Kimokcheon_2023_98 #含有 "实验室人员管理系统" 一系列配套文档和源码
             ├── Karry_2022_95 # 含有 "图书管理系统" 源码和汇报 updating 🔥
@@ -295,18 +299,22 @@ SCU-CS-Class-Materials/
             ├── Karry_2022_91
             ├── Kimokcheon_2023_94
             ├── Zitann_2024_xx
+            ├── Luka_2025_xx
         ├── （必修）计算机网络课程设计_计网实验
             ├── Kimokcheon_2023_99
             ├── Zitann_2024_xx
             ├── novelyear_2024_95
             ├── MountMist_2024_93
+            ├── Luka_2025_99
         ├── （必修）金融计量学
             ├── Karry_2022_94 # 含 "课堂作业" updating 🔥
         ├── （选修）类脑计算基础
             ├── MountMist_2024_92
         ├── （选修）智能边缘计算
             ├── MountMist_2024_92
-        └── README.md
+        ├── （选修）信号系统导论
+            ├── Luka_2025_91
+        └── README.md 
     └── 下学期
         ├── （必修）编译原理
             ├── Karry_2023_91
@@ -351,6 +359,7 @@ SCU-CS-Class-Materials/
 16. [**assumeengage**](https://github.com/assumeengagetry)
 17. [**AlanRosston**](https://github.com/AlanRosston)
 18. [**leafevans**](https://github.com/leafevans)
+19. [**L77Doncic**](https://github.com/L77Doncic)
 
 
 
