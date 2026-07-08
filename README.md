@@ -71,7 +71,7 @@ SCU-CS-Class-Materials/
         ├── （必修）思想道德修养与法律基础_思修
             ├── Zitann_2022_95
             ├── Orderheart_2022_xx
-            ├── assumeengage_2024_xx            
+            ├── assumeengage_2024_xx
         ├── （必修）数字逻辑_数逻
             ├── Ayin_2022_xx
             ├── Zitann_2022_91
@@ -95,7 +95,7 @@ SCU-CS-Class-Materials/
         ├── （选修）中共党史
             ├── assumeengage_2024_xx
             ├── Tangerin_2024_95
-        └── README.md 
+        └── README.md
     └── 下学期
         ├── （必修）中国特色社会主义政治经济学_中特政经
             ├── Karry_2021_93
@@ -135,7 +135,7 @@ SCU-CS-Class-Materials/
             ├── AlanRosston_2025_xx
         ├── （选修）大学物理实验（理工）Ⅲ-1_大物实验
             ├── Karry_2021_95 # 含扫描版 "7 次实验报告合集"
-        └── README.md 
+        └── README.md
 ├── 大二 （Grade2）
     ├── 上学期
         ├── （必修）人工智能概论
@@ -150,7 +150,7 @@ SCU-CS-Class-Materials/
             ├── Karry_2021_95
         ├── （必修）数据结构与算法分析_数据结构算法
             ├── Karry_2021_95
-            ├── MountMist_2023_89  
+            ├── MountMist_2023_89
             ├── Zitann_2023_93
             ├── Gother_2024_99
             ├── Tangrin_2026_96
@@ -182,6 +182,7 @@ SCU-CS-Class-Materials/
         ├── （必修）计算机组成原理_计组
             ├── Karry_2021_97
             ├── Zitann_2023_100
+            ├── assumeengage_2024_xx
             ├── Tangerin_2026_xx
         ├── （必修）计算机组成原理实验_计组实验
             ├── Kimokcheon_2022_100
@@ -203,7 +204,7 @@ SCU-CS-Class-Materials/
             ├── 57UU_2024_98 # 含小组作业：半监督模型训练、技术分享
         ├── （选修）数据科学引论
             ├── Jesse_2023_92
-        └── README.md 
+        └── README.md
     └── 下学期
         ├── （必修）公司金融
             ├── Karry_2022_92 # 含所有 "课堂作业"
@@ -227,6 +228,7 @@ SCU-CS-Class-Materials/
             ├── Kimokcheon_2023_99
             ├── MountMist_2024_85 # 仅含"思维导图"
             ├── Zitann_2024_93
+            ├── assumeengage_2024_xx
         ├── （必修）操作系统课程设计_操作系统实验
             ├── Karry_2022_95 # 含所有 "实验报告"
             ├── Frank_2022_96 # 含所有 "实验报告"
@@ -262,7 +264,7 @@ SCU-CS-Class-Materials/
             ├──Kimokcheon_2022_98
         ├──（选修）机器学习引论
             ├──Hx_2025_98
-        └── README.md 
+        └── README.md
 ├── 大三 （Grade3）
     ├── 上学期
         ├── （必修）习近平新时代中国特色社会主义思想概论_习概
