@@ -79,11 +79,13 @@ SCU-CS-Class-Materials/
             ├── Kimokcheon_2021_xx
             ├── Tangerin_2025_89
             ├── AlanRosston_2025_xx
+            ├── StrayerSQH_2023_88
         ├── （必修）数字逻辑实验_数逻实验
             ├── MountMist_2022_94
             ├── Kimokcheon_2021_xx
             ├── assumeengage_2024_xx
             ├── Tangerin_2025_89
+            ├── StrayerSQH_2023_97
         ├── （必修）高级程序语言设计-Ⅰ_C语言
             ├── MountMist_2022_90
             ├── Orderheart_2022_xx
@@ -131,6 +133,7 @@ SCU-CS-Class-Materials/
             ├── MountMist_2023_95 # 含课程大作业 "深度搜索寻路"
             ├── jeanhua_2024_95 # 含课程大作业 "JHMG 游戏引擎"
             ├── AlanRosston_2025_xx
+            ├── StrayerSQH_2023_92
         ├── （必修）大学物理（理工）Ⅲ-1_大物
             ├── AlanRosston_2025_xx
         ├── （选修）大学物理实验（理工）Ⅲ-1_大物实验
@@ -162,6 +165,7 @@ SCU-CS-Class-Materials/
             ├── Kimokcheon_2023_93
             ├── 57UU_2024_98
             ├── Jesse_2024_93
+            ├── StrayerSQH_2023_99
         ├── （必修） 概率统计（理工）_概统
             ├── Karry_2021_97
             ├── Zitann_2023_94
@@ -183,10 +187,12 @@ SCU-CS-Class-Materials/
             ├── Karry_2021_97
             ├── Zitann_2023_100
             ├── Tangerin_2026_xx
+            ├── StrayerSQH_2023_93
         ├── （必修）计算机组成原理实验_计组实验
             ├── Kimokcheon_2022_100
             ├── MountMist_2023_95
             ├── leafevans_2025_94 # 含 Xilinx ISE 工程源码，详见原仓库
+            ├── StrayerSQH_2023_93
         ├── （必修） 财政学
             ├── Karry_2021_92
         ├── （必修）金融学
@@ -214,6 +220,7 @@ SCU-CS-Class-Materials/
             ├── Kimokcheon_2024_91
             ├── MountMist_2024_87
             ├── Zitann_2024_95
+            ├── StrayerSQH_2023_94
         ├── （必修）微机系统与接口技术实验_微机接口实验
             ├── Karry_2022_95 # 含所有 "实验报告"
             ├── Frank_2022_95 # 含所有 "实验报告"
@@ -221,6 +228,7 @@ SCU-CS-Class-Materials/
             ├── StreLitziaYc_2024_99 # 含所有 "2024 年最新版实验报告"
             ├── Kimokcheon_2024_98 # 含所有 "实验报告"
             ├── MountMist_2024_95
+            ├── StrayerSQH_2023_94
         ├── （必修）操作系统原理_操作系统
             ├── Karry_2022_90 # 含五次 "课堂作业"
             ├── Ayin_2024_xx
@@ -285,6 +293,7 @@ SCU-CS-Class-Materials/
             ├── Zitann_2024_xx
             ├── MountMist_2024_89
             ├── Luka_2025_91
+            ├── StrayerSQH_2023_93
         ├── （必修）现代软件工程课程设计_软工实验
             ├── Kimokcheon_2023_98 #含有 "实验室人员管理系统" 一系列配套文档和源码
             ├── Karry_2022_95 # 含有 "图书管理系统" 源码和汇报 updating 🔥
@@ -298,12 +307,14 @@ SCU-CS-Class-Materials/
             ├── Kimokcheon_2023_94
             ├── Zitann_2024_xx
             ├── Luka_2025_xx
+            ├── StrayerSQH_2023_91
         ├── （必修）计算机网络课程设计_计网实验
             ├── Kimokcheon_2023_99
             ├── Zitann_2024_xx
             ├── novelyear_2024_95
             ├── MountMist_2024_93
             ├── Luka_2025_99
+            ├── StrayerSQH_2023_99
         ├── （必修）金融计量学
             ├── Karry_2022_94 # 含 "课堂作业" updating 🔥
         ├── （选修）类脑计算基础
@@ -324,6 +335,7 @@ SCU-CS-Class-Materials/
             ├── Karry_2023_97
             ├── Kimokcheon_2024_90
             ├── MountMist_2025_95
+            ├── StrayerSQH_2023_90
         ├── （必修）证券投资学
             ├── Karry_2023_94
         ├── （必修）金融风险管理
@@ -358,6 +370,7 @@ SCU-CS-Class-Materials/
 17. [**AlanRosston**](https://github.com/AlanRosston)
 18. [**leafevans**](https://github.com/leafevans)
 19. [**L77Doncic**](https://github.com/L77Doncic)
+20. [**StrayerSQH**](https://github.com/StrayerSQH)
 
 
 
