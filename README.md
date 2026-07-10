@@ -328,6 +328,7 @@ SCU-CS-Class-Materials/
         ├── （必修）编译原理
             ├── Karry_2023_91
             ├── MountMist_2025_84
+            ├── StrayerSQH_2023_90
         ├── （必修）编译原理课程设计
             ├── Karry_2023_98 # 含所有 "实验报告" 及 C++ 源码 updating 🔥
             ├── Jesse_2025_90
