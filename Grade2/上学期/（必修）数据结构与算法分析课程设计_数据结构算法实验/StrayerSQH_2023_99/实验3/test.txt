@@ -1,0 +1,9 @@
+#include <iostream>
+#include <cmath>
+
+int main() {
+    double base = 3.0;
+    double cube = std::pow(base, 3);
+    std::cout << base << " cubed is " << cube << std::endl;
+    return 0;
+}
