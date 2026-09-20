@@ -138,6 +138,7 @@ SCU-CS-Class-Materials/
             ├── AlanRosston_2025_xx
         ├── （选修）大学物理实验（理工）Ⅲ-1_大物实验
             ├── Karry_2021_95 # 含扫描版 "7 次实验报告合集"
+            ├── Luka_2024_94
         └── README.md
 ├── 大二 （Grade2）
     ├── 上学期
